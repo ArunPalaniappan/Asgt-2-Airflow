@@ -1,0 +1,13 @@
+[2024-03-01T16:38:25.346+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datapipeline_Take4.select_urls scheduled__2024-03-01T11:06:00+00:00 [queued]>
+[2024-03-01T16:38:25.352+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datapipeline_Take4.select_urls scheduled__2024-03-01T11:06:00+00:00 [queued]>
+[2024-03-01T16:38:25.353+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-01T16:38:25.382+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): select_urls> on 2024-03-01 11:06:00+00:00
+[2024-03-01T16:38:25.390+0530] {standard_task_runner.py:60} INFO - Started process 23304 to run task
+[2024-03-01T16:38:25.394+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'datapipeline_Take4', 'select_urls', 'scheduled__2024-03-01T11:06:00+00:00', '--job-id', '138', '--raw', '--subdir', 'DAGS_FOLDER/datapipeline_best(2).py', '--cfg-path', '/tmp/tmpyzsol_gn']
+[2024-03-01T16:38:25.397+0530] {standard_task_runner.py:88} INFO - Job 138: Subtask select_urls
+[2024-03-01T16:38:25.445+0530] {task_command.py:423} INFO - Running <TaskInstance: datapipeline_Take4.select_urls scheduled__2024-03-01T11:06:00+00:00 [running]> on host arun-VM
+[2024-03-01T16:38:25.666+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='datapipeline_Take4' AIRFLOW_CTX_TASK_ID='select_urls' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T11:06:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-01T11:06:00+00:00'
+[2024-03-01T16:38:25.668+0530] {python.py:201} INFO - Done. Returned value was: ['-', 'c', ',', '.', ' ']
+[2024-03-01T16:38:25.713+0530] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=datapipeline_Take4, task_id=select_urls, execution_date=20240301T110600, start_date=20240301T110825, end_date=20240301T110825
+[2024-03-01T16:38:25.771+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-01T16:38:25.807+0530] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

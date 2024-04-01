@@ -1,0 +1,14 @@
+[2024-02-24T23:56:18.593+0530] {processor.py:161} INFO - Started process (PID=43168) to work on /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py
+[2024-02-24T23:56:18.596+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:56:18.598+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:56:18.597+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py
+[2024-02-24T23:56:18.616+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py
+[2024-02-24T23:56:18.631+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:56:18.630+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:56:18.676+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:56:18.676+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:56:18.716+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py took 0.127 seconds
+[2024-02-24T23:57:24.033+0530] {processor.py:161} INFO - Started process (PID=43235) to work on /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py
+[2024-02-24T23:57:24.067+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:57:24.069+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:57:24.068+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py
+[2024-02-24T23:57:24.081+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py
+[2024-02-24T23:57:24.091+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:57:24.091+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:57:24.123+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:57:24.123+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:57:24.163+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/first-dag-1-checkpoint.py took 0.136 seconds

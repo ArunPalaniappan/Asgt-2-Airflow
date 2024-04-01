@@ -1,0 +1,13 @@
+[2024-03-01T14:56:08.982+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: print_func.print scheduled__2024-03-01T09:24:00+00:00 [queued]>
+[2024-03-01T14:56:09.074+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: print_func.print scheduled__2024-03-01T09:24:00+00:00 [queued]>
+[2024-03-01T14:56:09.074+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-01T14:56:09.640+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): print> on 2024-03-01 09:24:00+00:00
+[2024-03-01T14:56:09.704+0530] {standard_task_runner.py:60} INFO - Started process 12435 to run task
+[2024-03-01T14:56:09.726+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'print_func', 'print', 'scheduled__2024-03-01T09:24:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/Py_Function_1-checkpoint.py', '--cfg-path', '/tmp/tmp7iwzk9fr']
+[2024-03-01T14:56:09.735+0530] {standard_task_runner.py:88} INFO - Job 51: Subtask print
+[2024-03-01T14:56:09.959+0530] {task_command.py:423} INFO - Running <TaskInstance: print_func.print scheduled__2024-03-01T09:24:00+00:00 [running]> on host arun-VM
+[2024-03-01T14:56:10.298+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='print_func' AIRFLOW_CTX_TASK_ID='print' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T09:24:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-01T09:24:00+00:00'
+[2024-03-01T14:56:10.349+0530] {python.py:201} INFO - Done. Returned value was: hello everyone
+[2024-03-01T14:56:10.636+0530] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=print_func, task_id=print, execution_date=20240301T092400, start_date=20240301T092608, end_date=20240301T092610
+[2024-03-01T14:56:10.702+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-01T14:56:10.842+0530] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

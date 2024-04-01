@@ -1,0 +1,28 @@
+[2024-03-01T15:45:40.450+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_files.download_files scheduled__2024-03-01T10:08:00+00:00 [queued]>
+[2024-03-01T15:45:40.469+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_files.download_files scheduled__2024-03-01T10:08:00+00:00 [queued]>
+[2024-03-01T15:45:40.469+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-01T15:45:40.651+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): download_files> on 2024-03-01 10:08:00+00:00
+[2024-03-01T15:45:40.679+0530] {standard_task_runner.py:60} INFO - Started process 18655 to run task
+[2024-03-01T15:45:40.700+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_files', 'download_files', 'scheduled__2024-03-01T10:08:00+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/Data_fetch-checkpoint.py', '--cfg-path', '/tmp/tmpp6wbl36v']
+[2024-03-01T15:45:40.707+0530] {standard_task_runner.py:88} INFO - Job 62: Subtask download_files
+[2024-03-01T15:45:40.832+0530] {task_command.py:423} INFO - Running <TaskInstance: fetch_files.download_files scheduled__2024-03-01T10:08:00+00:00 [running]> on host arun-VM
+[2024-03-01T15:45:41.262+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='fetch_files' AIRFLOW_CTX_TASK_ID='download_files' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T10:08:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-01T10:08:00+00:00'
+[2024-03-01T15:45:41.264+0530] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/Data_fetch-checkpoint.py", line 55, in download_files
+    os.makedirs(folder)
+  File "/usr/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '../fetched_files'
+[2024-03-01T15:45:41.269+0530] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_files, task_id=download_files, execution_date=20240301T100800, start_date=20240301T101540, end_date=20240301T101541
+[2024-03-01T15:45:41.393+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 62 for task download_files ([Errno 13] Permission denied: '../fetched_files'; 18655)
+[2024-03-01T15:45:41.435+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-01T15:45:41.470+0530] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

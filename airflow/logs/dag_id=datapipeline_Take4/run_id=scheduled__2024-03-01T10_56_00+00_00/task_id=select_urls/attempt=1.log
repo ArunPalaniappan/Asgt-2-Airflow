@@ -1,0 +1,22 @@
+[2024-03-01T16:28:35.425+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datapipeline_Take4.select_urls scheduled__2024-03-01T10:56:00+00:00 [queued]>
+[2024-03-01T16:28:35.431+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datapipeline_Take4.select_urls scheduled__2024-03-01T10:56:00+00:00 [queued]>
+[2024-03-01T16:28:35.431+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-01T16:28:35.455+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): select_urls> on 2024-03-01 10:56:00+00:00
+[2024-03-01T16:28:35.461+0530] {standard_task_runner.py:60} INFO - Started process 22222 to run task
+[2024-03-01T16:28:35.465+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'datapipeline_Take4', 'select_urls', 'scheduled__2024-03-01T10:56:00+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/datapipeline_best(1).py', '--cfg-path', '/tmp/tmp36mb4o72']
+[2024-03-01T16:28:35.467+0530] {standard_task_runner.py:88} INFO - Job 109: Subtask select_urls
+[2024-03-01T16:28:35.581+0530] {task_command.py:423} INFO - Running <TaskInstance: datapipeline_Take4.select_urls scheduled__2024-03-01T10:56:00+00:00 [running]> on host arun-VM
+[2024-03-01T16:28:35.784+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='aa' AIRFLOW_CTX_DAG_ID='datapipeline_Take4' AIRFLOW_CTX_TASK_ID='select_urls' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T10:56:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-01T10:56:00+00:00'
+[2024-03-01T16:28:35.786+0530] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: select_urls() missing 1 required positional argument: 'csvs_list'
+[2024-03-01T16:28:35.790+0530] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=datapipeline_Take4, task_id=select_urls, execution_date=20240301T105600, start_date=20240301T105835, end_date=20240301T105835
+[2024-03-01T16:28:35.814+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 109 for task select_urls (select_urls() missing 1 required positional argument: 'csvs_list'; 22222)
+[2024-03-01T16:28:35.864+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-01T16:28:35.897+0530] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

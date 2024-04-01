@@ -1,0 +1,574 @@
+[2024-03-04T18:28:30.410+0530] {processor.py:161} INFO - Started process (PID=11875) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:28:30.411+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:28:30.412+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:30.411+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:28:30.424+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:28:30.431+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:30.431+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:28:30.456+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:30.455+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 12:56:00+00:00, run_after=2024-03-04 12:58:00+00:00
+[2024-03-04T18:28:30.528+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.121 seconds
+[2024-03-04T18:30:46.427+0530] {processor.py:161} INFO - Started process (PID=12030) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:30:46.429+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:30:46.430+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:46.430+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:30:46.599+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:30:46.692+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:46.692+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:30:46.715+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:46.714+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 12:58:00+00:00, run_after=2024-03-04 13:00:00+00:00
+[2024-03-04T18:30:46.743+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.319 seconds
+[2024-03-04T18:31:54.690+0530] {processor.py:161} INFO - Started process (PID=12111) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:31:54.693+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:31:54.694+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:54.693+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:31:54.702+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:31:54.717+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:54.717+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:31:54.746+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:54.745+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 12:58:00+00:00, run_after=2024-03-04 13:00:00+00:00
+[2024-03-04T18:31:54.778+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.091 seconds
+[2024-03-04T18:32:43.472+0530] {processor.py:161} INFO - Started process (PID=12163) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:32:43.480+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:32:43.482+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:43.481+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:32:43.507+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:32:43.769+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:43.769+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:32:43.818+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:43.818+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:02:00+00:00
+[2024-03-04T18:32:43.945+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.486 seconds
+[2024-03-04T18:33:51.185+0530] {processor.py:161} INFO - Started process (PID=12231) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:33:51.212+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:33:51.217+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:51.213+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:33:51.250+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:33:51.325+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:51.317+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:33:51.409+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:51.408+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:02:00+00:00
+[2024-03-04T18:33:51.447+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.280 seconds
+[2024-03-04T18:34:58.889+0530] {processor.py:161} INFO - Started process (PID=12321) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:34:58.891+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:34:58.892+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:58.892+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:34:58.901+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:34:59.030+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:59.030+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:34:59.064+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:59.064+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:02:00+00:00, run_after=2024-03-04 13:04:00+00:00
+[2024-03-04T18:34:59.097+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.211 seconds
+[2024-03-04T18:36:00.198+0530] {processor.py:161} INFO - Started process (PID=12390) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:36:00.200+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:36:00.201+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:36:00.201+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:36:00.211+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:36:00.235+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:36:00.235+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:36:00.279+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:36:00.278+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:04:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:36:00.318+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.125 seconds
+[2024-03-04T18:37:19.954+0530] {processor.py:161} INFO - Started process (PID=12477) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:37:19.962+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:37:19.965+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:19.963+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:37:19.989+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:37:20.212+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:20.212+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:37:20.276+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:20.275+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:04:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:37:20.380+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.445 seconds
+[2024-03-04T18:38:13.389+0530] {processor.py:161} INFO - Started process (PID=12538) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:38:13.423+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:38:13.425+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:13.424+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:38:13.435+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:38:13.453+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:13.453+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:38:13.481+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:13.481+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:06:00+00:00, run_after=2024-03-04 13:08:00+00:00
+[2024-03-04T18:38:13.514+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.130 seconds
+[2024-03-04T18:40:05.548+0530] {processor.py:161} INFO - Started process (PID=12643) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:40:05.580+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:40:05.591+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:40:05.585+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:40:05.615+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:40:05.907+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:40:05.906+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:40:05.995+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:40:05.994+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:08:00+00:00, run_after=2024-03-04 13:10:00+00:00
+[2024-03-04T18:40:06.099+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.557 seconds
+[2024-03-04T18:41:35.047+0530] {processor.py:161} INFO - Started process (PID=12794) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:41:35.087+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:41:35.090+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:35.088+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:41:35.106+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:41:35.202+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:35.202+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:41:35.247+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:35.246+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:08:00+00:00, run_after=2024-03-04 13:10:00+00:00
+[2024-03-04T18:41:35.288+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.254 seconds
+[2024-03-04T18:42:41.518+0530] {processor.py:161} INFO - Started process (PID=12924) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:42:41.526+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:42:41.529+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:41.528+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:42:41.555+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:42:42.059+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:42.059+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:42:42.157+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:42.156+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:10:00+00:00, run_after=2024-03-04 13:12:00+00:00
+[2024-03-04T18:42:42.335+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.854 seconds
+[2024-03-04T18:44:12.078+0530] {processor.py:161} INFO - Started process (PID=13532) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:44:12.180+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:44:12.185+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:44:12.184+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:44:12.212+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:44:12.273+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:44:12.272+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:44:12.376+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:44:12.369+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:12:00+00:00, run_after=2024-03-04 13:14:00+00:00
+[2024-03-04T18:44:12.650+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.577 seconds
+[2024-03-04T18:46:42.739+0530] {processor.py:161} INFO - Started process (PID=13969) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:46:42.787+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:46:42.791+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:42.788+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:46:42.821+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:46:43.084+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:43.084+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:46:43.152+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:43.152+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:14:00+00:00, run_after=2024-03-04 13:16:00+00:00
+[2024-03-04T18:46:43.253+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.522 seconds
+[2024-03-04T18:53:56.281+0530] {processor.py:161} INFO - Started process (PID=5565) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:53:56.332+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:53:56.333+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:56.333+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:53:56.356+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:53:56.570+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:56.570+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:53:56.626+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:56.622+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:20:00+00:00, run_after=2024-03-04 13:22:00+00:00
+[2024-03-04T18:53:56.782+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.527 seconds
+[2024-03-04T18:56:24.086+0530] {processor.py:161} INFO - Started process (PID=5926) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:56:24.161+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:56:24.163+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:24.162+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:56:24.720+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:56:24.766+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:24.766+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:56:24.865+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:24.864+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:26:00+00:00
+[2024-03-04T18:56:24.954+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.879 seconds
+[2024-03-04T18:57:38.692+0530] {processor.py:161} INFO - Started process (PID=5996) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:57:38.742+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:57:38.748+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:38.743+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:57:38.774+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:57:39.151+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:39.151+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:57:39.229+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:39.229+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:26:00+00:00
+[2024-03-04T18:57:39.309+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.624 seconds
+[2024-03-04T18:58:40.073+0530] {processor.py:161} INFO - Started process (PID=6293) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:58:40.076+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:58:40.077+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:40.076+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:58:40.114+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:58:40.200+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:40.199+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:58:40.277+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:40.277+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:26:00+00:00, run_after=2024-03-04 13:28:00+00:00
+[2024-03-04T18:58:40.432+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.373 seconds
+[2024-03-04T18:59:47.480+0530] {processor.py:161} INFO - Started process (PID=6378) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:59:47.500+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T18:59:47.502+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:47.501+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:59:47.550+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T18:59:47.859+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:47.858+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:59:47.919+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:47.919+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:26:00+00:00, run_after=2024-03-04 13:28:00+00:00
+[2024-03-04T18:59:47.991+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.523 seconds
+[2024-03-04T19:00:43.033+0530] {processor.py:161} INFO - Started process (PID=6483) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:00:43.062+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:00:43.073+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:43.069+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:00:43.087+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:00:43.110+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:43.110+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:00:43.142+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:43.142+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:28:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:00:43.175+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.151 seconds
+[2024-03-04T19:01:42.401+0530] {processor.py:161} INFO - Started process (PID=6606) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:01:42.419+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:01:42.422+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:42.421+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:01:42.439+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:01:42.725+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:42.725+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:01:42.817+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:42.816+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:28:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:01:42.877+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.485 seconds
+[2024-03-04T19:03:29.306+0530] {processor.py:161} INFO - Started process (PID=6747) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:03:29.334+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:03:29.342+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:03:29.335+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:03:29.445+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:03:29.763+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:03:29.763+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:03:30.054+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:03:30.054+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:30:00+00:00, run_after=2024-03-04 13:32:00+00:00
+[2024-03-04T19:03:30.339+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 1.049 seconds
+[2024-03-04T19:05:33.045+0530] {processor.py:161} INFO - Started process (PID=6919) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:05:33.080+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:05:33.081+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:33.081+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:05:33.089+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:05:33.207+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:33.206+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:05:33.298+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:33.298+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:32:00+00:00, run_after=2024-03-04 13:34:00+00:00
+[2024-03-04T19:05:33.353+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.311 seconds
+[2024-03-04T19:06:29.458+0530] {processor.py:161} INFO - Started process (PID=7054) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:06:29.497+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:06:29.500+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:29.498+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:06:29.567+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:06:29.600+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:29.600+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:06:29.792+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:29.790+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:34:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:06:29.942+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.489 seconds
+[2024-03-04T19:07:24.108+0530] {processor.py:161} INFO - Started process (PID=7163) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:07:24.110+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:07:24.111+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:24.110+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:07:24.119+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:07:24.232+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:24.231+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:07:24.263+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:24.263+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:34:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:07:24.298+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.193 seconds
+[2024-03-04T19:08:40.564+0530] {processor.py:161} INFO - Started process (PID=7312) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:08:40.603+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:08:40.604+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:40.604+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:08:40.611+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:08:40.626+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:40.626+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:08:40.649+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:40.649+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:38:00+00:00
+[2024-03-04T19:08:40.683+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.122 seconds
+[2024-03-04T19:10:03.959+0530] {processor.py:161} INFO - Started process (PID=7484) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:10:03.992+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:10:03.994+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:03.993+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:10:04.009+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:10:04.186+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:04.186+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:10:04.211+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:04.211+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:38:00+00:00, run_after=2024-03-04 13:40:00+00:00
+[2024-03-04T19:10:04.267+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.313 seconds
+[2024-03-04T19:11:27.906+0530] {processor.py:161} INFO - Started process (PID=7633) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:11:27.947+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:11:27.948+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:27.948+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:11:27.958+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:11:27.976+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:27.976+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:11:28.007+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:28.007+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:38:00+00:00, run_after=2024-03-04 13:40:00+00:00
+[2024-03-04T19:11:28.039+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.137 seconds
+[2024-03-04T19:12:14.165+0530] {processor.py:161} INFO - Started process (PID=7722) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:12:14.199+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:12:14.201+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:14.200+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:12:14.213+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:12:14.345+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:14.345+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:12:14.378+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:14.378+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:40:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:12:14.418+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.271 seconds
+[2024-03-04T19:12:58.957+0530] {processor.py:161} INFO - Started process (PID=7797) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:12:58.959+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:12:58.961+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:58.960+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:12:58.976+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:12:59.002+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:59.002+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:12:59.033+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:59.033+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:40:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:12:59.064+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.115 seconds
+[2024-03-04T19:14:22.802+0530] {processor.py:161} INFO - Started process (PID=7955) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:14:22.803+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:14:22.804+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:22.804+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:14:22.814+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:14:23.179+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:23.178+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:14:23.211+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:23.211+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:44:00+00:00
+[2024-03-04T19:14:23.308+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.510 seconds
+[2024-03-04T19:15:08.404+0530] {processor.py:161} INFO - Started process (PID=8050) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:15:08.409+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:15:08.411+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:08.410+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:15:08.428+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:15:08.458+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:08.457+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:15:08.502+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:08.502+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:44:00+00:00
+[2024-03-04T19:15:08.542+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.147 seconds
+[2024-03-04T19:16:29.461+0530] {processor.py:161} INFO - Started process (PID=8260) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:16:29.501+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:16:29.502+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:29.502+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:16:29.515+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:16:29.741+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:29.741+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:16:29.777+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:29.777+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:44:00+00:00, run_after=2024-03-04 13:46:00+00:00
+[2024-03-04T19:16:29.863+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.406 seconds
+[2024-03-04T19:17:17.257+0530] {processor.py:161} INFO - Started process (PID=8347) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:17:17.288+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:17:17.290+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:17.289+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:17:17.305+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:17:17.337+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:17.337+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:17:17.372+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:17.372+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:44:00+00:00, run_after=2024-03-04 13:46:00+00:00
+[2024-03-04T19:17:17.410+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.158 seconds
+[2024-03-04T19:18:39.624+0530] {processor.py:161} INFO - Started process (PID=8518) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:18:39.626+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:18:39.627+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:39.626+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:18:39.634+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:18:39.725+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:39.725+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:18:39.747+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:39.746+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:46:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:18:39.776+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.155 seconds
+[2024-03-04T19:20:08.684+0530] {processor.py:161} INFO - Started process (PID=8690) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:20:08.687+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:20:08.688+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:08.688+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:20:08.700+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:20:08.840+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:08.839+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:20:08.867+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:08.867+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:50:00+00:00
+[2024-03-04T19:20:08.899+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.220 seconds
+[2024-03-04T19:21:33.997+0530] {processor.py:161} INFO - Started process (PID=8875) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:21:33.999+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:21:34.000+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:34.000+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:21:34.012+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:21:34.039+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:34.039+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:21:34.084+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:34.083+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:50:00+00:00
+[2024-03-04T19:21:34.119+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.127 seconds
+[2024-03-04T19:22:18.838+0530] {processor.py:161} INFO - Started process (PID=8971) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:22:18.841+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:22:18.842+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:18.842+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:22:18.856+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:22:19.075+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:19.075+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:22:19.119+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:19.119+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:50:00+00:00, run_after=2024-03-04 13:52:00+00:00
+[2024-03-04T19:22:19.216+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.383 seconds
+[2024-03-04T19:23:42.997+0530] {processor.py:161} INFO - Started process (PID=9114) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:23:42.999+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:23:43.000+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:42.999+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:23:43.012+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:23:43.148+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:43.148+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:23:43.176+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:43.176+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:50:00+00:00, run_after=2024-03-04 13:52:00+00:00
+[2024-03-04T19:23:43.218+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.225 seconds
+[2024-03-04T19:24:59.424+0530] {processor.py:161} INFO - Started process (PID=9280) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:24:59.441+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:24:59.442+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:59.442+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:24:59.449+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:24:59.562+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:59.562+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:24:59.590+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:59.589+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:52:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:24:59.634+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.214 seconds
+[2024-03-04T19:26:17.527+0530] {processor.py:161} INFO - Started process (PID=9451) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:26:17.560+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:26:17.561+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:17.561+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:26:17.571+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:26:17.678+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:17.678+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:26:17.700+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:17.700+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:56:00+00:00
+[2024-03-04T19:26:17.754+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.232 seconds
+[2024-03-04T19:27:38.335+0530] {processor.py:161} INFO - Started process (PID=9592) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:27:38.368+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:27:38.369+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:38.369+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:27:38.381+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:27:38.526+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:38.525+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:27:38.555+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:38.555+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:56:00+00:00
+[2024-03-04T19:27:38.582+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.251 seconds
+[2024-03-04T19:28:22.898+0530] {processor.py:161} INFO - Started process (PID=9717) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:28:22.938+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T19:28:22.940+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:22.939+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:28:22.953+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T19:28:22.998+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:22.997+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:28:23.042+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:23.041+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 13:56:00+00:00, run_after=2024-03-04 13:58:00+00:00
+[2024-03-04T19:28:23.086+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.203 seconds
+[2024-03-04T22:41:27.734+0530] {processor.py:161} INFO - Started process (PID=17402) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:41:27.766+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T22:41:27.795+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:27.770+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:41:27.985+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:41:28.170+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:28.169+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:41:28.496+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:28.496+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:08:00+00:00, run_after=2024-03-04 17:10:00+00:00
+[2024-03-04T22:41:28.747+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 1.067 seconds
+[2024-03-04T22:55:12.766+0530] {processor.py:161} INFO - Started process (PID=5616) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:55:12.777+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T22:55:12.780+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:55:12.779+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:55:12.808+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:55:13.134+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:55:13.134+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:55:13.169+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:55:13.169+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:22:00+00:00, run_after=2024-03-04 17:24:00+00:00
+[2024-03-04T22:55:13.266+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.507 seconds
+[2024-03-04T22:56:55.121+0530] {processor.py:161} INFO - Started process (PID=5709) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:56:55.152+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T22:56:55.154+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:55.153+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:56:55.164+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:56:55.188+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:55.188+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:56:55.242+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:55.242+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:24:00+00:00, run_after=2024-03-04 17:26:00+00:00
+[2024-03-04T22:56:55.331+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.223 seconds
+[2024-03-04T22:58:02.809+0530] {processor.py:161} INFO - Started process (PID=5780) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:58:02.861+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T22:58:02.863+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:02.862+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:58:02.893+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:58:03.059+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:03.059+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:58:03.083+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:03.083+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:26:00+00:00, run_after=2024-03-04 17:28:00+00:00
+[2024-03-04T22:58:03.182+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.379 seconds
+[2024-03-04T22:59:03.614+0530] {processor.py:161} INFO - Started process (PID=5845) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:59:03.628+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T22:59:03.630+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:03.629+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:59:03.641+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:59:03.681+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:03.681+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:59:03.715+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:03.715+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:26:00+00:00, run_after=2024-03-04 17:28:00+00:00
+[2024-03-04T22:59:03.817+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.235 seconds
+[2024-03-04T22:59:58.542+0530] {processor.py:161} INFO - Started process (PID=5938) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:59:58.544+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T22:59:58.546+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:58.545+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:59:58.555+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T22:59:58.672+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:58.672+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:59:58.701+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:58.700+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:26:00+00:00, run_after=2024-03-04 17:28:00+00:00
+[2024-03-04T22:59:58.742+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.206 seconds
+[2024-03-04T23:00:47.549+0530] {processor.py:161} INFO - Started process (PID=6003) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:00:47.551+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:00:47.552+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:47.551+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:00:47.561+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:00:47.581+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:47.581+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:00:47.607+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:47.606+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:28:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:00:47.635+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.096 seconds
+[2024-03-04T23:02:11.382+0530] {processor.py:161} INFO - Started process (PID=6150) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:02:11.384+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:02:11.386+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:11.385+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:02:11.394+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:02:11.555+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:11.554+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:02:11.587+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:11.586+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:32:00+00:00
+[2024-03-04T23:02:11.676+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.297 seconds
+[2024-03-04T23:03:51.342+0530] {processor.py:161} INFO - Started process (PID=6686) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:03:51.345+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:03:51.347+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:51.346+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:03:51.362+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:03:51.410+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:51.410+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:03:51.457+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:51.457+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:32:00+00:00
+[2024-03-04T23:03:51.521+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.190 seconds
+[2024-03-04T23:04:49.413+0530] {processor.py:161} INFO - Started process (PID=6760) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:04:49.417+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:04:49.419+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:49.418+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:04:49.440+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:04:49.674+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:49.674+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:04:49.718+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:49.718+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:32:00+00:00, run_after=2024-03-04 17:34:00+00:00
+[2024-03-04T23:04:49.850+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.443 seconds
+[2024-03-04T23:05:47.036+0530] {processor.py:161} INFO - Started process (PID=6886) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:05:47.104+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:05:47.105+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:47.104+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:05:47.116+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:05:47.163+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:47.162+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:05:47.214+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:47.214+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:32:00+00:00, run_after=2024-03-04 17:34:00+00:00
+[2024-03-04T23:05:47.317+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.288 seconds
+[2024-03-04T23:06:33.394+0530] {processor.py:161} INFO - Started process (PID=6966) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:06:33.395+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:06:33.397+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:33.396+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:06:33.404+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:06:33.558+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:33.557+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:06:33.604+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:33.604+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:34:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:06:33.711+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.322 seconds
+[2024-03-04T23:07:20.694+0530] {processor.py:161} INFO - Started process (PID=7072) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:07:20.726+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:07:20.727+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:20.726+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:07:20.733+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:07:20.749+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:20.748+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:07:20.768+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:20.768+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:34:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:07:20.795+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.105 seconds
+[2024-03-04T23:08:50.223+0530] {processor.py:161} INFO - Started process (PID=7255) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:08:50.258+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:08:50.261+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:50.260+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:08:50.278+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:08:50.449+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:50.449+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:08:50.479+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:50.479+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:38:00+00:00
+[2024-03-04T23:08:50.555+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.338 seconds
+[2024-03-04T23:10:19.481+0530] {processor.py:161} INFO - Started process (PID=7434) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:10:19.515+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:10:19.517+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:19.516+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:10:19.526+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:10:19.548+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:19.548+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:10:19.575+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:19.575+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:38:00+00:00, run_after=2024-03-04 17:40:00+00:00
+[2024-03-04T23:10:19.600+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.122 seconds
+[2024-03-04T23:11:49.639+0530] {processor.py:161} INFO - Started process (PID=7643) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:11:49.682+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:11:49.685+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:49.684+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:11:49.699+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:11:50.147+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:50.147+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:11:50.194+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:50.194+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:38:00+00:00, run_after=2024-03-04 17:40:00+00:00
+[2024-03-04T23:11:50.320+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.711 seconds
+[2024-03-04T23:12:41.982+0530] {processor.py:161} INFO - Started process (PID=7743) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:12:42.081+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:12:42.083+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:42.082+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:12:42.096+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:12:42.125+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:42.124+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:12:42.209+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:42.208+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:40:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:12:42.390+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.413 seconds
+[2024-03-04T23:13:34.270+0530] {processor.py:161} INFO - Started process (PID=7884) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:13:34.303+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:13:34.304+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:34.303+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:13:34.311+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:13:34.422+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:34.422+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:13:34.447+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:34.446+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:40:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:13:34.505+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.244 seconds
+[2024-03-04T23:15:08.648+0530] {processor.py:161} INFO - Started process (PID=8068) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:15:08.695+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:15:08.697+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:08.696+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:15:08.725+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:15:08.762+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:08.761+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:15:08.837+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:08.836+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:44:00+00:00
+[2024-03-04T23:15:08.908+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.279 seconds
+[2024-03-04T23:15:58.479+0530] {processor.py:161} INFO - Started process (PID=8176) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:15:58.484+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:15:58.492+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:58.492+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:15:58.519+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:15:58.783+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:58.783+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:15:58.819+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:58.819+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:44:00+00:00
+[2024-03-04T23:15:58.856+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.388 seconds
+[2024-03-04T23:17:02.091+0530] {processor.py:161} INFO - Started process (PID=8294) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:17:02.114+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:17:02.116+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:02.115+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:17:02.128+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:17:02.166+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:02.166+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:17:02.212+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:02.212+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:44:00+00:00, run_after=2024-03-04 17:46:00+00:00
+[2024-03-04T23:17:02.316+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.232 seconds
+[2024-03-04T23:17:56.240+0530] {processor.py:161} INFO - Started process (PID=8409) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:17:56.265+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:17:56.266+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:56.265+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:17:56.275+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:17:56.402+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:56.402+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:17:56.426+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:56.425+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:44:00+00:00, run_after=2024-03-04 17:46:00+00:00
+[2024-03-04T23:17:56.460+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.226 seconds
+[2024-03-04T23:18:45.808+0530] {processor.py:161} INFO - Started process (PID=8508) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:18:45.817+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:18:45.818+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:45.817+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:18:45.839+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:18:45.901+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:45.901+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:18:46.009+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:46.009+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:46:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:18:46.109+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.305 seconds
+[2024-03-04T23:20:15.174+0530] {processor.py:161} INFO - Started process (PID=8701) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:20:15.211+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:20:15.212+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:15.212+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:20:15.222+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:20:15.370+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:15.370+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:20:15.401+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:15.401+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:50:00+00:00
+[2024-03-04T23:20:15.442+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.275 seconds
+[2024-03-04T23:21:05.373+0530] {processor.py:161} INFO - Started process (PID=8789) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:21:05.376+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:21:05.378+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:05.378+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:21:05.391+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:21:05.478+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:05.478+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:21:05.508+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:05.508+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:50:00+00:00
+[2024-03-04T23:21:05.540+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.176 seconds
+[2024-03-04T23:22:53.690+0530] {processor.py:161} INFO - Started process (PID=9093) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:22:53.705+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:22:53.707+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:53.706+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:22:53.716+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:22:53.841+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:53.841+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:22:53.866+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:53.866+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:50:00+00:00, run_after=2024-03-04 17:52:00+00:00
+[2024-03-04T23:22:53.936+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.253 seconds
+[2024-03-04T23:23:56.664+0530] {processor.py:161} INFO - Started process (PID=9267) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:23:56.739+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:23:56.740+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:56.740+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:23:56.751+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:23:56.825+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:56.825+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:23:56.896+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:56.896+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:50:00+00:00, run_after=2024-03-04 17:52:00+00:00
+[2024-03-04T23:23:57.052+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.396 seconds
+[2024-03-04T23:25:08.484+0530] {processor.py:161} INFO - Started process (PID=9329) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:25:08.586+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:25:08.587+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:25:08.587+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:25:08.602+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:25:08.966+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:25:08.966+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:25:09.038+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:25:09.037+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:52:00+00:00, run_after=2024-03-04 17:54:00+00:00
+[2024-03-04T23:25:09.191+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.735 seconds
+[2024-03-04T23:26:31.113+0530] {processor.py:161} INFO - Started process (PID=10059) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:26:31.148+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:26:31.151+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:31.149+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:26:31.188+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:26:31.241+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:31.237+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:26:31.322+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:31.322+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:56:00+00:00
+[2024-03-04T23:26:31.788+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.717 seconds
+[2024-03-04T23:27:36.635+0530] {processor.py:161} INFO - Started process (PID=10278) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:27:36.728+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:27:36.732+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:36.731+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:27:36.742+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:27:36.962+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:36.961+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:27:37.008+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:37.005+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:56:00+00:00
+[2024-03-04T23:27:37.079+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.450 seconds
+[2024-03-04T23:28:28.804+0530] {processor.py:161} INFO - Started process (PID=10361) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:28:28.805+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:28:28.806+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:28.806+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:28:28.812+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:28:28.829+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:28.829+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:28:28.854+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:28.854+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:56:00+00:00, run_after=2024-03-04 17:58:00+00:00
+[2024-03-04T23:28:28.890+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.089 seconds
+[2024-03-04T23:30:02.360+0530] {processor.py:161} INFO - Started process (PID=10637) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:30:02.380+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:30:02.381+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:02.381+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:30:02.389+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:30:02.741+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:02.740+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:30:02.855+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:02.854+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:58:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:30:02.907+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.552 seconds
+[2024-03-04T23:31:03.726+0530] {processor.py:161} INFO - Started process (PID=10755) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:31:03.771+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:31:03.775+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:03.774+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:31:03.788+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:31:03.819+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:03.819+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:31:03.865+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:03.864+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 17:58:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:31:03.911+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.194 seconds
+[2024-03-04T23:32:01.127+0530] {processor.py:161} INFO - Started process (PID=10867) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:32:01.176+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:32:01.180+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:01.178+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:32:01.199+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:32:01.686+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:01.686+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:32:01.741+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:01.740+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:02:00+00:00
+[2024-03-04T23:32:01.887+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.775 seconds
+[2024-03-04T23:32:53.170+0530] {processor.py:161} INFO - Started process (PID=10964) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:32:53.173+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:32:53.174+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:53.173+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:32:53.185+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:32:53.210+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:53.209+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:32:53.247+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:53.247+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:02:00+00:00
+[2024-03-04T23:32:53.285+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.121 seconds
+[2024-03-04T23:33:44.120+0530] {processor.py:161} INFO - Started process (PID=11070) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:33:44.162+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:33:44.164+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:44.163+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:33:44.178+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:33:44.336+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:44.336+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:33:44.363+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:44.363+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:02:00+00:00
+[2024-03-04T23:33:44.405+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.293 seconds
+[2024-03-04T23:34:30.309+0530] {processor.py:161} INFO - Started process (PID=11150) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:34:30.310+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:34:30.312+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:30.311+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:34:30.319+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:34:30.340+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:30.340+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:34:30.373+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:30.373+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 18:02:00+00:00, run_after=2024-03-04 18:04:00+00:00
+[2024-03-04T23:34:30.451+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.146 seconds
+[2024-03-04T23:35:21.433+0530] {processor.py:161} INFO - Started process (PID=11241) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:35:21.471+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:35:21.472+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:21.471+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:35:21.478+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:35:21.616+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:21.616+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:35:21.642+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:21.642+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 18:02:00+00:00, run_after=2024-03-04 18:04:00+00:00
+[2024-03-04T23:35:21.675+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.246 seconds
+[2024-03-04T23:36:11.362+0530] {processor.py:161} INFO - Started process (PID=11366) to work on /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:36:11.390+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Py_Function_1.py for tasks to queue
+[2024-03-04T23:36:11.391+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:36:11.391+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:36:11.494+0530] {processor.py:840} INFO - DAG(s) 'print_func' retrieved from /home/arun/airflow/dags/Py_Function_1.py
+[2024-03-04T23:36:11.527+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:36:11.527+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:36:11.599+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:36:11.598+0530] {dag.py:3823} INFO - Setting next_dagrun for print_func to 2024-03-04 18:04:00+00:00, run_after=2024-03-04 18:06:00+00:00
+[2024-03-04T23:36:11.802+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Py_Function_1.py took 0.460 seconds

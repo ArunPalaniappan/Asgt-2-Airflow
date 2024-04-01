@@ -1,0 +1,19 @@
+[2024-03-04T19:03:55.647+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Visualization_DAG.unzip_archive scheduled__2024-03-04T13:27:00+00:00 [queued]>
+[2024-03-04T19:03:55.661+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Visualization_DAG.unzip_archive scheduled__2024-03-04T13:27:00+00:00 [queued]>
+[2024-03-04T19:03:55.662+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-04T19:03:55.869+0530] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): unzip_archive> on 2024-03-04 13:27:00+00:00
+[2024-03-04T19:03:55.917+0530] {standard_task_runner.py:60} INFO - Started process 6800 to run task
+[2024-03-04T19:03:56.009+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Visualization_DAG', 'unzip_archive', 'scheduled__2024-03-04T13:27:00+00:00', '--job-id', '243', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/Analytics_data-checkpoint.py', '--cfg-path', '/tmp/tmpc_hgd5_7']
+[2024-03-04T19:03:56.010+0530] {standard_task_runner.py:88} INFO - Job 243: Subtask unzip_archive
+[2024-03-04T19:03:56.428+0530] {task_command.py:423} INFO - Running <TaskInstance: Visualization_DAG.unzip_archive scheduled__2024-03-04T13:27:00+00:00 [running]> on host arun-VM
+[2024-03-04T19:03:56.946+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='Visualization_DAG' AIRFLOW_CTX_TASK_ID='unzip_archive' AIRFLOW_CTX_EXECUTION_DATE='2024-03-04T13:27:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-04T13:27:00+00:00'
+[2024-03-04T19:03:56.951+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-04T19:03:56.952+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'unzip -o /home/arun/airflow/dags/zipped_files/1902/1902_files.zip -d /home/arun/airflow/dags/unzipped_files']
+[2024-03-04T19:03:56.981+0530] {subprocess.py:86} INFO - Output:
+[2024-03-04T19:03:57.093+0530] {subprocess.py:93} INFO - Archive:  /home/arun/airflow/dags/zipped_files/1902/1902_files.zip
+[2024-03-04T19:03:57.104+0530] {subprocess.py:93} INFO -  extracting: /home/arun/airflow/dags/unzipped_files/02950099999.csv
+[2024-03-04T19:03:57.276+0530] {subprocess.py:93} INFO -  extracting: /home/arun/airflow/dags/unzipped_files/02907099999.csv
+[2024-03-04T19:03:57.277+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-04T19:03:57.449+0530] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Visualization_DAG, task_id=unzip_archive, execution_date=20240304T132700, start_date=20240304T133355, end_date=20240304T133357
+[2024-03-04T19:03:57.698+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-04T19:03:57.783+0530] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2024-03-01T15:26:20.989+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_files.random_links scheduled__2024-03-01T09:52:00+00:00 [queued]>
+[2024-03-01T15:26:20.998+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_files.random_links scheduled__2024-03-01T09:52:00+00:00 [queued]>
+[2024-03-01T15:26:20.999+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-01T15:26:21.038+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): random_links> on 2024-03-01 09:52:00+00:00
+[2024-03-01T15:26:21.082+0530] {standard_task_runner.py:60} INFO - Started process 16304 to run task
+[2024-03-01T15:26:21.088+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_files', 'random_links', 'scheduled__2024-03-01T09:52:00+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/Data_fetch.py', '--cfg-path', '/tmp/tmpdxhwcuom']
+[2024-03-01T15:26:21.090+0530] {standard_task_runner.py:88} INFO - Job 55: Subtask random_links
+[2024-03-01T15:26:21.194+0530] {task_command.py:423} INFO - Running <TaskInstance: fetch_files.random_links scheduled__2024-03-01T09:52:00+00:00 [running]> on host arun-VM
+[2024-03-01T15:26:21.377+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='fetch_files' AIRFLOW_CTX_TASK_ID='random_links' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T09:52:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-01T09:52:00+00:00'
+[2024-03-01T15:26:21.380+0530] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: random_links() missing 1 required positional argument: 'list_of_links'
+[2024-03-01T15:26:21.384+0530] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_files, task_id=random_links, execution_date=20240301T095200, start_date=20240301T095620, end_date=20240301T095621
+[2024-03-01T15:26:21.474+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 55 for task random_links (random_links() missing 1 required positional argument: 'list_of_links'; 16304)
+[2024-03-01T15:26:21.499+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-01T15:26:21.593+0530] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

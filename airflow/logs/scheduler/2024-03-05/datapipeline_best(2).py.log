@@ -1,0 +1,952 @@
+[2024-03-05T16:32:43.950+0530] {processor.py:161} INFO - Started process (PID=12002) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:32:43.951+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:32:43.953+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:32:43.952+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:32:43.992+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:32:44.249+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:32:44.249+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:32:45.237+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:32:45.236+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:00:00+00:00, run_after=2024-03-05 11:02:00+00:00
+[2024-03-05T16:32:45.464+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 1.518 seconds
+[2024-03-05T16:39:37.385+0530] {processor.py:161} INFO - Started process (PID=12428) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:39:37.390+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:39:37.393+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:39:37.393+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:39:37.487+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:39:37.574+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:39:37.573+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:39:37.652+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:39:37.652+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:06:00+00:00, run_after=2024-03-05 11:08:00+00:00
+[2024-03-05T16:39:37.788+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.411 seconds
+[2024-03-05T16:41:20.790+0530] {processor.py:161} INFO - Started process (PID=12657) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:41:20.937+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:41:20.949+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:41:20.948+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:41:21.038+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:41:21.080+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:41:21.080+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:41:21.120+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:41:21.120+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:08:00+00:00, run_after=2024-03-05 11:10:00+00:00
+[2024-03-05T16:41:21.364+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.641 seconds
+[2024-03-05T16:42:33.277+0530] {processor.py:161} INFO - Started process (PID=12751) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:42:33.286+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:42:33.288+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:42:33.288+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:42:33.398+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:42:33.444+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:42:33.443+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:42:33.505+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:42:33.505+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:10:00+00:00, run_after=2024-03-05 11:12:00+00:00
+[2024-03-05T16:42:33.657+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.386 seconds
+[2024-03-05T16:43:41.140+0530] {processor.py:161} INFO - Started process (PID=12871) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:43:41.194+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:43:41.196+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:43:41.195+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:43:41.293+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:43:41.352+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:43:41.349+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:43:41.408+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:43:41.408+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:10:00+00:00, run_after=2024-03-05 11:12:00+00:00
+[2024-03-05T16:43:41.507+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.374 seconds
+[2024-03-05T16:44:46.055+0530] {processor.py:161} INFO - Started process (PID=12973) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:44:46.060+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:44:46.062+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:44:46.061+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:44:46.131+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:44:46.168+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:44:46.167+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:44:46.233+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:44:46.233+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:12:00+00:00, run_after=2024-03-05 11:14:00+00:00
+[2024-03-05T16:44:46.305+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.256 seconds
+[2024-03-05T16:45:52.055+0530] {processor.py:161} INFO - Started process (PID=13096) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:45:52.082+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:45:52.083+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:45:52.083+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:45:52.202+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:45:52.274+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:45:52.274+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:45:52.323+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:45:52.323+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:12:00+00:00, run_after=2024-03-05 11:14:00+00:00
+[2024-03-05T16:45:52.413+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.367 seconds
+[2024-03-05T16:52:03.923+0530] {processor.py:161} INFO - Started process (PID=13745) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:52:04.043+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T16:52:04.044+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:52:04.043+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:52:04.078+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T16:52:04.115+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:52:04.114+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T16:52:04.150+0530] {logging_mixin.py:188} INFO - [2024-03-05T16:52:04.150+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:20:00+00:00, run_after=2024-03-05 11:22:00+00:00
+[2024-03-05T16:52:04.205+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.287 seconds
+[2024-03-05T17:02:27.371+0530] {processor.py:161} INFO - Started process (PID=6217) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:02:27.410+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:02:27.411+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:02:27.411+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:02:27.445+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:02:27.565+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:02:27.565+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:02:27.719+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:02:27.719+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:30:00+00:00, run_after=2024-03-05 11:32:00+00:00
+[2024-03-05T17:02:27.754+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.386 seconds
+[2024-03-05T17:05:13.363+0530] {processor.py:161} INFO - Started process (PID=6599) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:05:13.445+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:05:13.480+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:05:13.468+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:05:13.561+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:05:13.581+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:05:13.581+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:05:13.613+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:05:13.613+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:32:00+00:00, run_after=2024-03-05 11:34:00+00:00
+[2024-03-05T17:05:13.647+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.292 seconds
+[2024-03-05T17:07:00.683+0530] {processor.py:161} INFO - Started process (PID=6785) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:07:00.712+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:07:00.714+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:07:00.713+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:07:00.783+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:07:00.827+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:07:00.827+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:07:00.904+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:07:00.904+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:34:00+00:00, run_after=2024-03-05 11:36:00+00:00
+[2024-03-05T17:07:00.963+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.295 seconds
+[2024-03-05T17:08:20.213+0530] {processor.py:161} INFO - Started process (PID=6955) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:08:20.249+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:08:20.252+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:08:20.250+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:08:20.331+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:08:20.352+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:08:20.352+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:08:20.380+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:08:20.379+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:36:00+00:00, run_after=2024-03-05 11:38:00+00:00
+[2024-03-05T17:08:20.411+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.202 seconds
+[2024-03-05T17:09:48.576+0530] {processor.py:161} INFO - Started process (PID=7120) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:09:48.580+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:09:48.582+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:09:48.581+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:09:48.612+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:09:48.629+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:09:48.629+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:09:48.659+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:09:48.658+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:36:00+00:00, run_after=2024-03-05 11:38:00+00:00
+[2024-03-05T17:09:48.688+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.115 seconds
+[2024-03-05T17:11:10.739+0530] {processor.py:161} INFO - Started process (PID=7277) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:11:10.779+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:11:10.780+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:11:10.779+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:11:10.812+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:11:10.833+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:11:10.833+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:11:10.871+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:11:10.870+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:38:00+00:00, run_after=2024-03-05 11:40:00+00:00
+[2024-03-05T17:11:10.910+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.175 seconds
+[2024-03-05T17:12:39.300+0530] {processor.py:161} INFO - Started process (PID=7517) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:12:39.302+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:12:39.303+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:12:39.302+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:12:39.344+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:12:39.378+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:12:39.377+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:12:39.464+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:12:39.464+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:40:00+00:00, run_after=2024-03-05 11:42:00+00:00
+[2024-03-05T17:12:39.509+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.213 seconds
+[2024-03-05T17:14:01.542+0530] {processor.py:161} INFO - Started process (PID=7694) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:14:01.580+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:14:01.581+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:14:01.581+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:14:01.612+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:14:01.628+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:14:01.628+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:14:01.654+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:14:01.654+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:42:00+00:00, run_after=2024-03-05 11:44:00+00:00
+[2024-03-05T17:14:01.681+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.142 seconds
+[2024-03-05T17:14:46.151+0530] {processor.py:161} INFO - Started process (PID=7777) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:14:46.154+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:14:46.155+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:14:46.155+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:14:46.197+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:14:46.215+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:14:46.215+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:14:46.245+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:14:46.244+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:42:00+00:00, run_after=2024-03-05 11:44:00+00:00
+[2024-03-05T17:14:46.272+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.127 seconds
+[2024-03-05T17:15:30.070+0530] {processor.py:161} INFO - Started process (PID=7858) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:15:30.120+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:15:30.124+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:15:30.121+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:15:30.231+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:15:30.278+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:15:30.274+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:15:30.341+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:15:30.337+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:42:00+00:00, run_after=2024-03-05 11:44:00+00:00
+[2024-03-05T17:15:30.424+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.379 seconds
+[2024-03-05T17:16:20.675+0530] {processor.py:161} INFO - Started process (PID=7951) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:16:20.679+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:16:20.681+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:16:20.680+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:16:20.736+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:16:20.757+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:16:20.756+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:16:20.784+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:16:20.784+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:44:00+00:00, run_after=2024-03-05 11:46:00+00:00
+[2024-03-05T17:16:20.813+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.141 seconds
+[2024-03-05T17:17:09.448+0530] {processor.py:161} INFO - Started process (PID=8049) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:17:09.469+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:17:09.482+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:17:09.472+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:17:09.535+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:17:09.567+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:17:09.566+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:17:09.611+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:17:09.611+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:44:00+00:00, run_after=2024-03-05 11:46:00+00:00
+[2024-03-05T17:17:09.708+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.286 seconds
+[2024-03-05T17:17:56.099+0530] {processor.py:161} INFO - Started process (PID=8141) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:17:56.140+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:17:56.142+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:17:56.141+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:17:56.177+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:17:56.197+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:17:56.197+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:17:56.227+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:17:56.227+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:44:00+00:00, run_after=2024-03-05 11:46:00+00:00
+[2024-03-05T17:17:56.258+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.163 seconds
+[2024-03-05T17:18:47.627+0530] {processor.py:161} INFO - Started process (PID=8238) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:18:47.629+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:18:47.631+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:18:47.630+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:18:47.675+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:18:47.700+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:18:47.699+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:18:47.740+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:18:47.740+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:46:00+00:00, run_after=2024-03-05 11:48:00+00:00
+[2024-03-05T17:18:47.776+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.156 seconds
+[2024-03-05T17:19:36.705+0530] {processor.py:161} INFO - Started process (PID=8359) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:19:36.707+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:19:36.708+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:19:36.707+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:19:36.748+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:19:36.774+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:19:36.773+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:19:36.812+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:19:36.812+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:46:00+00:00, run_after=2024-03-05 11:48:00+00:00
+[2024-03-05T17:19:36.842+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.140 seconds
+[2024-03-05T17:20:20.324+0530] {processor.py:161} INFO - Started process (PID=8467) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:20:20.326+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:20:20.327+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:20:20.326+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:20:20.362+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:20:20.380+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:20:20.379+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:20:20.405+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:20:20.405+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:48:00+00:00, run_after=2024-03-05 11:50:00+00:00
+[2024-03-05T17:20:20.547+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.227 seconds
+[2024-03-05T17:21:52.967+0530] {processor.py:161} INFO - Started process (PID=8635) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:21:53.058+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:21:53.062+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:21:53.061+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:21:53.171+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:21:53.203+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:21:53.200+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:21:53.241+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:21:53.241+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:48:00+00:00, run_after=2024-03-05 11:50:00+00:00
+[2024-03-05T17:21:53.312+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.366 seconds
+[2024-03-05T17:22:41.668+0530] {processor.py:161} INFO - Started process (PID=8737) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:22:41.718+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:22:41.719+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:22:41.719+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:22:41.752+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:22:41.774+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:22:41.774+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:22:41.805+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:22:41.805+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:50:00+00:00, run_after=2024-03-05 11:52:00+00:00
+[2024-03-05T17:22:41.836+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.173 seconds
+[2024-03-05T17:23:25.078+0530] {processor.py:161} INFO - Started process (PID=8823) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:23:25.080+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:23:25.082+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:23:25.081+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:23:25.130+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:23:25.161+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:23:25.161+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:23:25.194+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:23:25.194+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:50:00+00:00, run_after=2024-03-05 11:52:00+00:00
+[2024-03-05T17:23:25.237+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.164 seconds
+[2024-03-05T17:24:09.895+0530] {processor.py:161} INFO - Started process (PID=8909) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:24:09.958+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:24:09.959+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:24:09.958+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:24:09.990+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:24:10.009+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:24:10.009+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:24:10.040+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:24:10.040+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:52:00+00:00, run_after=2024-03-05 11:54:00+00:00
+[2024-03-05T17:24:10.074+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.183 seconds
+[2024-03-05T17:25:32.982+0530] {processor.py:161} INFO - Started process (PID=9064) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:25:32.984+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:25:32.985+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:25:32.985+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:25:33.023+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:25:33.042+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:25:33.041+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:25:33.076+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:25:33.076+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:52:00+00:00, run_after=2024-03-05 11:54:00+00:00
+[2024-03-05T17:25:33.114+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.135 seconds
+[2024-03-05T17:26:54.723+0530] {processor.py:161} INFO - Started process (PID=9222) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:26:54.725+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:26:54.726+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:26:54.725+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:26:54.763+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:26:54.801+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:26:54.801+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:26:54.828+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:26:54.827+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:54:00+00:00, run_after=2024-03-05 11:56:00+00:00
+[2024-03-05T17:26:54.853+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.135 seconds
+[2024-03-05T17:28:14.755+0530] {processor.py:161} INFO - Started process (PID=9396) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:28:14.758+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:28:14.759+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:28:14.759+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:28:14.800+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:28:14.826+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:28:14.826+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:28:14.860+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:28:14.860+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:56:00+00:00, run_after=2024-03-05 11:58:00+00:00
+[2024-03-05T17:28:14.903+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.153 seconds
+[2024-03-05T17:29:02.031+0530] {processor.py:161} INFO - Started process (PID=9492) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:29:02.034+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:29:02.035+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:29:02.035+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:29:02.084+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:29:02.110+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:29:02.109+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:29:02.159+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:29:02.159+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:56:00+00:00, run_after=2024-03-05 11:58:00+00:00
+[2024-03-05T17:29:02.390+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.364 seconds
+[2024-03-05T17:29:52.859+0530] {processor.py:161} INFO - Started process (PID=9586) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:29:52.862+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:29:52.864+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:29:52.863+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:29:52.907+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:29:52.927+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:29:52.926+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:29:52.953+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:29:52.953+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:56:00+00:00, run_after=2024-03-05 11:58:00+00:00
+[2024-03-05T17:29:52.985+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.131 seconds
+[2024-03-05T17:30:44.208+0530] {processor.py:161} INFO - Started process (PID=9700) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:30:44.211+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:30:44.212+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:30:44.212+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:30:44.253+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:30:44.273+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:30:44.272+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:30:44.303+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:30:44.303+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:58:00+00:00, run_after=2024-03-05 12:00:00+00:00
+[2024-03-05T17:30:44.334+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.131 seconds
+[2024-03-05T17:31:33.910+0530] {processor.py:161} INFO - Started process (PID=9808) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:31:33.943+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:31:33.946+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:31:33.945+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:31:34.056+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:31:34.083+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:31:34.082+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:31:34.122+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:31:34.121+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 11:58:00+00:00, run_after=2024-03-05 12:00:00+00:00
+[2024-03-05T17:31:34.154+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.263 seconds
+[2024-03-05T17:32:21.919+0530] {processor.py:161} INFO - Started process (PID=9905) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:32:21.921+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:32:21.923+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:32:21.922+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:32:21.960+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:32:21.984+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:32:21.984+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:32:22.019+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:32:22.019+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:00:00+00:00, run_after=2024-03-05 12:02:00+00:00
+[2024-03-05T17:32:22.067+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.152 seconds
+[2024-03-05T17:33:13.231+0530] {processor.py:161} INFO - Started process (PID=10015) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:33:13.346+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:33:13.347+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:33:13.346+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:33:13.387+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:33:13.412+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:33:13.411+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:33:13.444+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:33:13.444+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:00:00+00:00, run_after=2024-03-05 12:02:00+00:00
+[2024-03-05T17:33:13.474+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.247 seconds
+[2024-03-05T17:34:02.934+0530] {processor.py:161} INFO - Started process (PID=10105) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:34:02.940+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:34:02.941+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:34:02.941+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:34:03.041+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:34:03.074+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:34:03.074+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:34:03.145+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:34:03.135+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:02:00+00:00, run_after=2024-03-05 12:04:00+00:00
+[2024-03-05T17:34:03.252+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.323 seconds
+[2024-03-05T17:34:50.559+0530] {processor.py:161} INFO - Started process (PID=10211) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:34:50.598+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:34:50.600+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:34:50.599+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:34:50.661+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:34:50.702+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:34:50.700+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:34:50.759+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:34:50.759+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:02:00+00:00, run_after=2024-03-05 12:04:00+00:00
+[2024-03-05T17:34:50.829+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.278 seconds
+[2024-03-05T17:36:23.536+0530] {processor.py:161} INFO - Started process (PID=10388) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:36:23.570+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:36:23.571+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:36:23.571+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:36:23.617+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:36:23.691+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:36:23.677+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:36:23.757+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:36:23.756+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:04:00+00:00, run_after=2024-03-05 12:06:00+00:00
+[2024-03-05T17:36:23.841+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.310 seconds
+[2024-03-05T17:37:12.664+0530] {processor.py:161} INFO - Started process (PID=10481) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:37:12.666+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:37:12.667+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:37:12.666+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:37:12.704+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:37:12.733+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:37:12.732+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:37:12.777+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:37:12.776+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:04:00+00:00, run_after=2024-03-05 12:06:00+00:00
+[2024-03-05T17:37:12.850+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.189 seconds
+[2024-03-05T17:37:57.159+0530] {processor.py:161} INFO - Started process (PID=10566) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:37:57.163+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:37:57.165+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:37:57.164+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:37:57.210+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:37:57.234+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:37:57.234+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:37:57.266+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:37:57.265+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:04:00+00:00, run_after=2024-03-05 12:06:00+00:00
+[2024-03-05T17:37:57.296+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.142 seconds
+[2024-03-05T17:39:21.954+0530] {processor.py:161} INFO - Started process (PID=10778) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:39:22.022+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:39:22.045+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:39:22.044+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:39:22.102+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:39:22.189+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:39:22.188+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:39:22.265+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:39:22.242+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:06:00+00:00, run_after=2024-03-05 12:08:00+00:00
+[2024-03-05T17:39:22.368+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.478 seconds
+[2024-03-05T17:40:11.399+0530] {processor.py:161} INFO - Started process (PID=10878) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:40:11.449+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:40:11.450+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:40:11.449+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:40:11.512+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:40:11.571+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:40:11.571+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:40:11.612+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:40:11.611+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:08:00+00:00, run_after=2024-03-05 12:10:00+00:00
+[2024-03-05T17:40:11.703+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.310 seconds
+[2024-03-05T17:45:30.708+0530] {processor.py:161} INFO - Started process (PID=11294) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:45:30.730+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:45:30.731+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:45:30.730+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:45:30.882+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:45:30.924+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:45:30.924+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:45:30.961+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:45:30.960+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:12:00+00:00, run_after=2024-03-05 12:14:00+00:00
+[2024-03-05T17:45:30.999+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.295 seconds
+[2024-03-05T17:46:52.734+0530] {processor.py:161} INFO - Started process (PID=11452) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:46:52.806+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:46:52.808+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:46:52.807+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:46:52.861+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:46:52.894+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:46:52.893+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:46:52.927+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:46:52.927+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:14:00+00:00, run_after=2024-03-05 12:16:00+00:00
+[2024-03-05T17:46:52.966+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.236 seconds
+[2024-03-05T17:47:42.413+0530] {processor.py:161} INFO - Started process (PID=11551) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:47:42.438+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:47:42.455+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:47:42.442+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:47:42.497+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:47:42.521+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:47:42.520+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:47:42.549+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:47:42.548+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:14:00+00:00, run_after=2024-03-05 12:16:00+00:00
+[2024-03-05T17:47:42.625+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.230 seconds
+[2024-03-05T17:48:34.041+0530] {processor.py:161} INFO - Started process (PID=11733) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:48:34.095+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:48:34.100+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:48:34.096+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:48:34.164+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:48:34.193+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:48:34.193+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:48:34.260+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:48:34.259+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:16:00+00:00, run_after=2024-03-05 12:18:00+00:00
+[2024-03-05T17:48:34.318+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.286 seconds
+[2024-03-05T17:49:24.907+0530] {processor.py:161} INFO - Started process (PID=11833) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:49:24.909+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:49:24.911+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:49:24.910+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:49:24.958+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:49:24.985+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:49:24.984+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:49:25.019+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:49:25.019+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:16:00+00:00, run_after=2024-03-05 12:18:00+00:00
+[2024-03-05T17:49:25.054+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.154 seconds
+[2024-03-05T17:50:13.757+0530] {processor.py:161} INFO - Started process (PID=11923) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:50:13.792+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:50:13.794+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:50:13.793+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:50:13.833+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:50:13.855+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:50:13.854+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:50:13.881+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:50:13.881+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:18:00+00:00, run_after=2024-03-05 12:20:00+00:00
+[2024-03-05T17:50:13.913+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.161 seconds
+[2024-03-05T17:51:03.877+0530] {processor.py:161} INFO - Started process (PID=12023) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:51:03.906+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:51:03.908+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:51:03.907+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:51:04.061+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:51:04.096+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:51:04.090+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:51:04.165+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:51:04.164+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:18:00+00:00, run_after=2024-03-05 12:20:00+00:00
+[2024-03-05T17:51:04.299+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.446 seconds
+[2024-03-05T17:51:51.579+0530] {processor.py:161} INFO - Started process (PID=12109) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:51:51.582+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:51:51.584+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:51:51.584+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:51:51.618+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:51:51.637+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:51:51.637+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:51:51.663+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:51:51.662+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:18:00+00:00, run_after=2024-03-05 12:20:00+00:00
+[2024-03-05T17:51:51.702+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.129 seconds
+[2024-03-05T17:52:39.021+0530] {processor.py:161} INFO - Started process (PID=12247) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:52:39.033+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:52:39.035+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:52:39.034+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:52:39.127+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:52:39.160+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:52:39.160+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:52:39.209+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:52:39.208+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:20:00+00:00, run_after=2024-03-05 12:22:00+00:00
+[2024-03-05T17:52:39.265+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.249 seconds
+[2024-03-05T17:53:29.254+0530] {processor.py:161} INFO - Started process (PID=12335) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:53:29.257+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:53:29.258+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:53:29.257+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:53:29.301+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:53:29.355+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:53:29.351+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:53:29.442+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:53:29.442+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:20:00+00:00, run_after=2024-03-05 12:22:00+00:00
+[2024-03-05T17:53:29.584+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.334 seconds
+[2024-03-05T17:54:19.055+0530] {processor.py:161} INFO - Started process (PID=12431) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:54:19.061+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:54:19.063+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:54:19.062+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:54:19.113+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:54:19.136+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:54:19.135+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:54:19.168+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:54:19.167+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:22:00+00:00, run_after=2024-03-05 12:24:00+00:00
+[2024-03-05T17:54:19.211+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.203 seconds
+[2024-03-05T17:55:10.054+0530] {processor.py:161} INFO - Started process (PID=12534) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:55:10.058+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:55:10.063+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:55:10.062+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:55:10.143+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:55:10.167+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:55:10.166+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:55:10.197+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:55:10.196+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:22:00+00:00, run_after=2024-03-05 12:24:00+00:00
+[2024-03-05T17:55:10.233+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.183 seconds
+[2024-03-05T17:56:00.696+0530] {processor.py:161} INFO - Started process (PID=12736) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:56:00.728+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:56:00.730+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:56:00.729+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:56:00.788+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:56:00.808+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:56:00.807+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:56:00.832+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:56:00.832+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:24:00+00:00, run_after=2024-03-05 12:26:00+00:00
+[2024-03-05T17:56:00.858+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.167 seconds
+[2024-03-05T17:56:48.745+0530] {processor.py:161} INFO - Started process (PID=12902) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:56:48.747+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:56:48.749+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:56:48.748+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:56:48.796+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:56:48.821+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:56:48.821+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:56:48.855+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:56:48.855+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:24:00+00:00, run_after=2024-03-05 12:26:00+00:00
+[2024-03-05T17:56:48.898+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.159 seconds
+[2024-03-05T17:57:39.999+0530] {processor.py:161} INFO - Started process (PID=12996) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:57:40.001+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:57:40.003+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:57:40.002+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:57:40.038+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:57:40.056+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:57:40.055+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:57:40.080+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:57:40.080+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:24:00+00:00, run_after=2024-03-05 12:26:00+00:00
+[2024-03-05T17:57:40.130+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.136 seconds
+[2024-03-05T17:58:32.501+0530] {processor.py:161} INFO - Started process (PID=13096) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:58:32.503+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T17:58:32.504+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:58:32.504+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:58:32.547+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T17:58:32.578+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:58:32.577+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T17:58:32.615+0530] {logging_mixin.py:188} INFO - [2024-03-05T17:58:32.615+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 12:26:00+00:00, run_after=2024-03-05 12:28:00+00:00
+[2024-03-05T17:58:32.647+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.150 seconds
+[2024-03-05T18:52:57.834+0530] {processor.py:161} INFO - Started process (PID=14689) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:52:57.841+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T18:52:57.843+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:52:57.842+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:52:57.925+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:52:58.268+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:52:58.268+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T18:52:58.325+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:52:58.325+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:20:00+00:00, run_after=2024-03-05 13:22:00+00:00
+[2024-03-05T18:52:58.427+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.597 seconds
+[2024-03-05T18:54:40.828+0530] {processor.py:161} INFO - Started process (PID=14928) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:54:40.906+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T18:54:40.912+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:54:40.909+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:54:41.006+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:54:41.079+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:54:41.078+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T18:54:41.159+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:54:41.158+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:22:00+00:00, run_after=2024-03-05 13:24:00+00:00
+[2024-03-05T18:54:41.367+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.544 seconds
+[2024-03-05T18:55:52.362+0530] {processor.py:161} INFO - Started process (PID=15042) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:55:52.395+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T18:55:52.397+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:55:52.396+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:55:52.499+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:55:52.567+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:55:52.567+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T18:55:52.636+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:55:52.635+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:22:00+00:00, run_after=2024-03-05 13:24:00+00:00
+[2024-03-05T18:55:52.727+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.375 seconds
+[2024-03-05T18:56:58.726+0530] {processor.py:161} INFO - Started process (PID=15175) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:56:58.762+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T18:56:58.764+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:56:58.764+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:56:58.835+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:56:58.870+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:56:58.869+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T18:56:58.933+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:56:58.932+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:24:00+00:00, run_after=2024-03-05 13:26:00+00:00
+[2024-03-05T18:56:58.975+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.254 seconds
+[2024-03-05T18:58:07.906+0530] {processor.py:161} INFO - Started process (PID=15374) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:58:07.962+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T18:58:07.970+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:58:07.966+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:58:08.051+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:58:08.085+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:58:08.081+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T18:58:08.151+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:58:08.146+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:26:00+00:00, run_after=2024-03-05 13:28:00+00:00
+[2024-03-05T18:58:08.250+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.350 seconds
+[2024-03-05T18:59:14.403+0530] {processor.py:161} INFO - Started process (PID=15470) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:59:14.451+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T18:59:14.452+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:59:14.452+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:59:14.574+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T18:59:14.669+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:59:14.668+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T18:59:14.744+0530] {logging_mixin.py:188} INFO - [2024-03-05T18:59:14.744+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:26:00+00:00, run_after=2024-03-05 13:28:00+00:00
+[2024-03-05T18:59:14.862+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.467 seconds
+[2024-03-05T19:00:21.735+0530] {processor.py:161} INFO - Started process (PID=15577) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:00:21.746+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:00:21.750+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:00:21.750+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:00:21.814+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:00:21.850+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:00:21.849+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:00:21.898+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:00:21.898+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:28:00+00:00, run_after=2024-03-05 13:30:00+00:00
+[2024-03-05T19:00:22.010+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.317 seconds
+[2024-03-05T19:01:26.748+0530] {processor.py:161} INFO - Started process (PID=15665) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:01:26.788+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:01:26.790+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:01:26.789+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:01:26.883+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:01:26.952+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:01:26.951+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:01:27.020+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:01:27.020+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:28:00+00:00, run_after=2024-03-05 13:30:00+00:00
+[2024-03-05T19:01:27.108+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.366 seconds
+[2024-03-05T19:02:24.952+0530] {processor.py:161} INFO - Started process (PID=15747) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:02:24.957+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:02:24.960+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:02:24.958+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:02:25.075+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:02:25.154+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:02:25.152+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:02:25.236+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:02:25.235+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:30:00+00:00, run_after=2024-03-05 13:32:00+00:00
+[2024-03-05T19:02:25.343+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.401 seconds
+[2024-03-05T19:03:31.035+0530] {processor.py:161} INFO - Started process (PID=15848) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:03:31.063+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:03:31.072+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:03:31.064+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:03:31.200+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:03:31.242+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:03:31.241+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:03:31.360+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:03:31.360+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:30:00+00:00, run_after=2024-03-05 13:32:00+00:00
+[2024-03-05T19:03:31.445+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.432 seconds
+[2024-03-05T19:04:42.394+0530] {processor.py:161} INFO - Started process (PID=15948) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:04:42.397+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:04:42.399+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:04:42.398+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:04:42.484+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:04:42.529+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:04:42.528+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:04:42.588+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:04:42.587+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:32:00+00:00, run_after=2024-03-05 13:34:00+00:00
+[2024-03-05T19:04:42.655+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.269 seconds
+[2024-03-05T19:05:56.467+0530] {processor.py:161} INFO - Started process (PID=16074) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:05:56.473+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:05:56.476+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:05:56.475+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:05:56.596+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:05:56.665+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:05:56.664+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:05:56.709+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:05:56.709+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:32:00+00:00, run_after=2024-03-05 13:34:00+00:00
+[2024-03-05T19:05:56.954+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.498 seconds
+[2024-03-05T19:07:09.884+0530] {processor.py:161} INFO - Started process (PID=16805) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:07:09.924+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:07:09.927+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:07:09.926+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:07:09.991+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:07:10.071+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:07:10.070+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:07:10.155+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:07:10.155+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:34:00+00:00, run_after=2024-03-05 13:36:00+00:00
+[2024-03-05T19:07:10.294+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.420 seconds
+[2024-03-05T19:08:24.762+0530] {processor.py:161} INFO - Started process (PID=16890) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:08:24.797+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:08:24.802+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:08:24.801+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:08:24.899+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:08:24.965+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:08:24.964+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:08:25.001+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:08:25.000+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:36:00+00:00, run_after=2024-03-05 13:38:00+00:00
+[2024-03-05T19:08:25.109+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.361 seconds
+[2024-03-05T19:09:37.112+0530] {processor.py:161} INFO - Started process (PID=16972) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:09:37.158+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:09:37.160+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:09:37.159+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:09:37.248+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:09:37.310+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:09:37.310+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:09:37.382+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:09:37.382+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:36:00+00:00, run_after=2024-03-05 13:38:00+00:00
+[2024-03-05T19:09:37.458+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.366 seconds
+[2024-03-05T19:10:40.422+0530] {processor.py:161} INFO - Started process (PID=17043) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:10:40.459+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:10:40.461+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:10:40.460+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:10:40.556+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:10:40.609+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:10:40.609+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:10:40.665+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:10:40.664+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:38:00+00:00, run_after=2024-03-05 13:40:00+00:00
+[2024-03-05T19:10:40.775+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.389 seconds
+[2024-03-05T19:11:55.269+0530] {processor.py:161} INFO - Started process (PID=17113) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:11:55.316+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:11:55.319+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:11:55.318+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:11:55.436+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:11:55.466+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:11:55.465+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:11:55.502+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:11:55.501+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:38:00+00:00, run_after=2024-03-05 13:40:00+00:00
+[2024-03-05T19:11:55.566+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.314 seconds
+[2024-03-05T19:13:05.613+0530] {processor.py:161} INFO - Started process (PID=17186) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:13:05.616+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:13:05.618+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:13:05.617+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:13:05.698+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:13:05.737+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:13:05.736+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:13:05.787+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:13:05.786+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:40:00+00:00, run_after=2024-03-05 13:42:00+00:00
+[2024-03-05T19:13:05.876+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.277 seconds
+[2024-03-05T19:14:10.311+0530] {processor.py:161} INFO - Started process (PID=17290) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:14:10.368+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:14:10.370+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:14:10.369+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:14:10.471+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:14:10.645+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:14:10.644+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:14:10.696+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:14:10.696+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:42:00+00:00, run_after=2024-03-05 13:44:00+00:00
+[2024-03-05T19:14:10.854+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.549 seconds
+[2024-03-05T19:15:13.957+0530] {processor.py:161} INFO - Started process (PID=17365) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:15:13.976+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T19:15:13.977+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:15:13.976+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:15:14.042+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T19:15:14.093+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:15:14.092+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T19:15:14.150+0530] {logging_mixin.py:188} INFO - [2024-03-05T19:15:14.149+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 13:42:00+00:00, run_after=2024-03-05 13:44:00+00:00
+[2024-03-05T19:15:14.300+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.353 seconds
+[2024-03-05T22:24:14.849+0530] {processor.py:161} INFO - Started process (PID=5414) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:24:14.957+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:24:14.959+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:24:14.958+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:24:15.036+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:24:15.224+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:24:15.223+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:24:15.408+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:24:15.408+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 16:52:00+00:00, run_after=2024-03-05 16:54:00+00:00
+[2024-03-05T22:24:15.651+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.806 seconds
+[2024-03-05T22:26:29.959+0530] {processor.py:161} INFO - Started process (PID=6112) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:26:29.991+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:26:29.995+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:26:29.994+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:26:30.091+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:26:30.135+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:26:30.135+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:26:30.208+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:26:30.208+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 16:54:00+00:00, run_after=2024-03-05 16:56:00+00:00
+[2024-03-05T22:26:30.307+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.353 seconds
+[2024-03-05T22:27:45.874+0530] {processor.py:161} INFO - Started process (PID=6270) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:27:45.888+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:27:45.890+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:27:45.889+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:27:45.934+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:27:45.995+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:27:45.994+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:27:46.063+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:27:46.062+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 16:54:00+00:00, run_after=2024-03-05 16:56:00+00:00
+[2024-03-05T22:27:46.159+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.289 seconds
+[2024-03-05T22:28:34.110+0530] {processor.py:161} INFO - Started process (PID=6329) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:28:34.144+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:28:34.146+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:28:34.146+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:28:34.193+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:28:34.220+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:28:34.220+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:28:34.263+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:28:34.263+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 16:56:00+00:00, run_after=2024-03-05 16:58:00+00:00
+[2024-03-05T22:28:34.309+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.207 seconds
+[2024-03-05T22:29:20.579+0530] {processor.py:161} INFO - Started process (PID=6387) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:29:20.621+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:29:20.625+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:29:20.623+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:29:20.699+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:29:20.734+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:29:20.733+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:29:20.793+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:29:20.792+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 16:56:00+00:00, run_after=2024-03-05 16:58:00+00:00
+[2024-03-05T22:29:20.838+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.271 seconds
+[2024-03-05T22:30:04.442+0530] {processor.py:161} INFO - Started process (PID=6448) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:30:04.443+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:30:04.444+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:30:04.444+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:30:04.474+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:30:04.493+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:30:04.493+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:30:04.524+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:30:04.524+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 16:58:00+00:00, run_after=2024-03-05 17:00:00+00:00
+[2024-03-05T22:30:04.554+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.115 seconds
+[2024-03-05T22:31:27.950+0530] {processor.py:161} INFO - Started process (PID=6562) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:31:27.956+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:31:27.958+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:31:27.957+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:31:27.992+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:31:28.012+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:31:28.011+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:31:28.052+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:31:28.051+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 16:58:00+00:00, run_after=2024-03-05 17:00:00+00:00
+[2024-03-05T22:31:28.084+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.139 seconds
+[2024-03-05T22:32:49.217+0530] {processor.py:161} INFO - Started process (PID=6679) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:32:49.256+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:32:49.259+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:32:49.258+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:32:49.340+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:32:49.382+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:32:49.381+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:32:49.441+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:32:49.440+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:00:00+00:00, run_after=2024-03-05 17:02:00+00:00
+[2024-03-05T22:32:49.502+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.301 seconds
+[2024-03-05T22:34:08.635+0530] {processor.py:161} INFO - Started process (PID=6779) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:34:08.672+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:34:08.673+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:34:08.673+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:34:08.711+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:34:08.734+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:34:08.734+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:34:08.763+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:34:08.763+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:02:00+00:00, run_after=2024-03-05 17:04:00+00:00
+[2024-03-05T22:34:08.793+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.161 seconds
+[2024-03-05T22:34:53.932+0530] {processor.py:161} INFO - Started process (PID=6836) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:34:53.968+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:34:53.969+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:34:53.969+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:34:54.001+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:34:54.020+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:34:54.020+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:34:54.053+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:34:54.053+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:02:00+00:00, run_after=2024-03-05 17:04:00+00:00
+[2024-03-05T22:34:54.082+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.156 seconds
+[2024-03-05T22:35:37.130+0530] {processor.py:161} INFO - Started process (PID=6896) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:35:37.132+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:35:37.133+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:35:37.133+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:35:37.172+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:35:37.194+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:35:37.193+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:35:37.225+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:35:37.224+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:02:00+00:00, run_after=2024-03-05 17:04:00+00:00
+[2024-03-05T22:35:37.277+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.152 seconds
+[2024-03-05T22:36:21.067+0530] {processor.py:161} INFO - Started process (PID=6951) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:36:21.069+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:36:21.070+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:36:21.069+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:36:21.097+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:36:21.112+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:36:21.112+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:36:21.133+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:36:21.133+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:04:00+00:00, run_after=2024-03-05 17:06:00+00:00
+[2024-03-05T22:36:21.158+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.094 seconds
+[2024-03-05T22:37:06.643+0530] {processor.py:161} INFO - Started process (PID=7011) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:37:06.645+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:37:06.647+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:37:06.647+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:37:06.691+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:37:06.719+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:37:06.719+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:37:06.763+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:37:06.763+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:04:00+00:00, run_after=2024-03-05 17:06:00+00:00
+[2024-03-05T22:37:06.805+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.167 seconds
+[2024-03-05T22:38:26.509+0530] {processor.py:161} INFO - Started process (PID=7122) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:38:26.518+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:38:26.519+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:38:26.518+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:38:26.551+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:38:26.570+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:38:26.570+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:38:26.600+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:38:26.599+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:06:00+00:00, run_after=2024-03-05 17:08:00+00:00
+[2024-03-05T22:38:26.630+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.125 seconds
+[2024-03-05T22:39:09.246+0530] {processor.py:161} INFO - Started process (PID=7176) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:39:09.281+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:39:09.282+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:39:09.282+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:39:09.313+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:39:09.332+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:39:09.332+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:39:09.363+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:39:09.363+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:06:00+00:00, run_after=2024-03-05 17:08:00+00:00
+[2024-03-05T22:39:09.394+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.152 seconds
+[2024-03-05T22:40:30.992+0530] {processor.py:161} INFO - Started process (PID=7288) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:40:30.994+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:40:30.995+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:40:30.994+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:40:31.034+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:40:31.059+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:40:31.059+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:40:31.090+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:40:31.090+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:08:00+00:00, run_after=2024-03-05 17:10:00+00:00
+[2024-03-05T22:40:31.133+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.145 seconds
+[2024-03-05T22:41:53.275+0530] {processor.py:161} INFO - Started process (PID=7400) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:41:53.277+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:41:53.278+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:41:53.278+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:41:53.323+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:41:53.348+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:41:53.347+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:41:53.388+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:41:53.388+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:08:00+00:00, run_after=2024-03-05 17:10:00+00:00
+[2024-03-05T22:41:53.429+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.159 seconds
+[2024-03-05T22:42:36.874+0530] {processor.py:161} INFO - Started process (PID=7460) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:42:36.876+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:42:36.878+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:42:36.877+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:42:36.916+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:42:36.945+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:42:36.944+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:42:36.986+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:42:36.986+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:10:00+00:00, run_after=2024-03-05 17:12:00+00:00
+[2024-03-05T22:42:37.031+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.161 seconds
+[2024-03-05T22:44:01.890+0530] {processor.py:161} INFO - Started process (PID=7573) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:44:01.892+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:44:01.893+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:44:01.892+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:44:01.924+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:44:01.944+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:44:01.944+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:44:01.976+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:44:01.975+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:12:00+00:00, run_after=2024-03-05 17:14:00+00:00
+[2024-03-05T22:44:02.013+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.126 seconds
+[2024-03-05T22:44:46.540+0530] {processor.py:161} INFO - Started process (PID=7627) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:44:46.545+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:44:46.546+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:44:46.545+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:44:46.583+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:44:46.604+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:44:46.603+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:44:46.632+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:44:46.632+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:12:00+00:00, run_after=2024-03-05 17:14:00+00:00
+[2024-03-05T22:44:46.670+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.134 seconds
+[2024-03-05T22:46:10.601+0530] {processor.py:161} INFO - Started process (PID=7738) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:46:10.603+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:46:10.605+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:46:10.605+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:46:10.673+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:46:10.710+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:46:10.709+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:46:10.758+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:46:10.757+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:14:00+00:00, run_after=2024-03-05 17:16:00+00:00
+[2024-03-05T22:46:10.794+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.199 seconds
+[2024-03-05T22:47:32.200+0530] {processor.py:161} INFO - Started process (PID=7848) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:47:32.240+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:47:32.241+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:47:32.241+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:47:32.276+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:47:32.300+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:47:32.299+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:47:32.342+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:47:32.341+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:14:00+00:00, run_after=2024-03-05 17:16:00+00:00
+[2024-03-05T22:47:32.381+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.185 seconds
+[2024-03-05T22:48:51.486+0530] {processor.py:161} INFO - Started process (PID=7958) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:48:51.523+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:48:51.525+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:48:51.524+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:48:51.554+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:48:51.575+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:48:51.575+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:48:51.608+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:48:51.608+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:16:00+00:00, run_after=2024-03-05 17:18:00+00:00
+[2024-03-05T22:48:51.671+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.189 seconds
+[2024-03-05T22:50:11.227+0530] {processor.py:161} INFO - Started process (PID=8071) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:50:11.266+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:50:11.268+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:50:11.267+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:50:11.299+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:50:11.319+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:50:11.318+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:50:11.347+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:50:11.347+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:18:00+00:00, run_after=2024-03-05 17:20:00+00:00
+[2024-03-05T22:50:11.380+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.156 seconds
+[2024-03-05T22:50:55.437+0530] {processor.py:161} INFO - Started process (PID=8129) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:50:55.474+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:50:55.476+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:50:55.475+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:50:55.525+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:50:55.551+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:50:55.550+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:50:55.582+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:50:55.582+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:18:00+00:00, run_after=2024-03-05 17:20:00+00:00
+[2024-03-05T22:50:55.610+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.179 seconds
+[2024-03-05T22:51:40.536+0530] {processor.py:161} INFO - Started process (PID=8185) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:51:40.540+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:51:40.541+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:51:40.540+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:51:40.584+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:51:40.605+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:51:40.604+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:51:40.630+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:51:40.630+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:18:00+00:00, run_after=2024-03-05 17:20:00+00:00
+[2024-03-05T22:51:40.660+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.129 seconds
+[2024-03-05T22:52:28.214+0530] {processor.py:161} INFO - Started process (PID=8259) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:52:28.252+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:52:28.255+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:52:28.254+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:52:28.289+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:52:28.306+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:52:28.306+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:52:28.340+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:52:28.340+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:20:00+00:00, run_after=2024-03-05 17:22:00+00:00
+[2024-03-05T22:52:28.397+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.188 seconds
+[2024-03-05T22:53:25.381+0530] {processor.py:161} INFO - Started process (PID=8575) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:53:25.422+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:53:25.424+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:53:25.424+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:53:25.477+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:53:25.509+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:53:25.509+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:53:25.552+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:53:25.551+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:20:00+00:00, run_after=2024-03-05 17:22:00+00:00
+[2024-03-05T22:53:25.660+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.284 seconds
+[2024-03-05T22:54:20.325+0530] {processor.py:161} INFO - Started process (PID=8700) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:54:20.328+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:54:20.329+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:54:20.328+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:54:20.363+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:54:20.382+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:54:20.382+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:54:20.412+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:54:20.412+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:22:00+00:00, run_after=2024-03-05 17:24:00+00:00
+[2024-03-05T22:54:20.453+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.131 seconds
+[2024-03-05T22:55:11.808+0530] {processor.py:161} INFO - Started process (PID=8823) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:55:11.820+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:55:11.825+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:55:11.821+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:55:11.967+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:55:12.039+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:55:12.036+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:55:12.133+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:55:12.133+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:22:00+00:00, run_after=2024-03-05 17:24:00+00:00
+[2024-03-05T22:55:12.244+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.444 seconds
+[2024-03-05T22:56:02.163+0530] {processor.py:161} INFO - Started process (PID=8890) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:56:02.165+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:56:02.167+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:56:02.166+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:56:02.207+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:56:02.228+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:56:02.227+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:56:02.255+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:56:02.255+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:24:00+00:00, run_after=2024-03-05 17:26:00+00:00
+[2024-03-05T22:56:02.324+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.166 seconds
+[2024-03-05T22:56:44.998+0530] {processor.py:161} INFO - Started process (PID=8944) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:56:45.000+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:56:45.001+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:56:45.001+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:56:45.035+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:56:45.054+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:56:45.054+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:56:45.079+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:56:45.079+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:24:00+00:00, run_after=2024-03-05 17:26:00+00:00
+[2024-03-05T22:56:45.107+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.114 seconds
+[2024-03-05T22:58:10.433+0530] {processor.py:161} INFO - Started process (PID=9061) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:58:10.468+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:58:10.470+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:58:10.469+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:58:10.519+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:58:10.549+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:58:10.549+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:58:10.585+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:58:10.585+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:26:00+00:00, run_after=2024-03-05 17:28:00+00:00
+[2024-03-05T22:58:10.617+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.188 seconds
+[2024-03-05T22:59:38.726+0530] {processor.py:161} INFO - Started process (PID=9175) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:59:38.768+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T22:59:38.769+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:59:38.769+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:59:38.801+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T22:59:38.822+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:59:38.821+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T22:59:38.857+0530] {logging_mixin.py:188} INFO - [2024-03-05T22:59:38.856+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:26:00+00:00, run_after=2024-03-05 17:28:00+00:00
+[2024-03-05T22:59:38.893+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.172 seconds
+[2024-03-05T23:00:24.424+0530] {processor.py:161} INFO - Started process (PID=9243) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:00:24.466+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:00:24.468+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:00:24.468+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:00:24.505+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:00:24.524+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:00:24.523+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:00:24.551+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:00:24.551+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:28:00+00:00, run_after=2024-03-05 17:30:00+00:00
+[2024-03-05T23:00:24.579+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.160 seconds
+[2024-03-05T23:01:50.599+0530] {processor.py:161} INFO - Started process (PID=9352) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:01:50.601+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:01:50.602+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:01:50.602+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:01:50.636+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:01:50.653+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:01:50.653+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:01:50.681+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:01:50.681+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:28:00+00:00, run_after=2024-03-05 17:30:00+00:00
+[2024-03-05T23:01:50.761+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.166 seconds
+[2024-03-05T23:02:34.284+0530] {processor.py:161} INFO - Started process (PID=9407) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:02:34.285+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:02:34.286+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:02:34.286+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:02:34.313+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:02:34.329+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:02:34.329+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:02:34.354+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:02:34.353+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:30:00+00:00, run_after=2024-03-05 17:32:00+00:00
+[2024-03-05T23:02:34.389+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.108 seconds
+[2024-03-05T23:04:01.354+0530] {processor.py:161} INFO - Started process (PID=9518) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:04:01.396+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:04:01.397+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:04:01.396+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:04:01.431+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:04:01.454+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:04:01.453+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:04:01.495+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:04:01.495+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:32:00+00:00, run_after=2024-03-05 17:34:00+00:00
+[2024-03-05T23:04:01.532+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.183 seconds
+[2024-03-05T23:04:44.756+0530] {processor.py:161} INFO - Started process (PID=9577) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:04:44.791+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:04:44.793+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:04:44.792+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:04:44.818+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:04:44.834+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:04:44.834+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:04:44.856+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:04:44.856+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:32:00+00:00, run_after=2024-03-05 17:34:00+00:00
+[2024-03-05T23:04:44.884+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.132 seconds
+[2024-03-05T23:06:03.994+0530] {processor.py:161} INFO - Started process (PID=9686) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:06:04.035+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:06:04.037+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:06:04.036+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:06:04.068+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:06:04.089+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:06:04.089+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:06:04.120+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:06:04.119+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:34:00+00:00, run_after=2024-03-05 17:36:00+00:00
+[2024-03-05T23:06:04.152+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.162 seconds
+[2024-03-05T23:06:49.609+0530] {processor.py:161} INFO - Started process (PID=9740) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:06:49.611+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:06:49.612+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:06:49.611+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:06:49.644+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:06:49.664+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:06:49.663+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:06:49.694+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:06:49.693+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:34:00+00:00, run_after=2024-03-05 17:36:00+00:00
+[2024-03-05T23:06:49.723+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.118 seconds
+[2024-03-05T23:07:34.209+0530] {processor.py:161} INFO - Started process (PID=9801) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:07:34.211+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:07:34.212+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:07:34.212+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:07:34.241+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:07:34.257+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:07:34.257+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:07:34.280+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:07:34.280+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:34:00+00:00, run_after=2024-03-05 17:36:00+00:00
+[2024-03-05T23:07:34.307+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.101 seconds
+[2024-03-05T23:08:56.206+0530] {processor.py:161} INFO - Started process (PID=9911) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:08:56.209+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:08:56.211+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:08:56.210+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:08:56.252+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:08:56.276+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:08:56.275+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:08:56.306+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:08:56.306+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:36:00+00:00, run_after=2024-03-05 17:38:00+00:00
+[2024-03-05T23:08:56.337+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.135 seconds
+[2024-03-05T23:10:22.513+0530] {processor.py:161} INFO - Started process (PID=10022) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:10:22.548+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:10:22.549+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:10:22.548+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:10:22.579+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:10:22.599+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:10:22.598+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:10:22.630+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:10:22.630+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:38:00+00:00, run_after=2024-03-05 17:40:00+00:00
+[2024-03-05T23:10:22.685+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.175 seconds
+[2024-03-05T23:11:38.547+0530] {processor.py:161} INFO - Started process (PID=10124) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:11:38.576+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:11:38.577+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:11:38.577+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:11:38.605+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:11:38.621+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:11:38.621+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:11:38.643+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:11:38.643+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:38:00+00:00, run_after=2024-03-05 17:40:00+00:00
+[2024-03-05T23:11:38.670+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.127 seconds
+[2024-03-05T23:13:06.507+0530] {processor.py:161} INFO - Started process (PID=10237) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:13:06.509+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:13:06.510+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:13:06.510+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:13:06.553+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:13:06.586+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:13:06.585+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:13:06.635+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:13:06.635+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:40:00+00:00, run_after=2024-03-05 17:42:00+00:00
+[2024-03-05T23:13:06.674+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.171 seconds
+[2024-03-05T23:13:49.995+0530] {processor.py:161} INFO - Started process (PID=10291) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:13:49.996+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:13:49.997+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:13:49.997+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:13:50.028+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:13:50.048+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:13:50.048+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:13:50.079+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:13:50.079+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:40:00+00:00, run_after=2024-03-05 17:42:00+00:00
+[2024-03-05T23:13:50.166+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.174 seconds
+[2024-03-05T23:15:15.941+0530] {processor.py:161} INFO - Started process (PID=10402) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:15:15.976+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:15:15.978+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:15:15.977+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:15:16.004+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:15:16.020+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:15:16.020+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:15:16.042+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:15:16.042+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:42:00+00:00, run_after=2024-03-05 17:44:00+00:00
+[2024-03-05T23:15:16.091+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.153 seconds
+[2024-03-05T23:15:58.603+0530] {processor.py:161} INFO - Started process (PID=10463) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:15:58.642+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:15:58.643+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:15:58.642+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:15:58.677+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:15:58.705+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:15:58.705+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:15:58.744+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:15:58.744+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:42:00+00:00, run_after=2024-03-05 17:44:00+00:00
+[2024-03-05T23:15:58.792+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.192 seconds
+[2024-03-05T23:17:23.652+0530] {processor.py:161} INFO - Started process (PID=10576) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:17:23.654+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:17:23.655+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:17:23.654+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:17:23.690+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:17:23.710+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:17:23.709+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:17:23.740+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:17:23.739+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:44:00+00:00, run_after=2024-03-05 17:46:00+00:00
+[2024-03-05T23:17:23.892+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.244 seconds
+[2024-03-05T23:18:08.263+0530] {processor.py:161} INFO - Started process (PID=10634) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:18:08.264+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:18:08.265+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:18:08.265+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:18:08.296+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:18:08.317+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:18:08.316+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:18:08.347+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:18:08.347+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:46:00+00:00, run_after=2024-03-05 17:48:00+00:00
+[2024-03-05T23:18:08.496+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.236 seconds
+[2024-03-05T23:18:56.222+0530] {processor.py:161} INFO - Started process (PID=10692) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:18:56.224+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:18:56.225+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:18:56.225+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:18:56.261+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:18:56.282+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:18:56.282+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:18:56.313+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:18:56.313+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:46:00+00:00, run_after=2024-03-05 17:48:00+00:00
+[2024-03-05T23:18:56.474+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.256 seconds
+[2024-03-05T23:19:52.313+0530] {processor.py:161} INFO - Started process (PID=10770) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:19:52.315+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:19:52.317+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:19:52.316+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:19:52.373+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:19:52.417+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:19:52.417+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:19:52.479+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:19:52.479+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:46:00+00:00, run_after=2024-03-05 17:48:00+00:00
+[2024-03-05T23:19:52.882+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.576 seconds
+[2024-03-05T23:20:41.741+0530] {processor.py:161} INFO - Started process (PID=10832) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:20:41.743+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:20:41.745+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:20:41.745+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:20:41.797+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:20:41.832+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:20:41.831+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:20:41.880+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:20:41.879+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:48:00+00:00, run_after=2024-03-05 17:50:00+00:00
+[2024-03-05T23:20:41.922+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.187 seconds
+[2024-03-05T23:21:26.386+0530] {processor.py:161} INFO - Started process (PID=10905) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:21:26.424+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:21:26.425+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:21:26.425+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:21:26.463+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:21:26.491+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:21:26.490+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:21:26.534+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:21:26.534+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:48:00+00:00, run_after=2024-03-05 17:50:00+00:00
+[2024-03-05T23:21:26.570+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.188 seconds
+[2024-03-05T23:22:08.526+0530] {processor.py:161} INFO - Started process (PID=10967) to work on /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:22:08.528+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/datapipeline_best(2).py for tasks to queue
+[2024-03-05T23:22:08.529+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:22:08.529+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:22:08.565+0530] {processor.py:840} INFO - DAG(s) 'datapipeline_Take4' retrieved from /home/arun/airflow/dags/datapipeline_best(2).py
+[2024-03-05T23:22:08.587+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:22:08.587+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T23:22:08.618+0530] {logging_mixin.py:188} INFO - [2024-03-05T23:22:08.618+0530] {dag.py:3823} INFO - Setting next_dagrun for datapipeline_Take4 to 2024-03-05 17:50:00+00:00, run_after=2024-03-05 17:52:00+00:00
+[2024-03-05T23:22:08.654+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/datapipeline_best(2).py took 0.130 seconds

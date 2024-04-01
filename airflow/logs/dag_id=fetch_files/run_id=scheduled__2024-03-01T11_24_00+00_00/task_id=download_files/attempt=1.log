@@ -1,0 +1,17 @@
+[2024-03-01T16:57:40.344+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_files.download_files scheduled__2024-03-01T11:24:00+00:00 [queued]>
+[2024-03-01T16:57:40.353+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_files.download_files scheduled__2024-03-01T11:24:00+00:00 [queued]>
+[2024-03-01T16:57:40.353+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-01T16:57:40.385+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): download_files> on 2024-03-01 11:24:00+00:00
+[2024-03-01T16:57:40.391+0530] {standard_task_runner.py:60} INFO - Started process 25405 to run task
+[2024-03-01T16:57:40.396+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_files', 'download_files', 'scheduled__2024-03-01T11:24:00+00:00', '--job-id', '174', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/Data_fetch-checkpoint.py', '--cfg-path', '/tmp/tmpxeu6kdom']
+[2024-03-01T16:57:40.398+0530] {standard_task_runner.py:88} INFO - Job 174: Subtask download_files
+[2024-03-01T16:57:40.457+0530] {task_command.py:423} INFO - Running <TaskInstance: fetch_files.download_files scheduled__2024-03-01T11:24:00+00:00 [running]> on host arun-VM
+[2024-03-01T16:57:40.681+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='fetch_files' AIRFLOW_CTX_TASK_ID='download_files' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T11:24:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-01T11:24:00+00:00'
+[2024-03-01T16:57:40.684+0530] {logging_mixin.py:188} INFO - ['https://www.ncei.noaa.gov/data/local-climatological-data/access/1902/02907099999.csv', 'https://www.ncei.noaa.gov/data/local-climatological-data/access/1902/02950099999.csv']
+[2024-03-01T16:57:40.684+0530] {logging_mixin.py:188} INFO - fetched_files/1902
+[2024-03-01T16:57:40.685+0530] {logging_mixin.py:188} INFO - https://www.ncei.noaa.gov/data/local-climatological-data/access/1902/02907099999.csv
+[2024-03-01T16:59:26.891+0530] {logging_mixin.py:188} INFO - https://www.ncei.noaa.gov/data/local-climatological-data/access/1902/02950099999.csv
+[2024-03-01T17:01:12.489+0530] {python.py:201} INFO - Done. Returned value was: None
+[2024-03-01T17:01:12.505+0530] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=fetch_files, task_id=download_files, execution_date=20240301T112400, start_date=20240301T112740, end_date=20240301T113112
+[2024-03-01T17:01:12.686+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-01T17:01:12.737+0530] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

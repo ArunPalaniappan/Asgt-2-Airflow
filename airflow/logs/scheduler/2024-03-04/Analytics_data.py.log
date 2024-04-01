@@ -1,0 +1,1008 @@
+[2024-03-04T18:28:15.843+0530] {processor.py:161} INFO - Started process (PID=11851) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:28:15.848+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:28:15.851+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:15.850+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:28:17.392+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:17.391+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:28:17.711+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:17.710+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:28:18.208+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:28:18.220+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:18.220+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:28:18.253+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:18.252+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 12:54:00+00:00, run_after=2024-03-04 12:57:00+00:00
+[2024-03-04T18:28:18.315+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.494 seconds
+[2024-03-04T18:30:31.908+0530] {processor.py:161} INFO - Started process (PID=12012) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:30:31.942+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:30:31.945+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:31.943+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:30:33.613+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:33.612+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:30:33.776+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:33.775+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:30:34.097+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:30:34.172+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:34.171+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:30:34.190+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:34.189+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:03:00+00:00
+[2024-03-04T18:30:34.218+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.323 seconds
+[2024-03-04T18:31:40.434+0530] {processor.py:161} INFO - Started process (PID=12093) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:31:40.455+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:31:40.457+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:40.456+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:31:41.242+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:41.241+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:31:41.360+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:41.360+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:31:41.666+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:31:41.678+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:41.677+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:31:41.698+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:41.698+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:03:00+00:00
+[2024-03-04T18:31:41.737+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.308 seconds
+[2024-03-04T18:32:28.658+0530] {processor.py:161} INFO - Started process (PID=12143) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:32:28.715+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:32:28.716+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:28.715+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:32:29.697+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:29.696+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:32:29.845+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:29.845+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:32:30.274+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:32:30.477+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:30.476+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:32:30.502+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:30.502+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:03:00+00:00
+[2024-03-04T18:32:30.541+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.885 seconds
+[2024-03-04T18:33:36.624+0530] {processor.py:161} INFO - Started process (PID=12213) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:33:36.658+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:33:36.661+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:36.660+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:33:37.726+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:37.725+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:33:37.866+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:37.865+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:33:38.210+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:33:38.222+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:38.221+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:33:38.332+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:38.332+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:03:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:33:38.382+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.761 seconds
+[2024-03-04T18:34:40.808+0530] {processor.py:161} INFO - Started process (PID=12295) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:34:40.850+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:34:40.851+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:40.851+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:34:41.632+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:41.632+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:34:41.768+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:41.768+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:34:42.116+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:34:42.319+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:42.319+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:34:42.342+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:42.342+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:03:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:34:42.370+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.566 seconds
+[2024-03-04T18:35:43.501+0530] {processor.py:161} INFO - Started process (PID=12372) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:35:43.550+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:35:43.555+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:43.552+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:35:45.332+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:45.329+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:35:45.606+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:45.605+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:35:46.025+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:35:46.039+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:46.039+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:35:46.064+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:46.064+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:03:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:35:46.097+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.614 seconds
+[2024-03-04T18:37:03.104+0530] {processor.py:161} INFO - Started process (PID=12458) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:37:03.164+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:37:03.168+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:03.165+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:37:04.690+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:04.687+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:37:04.993+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:04.992+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:37:05.526+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:37:05.746+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:05.746+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:37:05.769+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:05.769+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:06:00+00:00, run_after=2024-03-04 13:09:00+00:00
+[2024-03-04T18:37:05.823+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.739 seconds
+[2024-03-04T18:37:55.996+0530] {processor.py:161} INFO - Started process (PID=12512) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:37:56.052+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:37:56.057+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:56.056+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:37:58.210+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:58.209+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:37:58.624+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:58.624+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:37:59.631+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:37:59.649+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:59.649+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:37:59.964+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:59.964+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:06:00+00:00, run_after=2024-03-04 13:09:00+00:00
+[2024-03-04T18:38:00.127+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.138 seconds
+[2024-03-04T18:39:46.183+0530] {processor.py:161} INFO - Started process (PID=12623) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:39:46.232+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:39:46.234+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:46.233+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:39:48.200+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:48.197+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:39:48.495+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:48.495+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:39:49.300+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:39:49.820+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:49.819+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:39:49.879+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:49.878+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:09:00+00:00, run_after=2024-03-04 13:12:00+00:00
+[2024-03-04T18:39:50.035+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.859 seconds
+[2024-03-04T18:41:09.197+0530] {processor.py:161} INFO - Started process (PID=12743) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:41:09.248+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:41:09.249+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:09.249+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:41:10.802+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:10.802+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:41:11.072+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:11.072+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:41:11.507+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:41:11.522+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:11.522+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:41:11.550+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:11.550+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:09:00+00:00, run_after=2024-03-04 13:12:00+00:00
+[2024-03-04T18:41:11.791+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.599 seconds
+[2024-03-04T18:42:27.072+0530] {processor.py:161} INFO - Started process (PID=12889) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:42:27.115+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:42:27.117+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:27.116+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:42:28.076+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:28.076+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:42:28.362+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:28.361+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:42:28.844+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:42:29.046+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:29.046+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:42:29.076+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:29.076+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:12:00+00:00, run_after=2024-03-04 13:15:00+00:00
+[2024-03-04T18:42:29.135+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.069 seconds
+[2024-03-04T18:43:53.180+0530] {processor.py:161} INFO - Started process (PID=13513) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:43:53.204+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:43:53.206+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:43:53.205+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:43:55.236+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:43:55.233+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:43:55.594+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:43:55.593+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:43:56.504+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:43:56.841+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:43:56.837+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:43:56.984+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:43:56.984+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:12:00+00:00, run_after=2024-03-04 13:15:00+00:00
+[2024-03-04T18:43:57.094+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.926 seconds
+[2024-03-04T18:46:20.756+0530] {processor.py:161} INFO - Started process (PID=13951) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:46:20.849+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:46:20.856+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:20.852+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:46:23.542+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:23.536+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:46:24.137+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:24.137+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:46:25.331+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:46:26.157+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:26.157+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:46:26.218+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:26.217+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:15:00+00:00, run_after=2024-03-04 13:18:00+00:00
+[2024-03-04T18:46:26.374+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.645 seconds
+[2024-03-04T18:52:34.574+0530] {processor.py:161} INFO - Started process (PID=5044) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:52:34.648+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:52:34.652+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:52:34.650+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:52:37.674+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:52:37.673+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:52:38.108+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:52:38.108+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:52:39.207+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:52:39.222+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:52:39.222+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:52:39.287+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:52:39.287+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:18:00+00:00, run_after=2024-03-04 13:21:00+00:00
+[2024-03-04T18:52:39.419+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.887 seconds
+[2024-03-04T18:56:04.009+0530] {processor.py:161} INFO - Started process (PID=5876) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:56:04.058+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:56:04.059+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:04.058+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:56:05.738+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:05.738+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:56:06.029+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:06.029+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:56:06.893+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:56:07.085+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:07.085+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:56:07.169+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:07.169+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:56:07.383+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.382 seconds
+[2024-03-04T18:57:16.255+0530] {processor.py:161} INFO - Started process (PID=5978) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:57:16.268+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:57:16.270+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:16.269+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:57:18.738+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:18.737+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:57:18.961+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:18.960+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:57:19.616+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:57:19.640+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:19.639+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:57:19.693+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:19.692+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:57:19.997+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.748 seconds
+[2024-03-04T18:58:22.887+0530] {processor.py:161} INFO - Started process (PID=6063) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:58:22.921+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:58:22.923+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:22.922+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:58:23.876+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:23.875+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:58:24.023+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:24.023+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:58:24.434+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:58:24.734+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:24.733+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:58:24.763+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:24.763+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:58:24.800+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.921 seconds
+[2024-03-04T18:59:26.255+0530] {processor.py:161} INFO - Started process (PID=6358) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:59:26.300+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T18:59:26.301+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:26.301+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:59:28.451+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:28.450+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:59:28.868+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:28.868+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:59:30.077+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T18:59:30.126+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:30.126+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:59:30.551+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:30.551+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:59:30.731+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.492 seconds
+[2024-03-04T19:00:30.430+0530] {processor.py:161} INFO - Started process (PID=6455) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:00:30.479+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:00:30.482+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:30.481+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:00:31.704+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:31.703+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:00:31.912+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:31.911+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:00:32.515+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:00:32.816+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:32.816+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:00:32.846+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:32.846+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:27:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:00:32.883+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.474 seconds
+[2024-03-04T19:01:19.272+0530] {processor.py:161} INFO - Started process (PID=6560) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:01:19.339+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:01:19.345+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:19.340+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:01:21.284+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:21.283+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:01:21.666+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:21.666+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:01:22.552+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:01:22.910+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:22.909+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:01:23.361+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:23.361+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:27:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:01:23.576+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.311 seconds
+[2024-03-04T19:02:18.543+0530] {processor.py:161} INFO - Started process (PID=6667) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:02:18.645+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:02:18.648+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:18.647+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:02:21.461+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:21.461+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:02:22.033+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:22.033+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:02:23.559+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:02:24.049+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:24.049+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:02:24.120+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:24.120+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:27:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:02:24.189+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.678 seconds
+[2024-03-04T19:05:14.397+0530] {processor.py:161} INFO - Started process (PID=6876) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:05:14.433+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:05:14.435+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:14.434+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:05:16.008+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:16.007+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:05:16.196+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:16.196+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:05:16.662+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:05:16.679+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:16.679+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:05:16.859+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:16.859+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:05:17.079+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.688 seconds
+[2024-03-04T19:06:11.803+0530] {processor.py:161} INFO - Started process (PID=7023) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:06:11.857+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:06:11.858+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:11.858+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:06:14.558+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:14.557+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:06:15.148+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:15.147+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:06:16.129+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:06:16.552+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:16.552+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:06:16.631+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:16.630+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:06:16.854+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.081 seconds
+[2024-03-04T19:07:08.437+0530] {processor.py:161} INFO - Started process (PID=7134) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:07:08.487+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:07:08.495+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:08.491+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:07:09.445+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:09.445+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:07:09.792+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:09.791+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:07:10.549+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:07:10.571+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:10.571+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:07:10.642+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:10.642+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:07:10.910+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.479 seconds
+[2024-03-04T19:07:53.377+0530] {processor.py:161} INFO - Started process (PID=7209) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:07:53.410+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:07:53.413+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:53.412+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:07:54.814+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:54.813+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:07:55.014+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:55.014+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:07:55.568+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:07:55.863+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:55.863+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:07:55.891+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:55.891+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:07:55.976+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.605 seconds
+[2024-03-04T19:08:32.667+0530] {processor.py:161} INFO - Started process (PID=7294) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:08:32.669+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:08:32.670+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:32.670+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:08:33.488+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:33.487+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:08:33.624+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:33.624+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:08:33.962+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:08:33.973+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:33.973+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:08:34.112+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:34.112+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:08:34.141+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.478 seconds
+[2024-03-04T19:09:09.587+0530] {processor.py:161} INFO - Started process (PID=7362) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:09:09.590+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:09:09.592+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:09.592+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:09:10.391+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:10.390+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:09:10.583+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:10.583+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:09:11.036+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:09:11.330+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:11.329+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:09:11.390+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:11.390+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:09:11.452+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.870 seconds
+[2024-03-04T19:09:50.637+0530] {processor.py:161} INFO - Started process (PID=7438) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:09:50.640+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:09:50.642+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:50.642+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:09:51.918+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:51.917+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:09:52.161+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:52.161+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:09:53.043+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:09:53.094+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:53.094+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:09:53.179+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:53.178+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:09:53.251+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.621 seconds
+[2024-03-04T19:10:33.953+0530] {processor.py:161} INFO - Started process (PID=7532) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:10:33.966+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:10:33.967+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:33.967+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:10:35.252+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:35.251+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:10:35.431+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:35.430+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:10:35.868+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:10:36.197+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:36.197+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:10:36.251+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:36.251+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:10:36.343+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.394 seconds
+[2024-03-04T19:11:15.673+0530] {processor.py:161} INFO - Started process (PID=7609) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:11:15.675+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:11:15.676+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:15.675+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:11:16.771+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:16.771+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:11:16.963+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:16.963+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:11:17.464+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:11:17.480+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:17.479+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:11:17.631+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:17.631+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:11:17.744+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.074 seconds
+[2024-03-04T19:11:59.968+0530] {processor.py:161} INFO - Started process (PID=7688) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:11:59.970+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:11:59.972+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:59.971+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:12:01.621+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:01.621+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:12:01.795+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:01.795+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:12:02.578+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:12:02.720+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:02.720+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:12:02.754+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:02.753+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:12:02.864+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.903 seconds
+[2024-03-04T19:12:44.855+0530] {processor.py:161} INFO - Started process (PID=7770) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:12:44.858+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:12:44.860+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:44.859+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:12:45.948+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:45.947+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:12:46.085+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:46.085+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:12:46.621+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:12:46.636+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:46.635+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:12:46.668+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:46.668+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:12:46.707+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.858 seconds
+[2024-03-04T19:13:27.665+0530] {processor.py:161} INFO - Started process (PID=7843) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:13:27.703+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:13:27.705+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:27.704+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:13:28.707+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:28.706+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:13:28.890+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:28.890+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:13:29.342+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:13:29.572+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:29.572+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:13:29.600+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:29.600+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:13:29.653+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.992 seconds
+[2024-03-04T19:14:08.834+0530] {processor.py:161} INFO - Started process (PID=7927) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:14:08.838+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:14:08.839+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:08.839+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:14:10.218+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:10.217+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:14:10.458+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:10.458+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:14:11.033+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:14:11.047+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:11.046+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:14:11.072+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:11.072+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:14:11.102+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.280 seconds
+[2024-03-04T19:14:53.949+0530] {processor.py:161} INFO - Started process (PID=8001) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:14:53.951+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:14:53.953+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:53.952+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:14:55.153+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:55.152+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:14:55.390+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:55.390+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:14:55.897+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:14:56.156+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:56.156+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:14:56.221+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:56.221+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:14:56.304+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.359 seconds
+[2024-03-04T19:15:37.370+0530] {processor.py:161} INFO - Started process (PID=8148) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:15:37.386+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:15:37.391+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:37.387+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:15:38.709+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:38.703+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:15:38.927+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:38.927+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:15:39.641+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:15:39.653+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:39.653+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:15:39.677+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:39.676+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:15:39.749+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.394 seconds
+[2024-03-04T19:16:18.882+0530] {processor.py:161} INFO - Started process (PID=8236) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:16:18.918+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:16:18.920+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:18.919+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:16:19.856+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:19.856+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:16:20.006+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:20.005+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:16:20.449+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:16:20.535+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:20.535+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:16:20.555+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:20.555+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:16:20.604+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.737 seconds
+[2024-03-04T19:17:00.601+0530] {processor.py:161} INFO - Started process (PID=8311) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:17:00.637+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:17:00.638+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:00.638+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:17:02.018+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:02.017+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:17:02.474+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:02.473+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:17:03.616+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:17:03.667+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:03.666+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:17:03.727+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:03.727+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:17:03.784+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.187 seconds
+[2024-03-04T19:17:45.092+0530] {processor.py:161} INFO - Started process (PID=8398) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:17:45.096+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:17:45.098+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:45.097+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:17:46.235+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:46.235+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:17:46.404+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:46.404+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:17:47.262+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:17:47.394+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:47.393+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:17:47.505+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:47.505+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:17:47.626+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.539 seconds
+[2024-03-04T19:18:26.317+0530] {processor.py:161} INFO - Started process (PID=8492) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:18:26.318+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:18:26.322+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:26.321+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:18:27.459+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:27.458+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:18:27.640+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:27.640+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:18:28.673+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:18:28.704+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:28.704+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:18:28.746+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:28.746+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:18:28.822+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.509 seconds
+[2024-03-04T19:19:08.776+0530] {processor.py:161} INFO - Started process (PID=8572) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:19:08.816+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:19:08.817+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:08.816+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:19:09.907+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:09.906+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:19:10.230+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:10.230+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:19:11.440+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:19:11.700+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:11.700+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:19:11.757+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:11.754+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:19:11.852+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.081 seconds
+[2024-03-04T19:19:55.033+0530] {processor.py:161} INFO - Started process (PID=8651) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:19:55.035+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:19:55.035+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:55.035+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:19:55.816+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:55.815+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:19:55.973+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:55.973+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:19:56.616+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:19:56.685+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:56.684+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:19:56.720+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:56.720+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:19:56.748+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.718 seconds
+[2024-03-04T19:20:36.837+0530] {processor.py:161} INFO - Started process (PID=8739) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:20:36.840+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:20:36.842+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:36.841+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:20:37.674+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:37.673+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:20:37.785+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:37.784+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:20:38.179+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:20:38.271+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:38.271+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:20:38.292+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:38.291+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:20:38.402+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.569 seconds
+[2024-03-04T19:21:18.362+0530] {processor.py:161} INFO - Started process (PID=8845) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:21:18.404+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:21:18.406+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:18.405+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:21:19.511+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:19.510+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:21:19.654+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:19.653+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:21:20.416+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:21:20.426+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:20.425+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:21:20.444+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:20.443+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:21:20.471+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.137 seconds
+[2024-03-04T19:22:04.385+0530] {processor.py:161} INFO - Started process (PID=8938) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:22:04.426+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:22:04.430+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:04.429+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:22:05.999+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:05.998+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:22:06.418+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:06.418+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:22:07.649+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:22:07.985+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:07.984+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:22:08.065+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:08.064+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:22:08.158+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.777 seconds
+[2024-03-04T19:22:47.909+0530] {processor.py:161} INFO - Started process (PID=9017) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:22:47.944+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:22:47.945+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:47.944+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:22:48.831+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:48.831+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:22:48.976+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:48.976+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:22:49.371+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:22:49.386+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:49.386+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:22:49.410+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:49.410+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:22:49.569+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.666 seconds
+[2024-03-04T19:23:29.832+0530] {processor.py:161} INFO - Started process (PID=9088) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:23:29.884+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:23:29.886+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:29.885+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:23:31.322+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:31.322+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:23:31.647+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:31.637+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:23:32.617+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:23:32.774+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:32.774+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:23:32.818+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:32.818+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:23:32.869+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.041 seconds
+[2024-03-04T19:24:12.153+0530] {processor.py:161} INFO - Started process (PID=9190) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:24:12.154+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:24:12.155+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:12.155+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:24:13.173+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:13.171+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:24:13.338+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:13.338+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:24:13.804+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:24:13.814+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:13.813+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:24:13.833+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:13.832+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:24:13.860+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.711 seconds
+[2024-03-04T19:24:50.095+0530] {processor.py:161} INFO - Started process (PID=9258) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:24:50.139+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:24:50.140+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:50.140+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:24:50.946+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:50.945+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:24:51.086+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:51.086+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:24:51.556+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:24:51.650+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:51.650+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:24:51.673+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:51.673+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:24:51.710+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.620 seconds
+[2024-03-04T19:25:29.165+0530] {processor.py:161} INFO - Started process (PID=9329) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:25:29.167+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:25:29.168+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:29.167+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:25:29.938+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:29.937+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:25:30.094+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:30.094+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:25:30.622+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:25:30.659+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:30.659+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:25:30.692+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:30.692+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:25:30.724+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.562 seconds
+[2024-03-04T19:26:08.368+0530] {processor.py:161} INFO - Started process (PID=9401) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:26:08.371+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:26:08.373+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:08.372+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:26:09.154+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:09.153+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:26:09.266+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:09.265+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:26:09.728+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:26:09.818+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:09.818+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:26:09.840+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:09.840+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:26:09.898+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.536 seconds
+[2024-03-04T19:26:46.660+0530] {processor.py:161} INFO - Started process (PID=9500) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:26:46.691+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:26:46.693+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:46.692+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:26:47.501+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:47.501+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:26:47.665+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:47.665+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:26:48.153+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:26:48.166+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:48.166+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:26:48.191+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:48.191+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:26:48.220+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.564 seconds
+[2024-03-04T19:27:26.557+0530] {processor.py:161} INFO - Started process (PID=9567) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:27:26.560+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:27:26.561+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:26.560+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:27:27.681+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:27.681+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:27:27.801+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:27.800+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:27:28.305+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:27:28.391+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:28.390+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:27:28.412+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:28.412+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:57:00+00:00
+[2024-03-04T19:27:28.442+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.889 seconds
+[2024-03-04T19:28:09.047+0530] {processor.py:161} INFO - Started process (PID=9685) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:28:09.049+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:28:09.050+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:09.050+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:28:09.941+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:09.940+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:28:10.099+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:10.099+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:28:10.553+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:28:10.568+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:10.568+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:28:10.594+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:10.594+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:57:00+00:00
+[2024-03-04T19:28:10.846+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 1.803 seconds
+[2024-03-04T19:28:54.975+0530] {processor.py:161} INFO - Started process (PID=9776) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:28:54.977+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T19:28:54.979+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:54.979+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:28:56.728+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:56.728+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:28:57.111+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:57.110+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:28:58.412+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T19:28:58.871+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:58.870+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:28:58.911+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:58.911+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:57:00+00:00
+[2024-03-04T19:28:58.997+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.027 seconds
+[2024-03-04T22:41:08.402+0530] {processor.py:161} INFO - Started process (PID=17367) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:41:08.448+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:41:08.454+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:08.451+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:41:10.547+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:41:13.392+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:13.391+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:41:13.708+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:13.708+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:41:13.923+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:41:13.940+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:13.939+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:41:13.991+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:13.991+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:06:00+00:00, run_after=2024-03-04 17:09:00+00:00
+[2024-03-04T22:41:14.053+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.683 seconds
+[2024-03-04T22:43:50.093+0530] {processor.py:161} INFO - Started process (PID=17582) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:43:50.116+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:43:50.118+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:43:50.117+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:43:53.709+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [2024-03-04T22:51:23.596+0530] {processor.py:161} INFO - Started process (PID=5099) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:51:23.641+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:51:23.645+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:23.643+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:51:25.268+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:51:27.711+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:27.711+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:51:27.944+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:27.943+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:51:28.191+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:51:28.203+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:28.203+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:51:28.246+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:28.245+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:18:00+00:00, run_after=2024-03-04 17:21:00+00:00
+[2024-03-04T22:51:28.298+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.751 seconds
+[2024-03-04T22:53:25.995+0530] {processor.py:161} INFO - Started process (PID=5297) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:53:26.010+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:53:26.012+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:53:26.011+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:53:28.277+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:53:33.121+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:53:33.121+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:53:33.547+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:53:33.547+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:53:33.942+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:53:34.240+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:53:34.239+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:53:34.316+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:53:34.316+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:21:00+00:00, run_after=2024-03-04 17:24:00+00:00
+[2024-03-04T22:53:34.600+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 8.611 seconds
+[2024-03-04T22:54:49.561+0530] {processor.py:161} INFO - Started process (PID=5588) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:54:49.607+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:54:49.609+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:54:49.608+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:54:50.796+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:54:54.288+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:54:54.288+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:54:54.685+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:54:54.684+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:54:54.975+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:54:55.016+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:54:55.016+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:54:55.060+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:54:55.060+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:21:00+00:00, run_after=2024-03-04 17:24:00+00:00
+[2024-03-04T22:54:55.251+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.697 seconds
+[2024-03-04T22:56:32.300+0530] {processor.py:161} INFO - Started process (PID=5679) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:56:32.379+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:56:32.383+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:32.380+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:56:33.601+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:56:37.124+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:37.123+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:56:37.416+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:37.416+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:56:37.690+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:56:37.907+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:37.906+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:56:37.978+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:37.978+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:21:00+00:00, run_after=2024-03-04 17:24:00+00:00
+[2024-03-04T22:56:38.057+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.773 seconds
+[2024-03-04T22:57:37.292+0530] {processor.py:161} INFO - Started process (PID=5751) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:57:37.373+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:57:37.381+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:37.379+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:57:38.958+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:57:44.347+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:44.346+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:57:44.903+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:44.898+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:57:45.303+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:57:45.459+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:45.458+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:57:45.537+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:45.536+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:24:00+00:00, run_after=2024-03-04 17:27:00+00:00
+[2024-03-04T22:57:45.746+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 8.464 seconds
+[2024-03-04T22:58:41.307+0530] {processor.py:161} INFO - Started process (PID=5819) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:58:41.323+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:58:41.328+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:41.324+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:58:42.594+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:58:45.969+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:45.968+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:58:46.284+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:46.280+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:58:46.584+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:58:46.782+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:46.781+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:58:46.849+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:46.849+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:24:00+00:00, run_after=2024-03-04 17:27:00+00:00
+[2024-03-04T22:58:47.046+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.746 seconds
+[2024-03-04T22:59:42.256+0530] {processor.py:161} INFO - Started process (PID=5879) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:59:42.263+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T22:59:42.264+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:42.264+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:59:43.885+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:59:46.120+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:46.120+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:59:46.356+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:46.355+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:59:46.650+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T22:59:46.665+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:46.665+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:59:46.687+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:46.687+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:24:00+00:00, run_after=2024-03-04 17:27:00+00:00
+[2024-03-04T22:59:46.738+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.495 seconds
+[2024-03-04T23:00:30.457+0530] {processor.py:161} INFO - Started process (PID=5975) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:00:30.500+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:00:30.502+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:30.501+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:00:31.401+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:00:33.761+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:33.760+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:00:33.902+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:33.902+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:00:34.046+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:00:34.171+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:34.170+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:00:34.208+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:34.207+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:00:34.302+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.853 seconds
+[2024-03-04T23:01:14.934+0530] {processor.py:161} INFO - Started process (PID=6036) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:01:14.936+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:01:14.937+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:14.937+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:01:15.563+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:01:17.406+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:17.405+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:01:17.571+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:17.571+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:01:17.716+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:01:17.729+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:17.729+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:01:17.753+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:17.753+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:01:17.782+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.852 seconds
+[2024-03-04T23:01:56.716+0530] {processor.py:161} INFO - Started process (PID=6094) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:01:56.721+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:01:56.723+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:56.723+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:01:57.309+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:01:58.940+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:58.939+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:01:59.092+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:59.091+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:01:59.259+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:01:59.339+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:59.339+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:01:59.355+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:59.355+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:01:59.382+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.669 seconds
+[2024-03-04T23:02:40.243+0530] {processor.py:161} INFO - Started process (PID=6176) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:02:40.245+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:02:40.246+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:40.246+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:02:40.939+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:02:42.596+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:42.595+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:02:42.733+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:42.733+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:02:42.877+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:02:42.892+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:42.891+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:02:42.915+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:42.915+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:02:42.945+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.706 seconds
+[2024-03-04T23:03:28.700+0530] {processor.py:161} INFO - Started process (PID=6635) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:03:28.723+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:03:28.725+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:28.724+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:03:30.150+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:03:33.859+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:33.858+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:03:34.178+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:34.178+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:03:34.319+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:03:34.492+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:34.491+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:03:34.526+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:34.526+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:33:00+00:00
+[2024-03-04T23:03:34.757+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 6.063 seconds
+[2024-03-04T23:04:28.071+0530] {processor.py:161} INFO - Started process (PID=6729) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:04:28.126+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:04:28.132+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:28.127+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:04:29.258+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:04:31.197+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:31.196+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:04:31.347+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:31.347+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:04:31.487+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:04:31.497+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:31.497+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:04:31.514+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:31.514+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:33:00+00:00
+[2024-03-04T23:04:31.562+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.504 seconds
+[2024-03-04T23:05:22.710+0530] {processor.py:161} INFO - Started process (PID=6819) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:05:22.979+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:05:22.983+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:22.981+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:05:25.315+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:05:29.207+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:29.204+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:05:29.544+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:29.544+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:05:29.742+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:05:29.920+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:29.919+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:05:29.953+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:29.953+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:33:00+00:00
+[2024-03-04T23:05:30.293+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 7.613 seconds
+[2024-03-04T23:06:18.590+0530] {processor.py:161} INFO - Started process (PID=6931) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:06:18.620+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:06:18.636+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:18.635+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:06:19.392+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:06:21.081+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:21.080+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:06:21.210+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:21.210+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:06:21.340+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:06:21.353+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:21.353+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:06:21.374+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:21.374+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:06:21.443+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.861 seconds
+[2024-03-04T23:07:05.708+0530] {processor.py:161} INFO - Started process (PID=7032) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:07:05.711+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:07:05.714+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:05.713+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:07:06.541+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:07:08.168+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:08.168+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:07:08.318+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:08.318+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:07:08.456+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:07:08.546+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:08.546+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:07:08.566+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:08.566+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:07:08.648+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.944 seconds
+[2024-03-04T23:07:48.916+0530] {processor.py:161} INFO - Started process (PID=7134) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:07:48.918+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:07:48.920+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:48.919+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:07:50.006+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:07:52.104+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:52.103+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:07:52.517+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:52.517+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:07:52.758+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:07:52.777+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:52.777+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:07:52.842+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:52.842+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:07:52.979+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.067 seconds
+[2024-03-04T23:08:33.448+0530] {processor.py:161} INFO - Started process (PID=7220) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:08:33.467+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:08:33.468+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:33.468+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:08:35.050+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:08:37.101+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:37.099+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:08:37.443+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:37.442+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:08:37.649+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:08:37.942+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:37.942+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:08:37.970+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:37.969+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:08:37.999+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.568 seconds
+[2024-03-04T23:09:19.689+0530] {processor.py:161} INFO - Started process (PID=7301) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:09:19.693+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:09:19.696+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:19.695+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:09:20.849+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:09:22.552+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:22.552+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:09:22.712+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:22.711+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:09:22.868+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:09:22.885+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:22.884+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:09:22.915+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:22.915+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:09:22.959+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.281 seconds
+[2024-03-04T23:10:04.053+0530] {processor.py:161} INFO - Started process (PID=7398) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:10:04.090+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:10:04.093+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:04.092+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:10:05.322+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:10:07.149+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:07.148+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:10:07.328+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:07.328+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:10:07.481+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:10:07.577+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:07.577+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:10:07.597+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:07.597+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:10:07.655+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.616 seconds
+[2024-03-04T23:10:49.541+0530] {processor.py:161} INFO - Started process (PID=7480) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:10:49.543+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:10:49.545+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:49.544+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:10:50.416+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:10:51.927+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:51.926+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:10:52.094+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:52.094+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:10:52.253+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:10:52.267+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:52.267+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:10:52.289+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:52.288+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:10:52.314+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.777 seconds
+[2024-03-04T23:11:30.694+0530] {processor.py:161} INFO - Started process (PID=7574) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:11:30.709+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:11:30.714+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:30.713+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:11:31.776+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:11:34.151+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:34.150+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:11:34.283+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:34.282+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:11:34.405+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:11:34.650+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:34.650+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:11:34.673+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:34.672+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:11:34.776+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.088 seconds
+[2024-03-04T23:12:22.513+0530] {processor.py:161} INFO - Started process (PID=7700) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:12:22.515+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:12:22.517+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:22.516+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:12:23.499+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:12:26.085+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:26.085+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:12:26.439+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:26.438+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:12:26.657+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:12:26.684+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:26.683+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:12:26.720+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:26.719+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:39:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:12:26.752+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.244 seconds
+[2024-03-04T23:13:16.548+0530] {processor.py:161} INFO - Started process (PID=7809) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:13:16.581+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:13:16.582+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:16.581+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:13:17.947+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:13:20.092+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:20.092+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:13:20.260+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:20.260+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:13:20.432+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:13:20.717+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:20.717+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:13:20.748+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:20.748+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:39:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:13:20.872+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.328 seconds
+[2024-03-04T23:14:03.284+0530] {processor.py:161} INFO - Started process (PID=7936) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:14:03.286+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:14:03.288+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:03.287+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:14:04.116+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:14:05.844+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:05.843+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:14:06.438+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:06.438+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:14:06.954+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:14:07.003+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:07.002+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:14:07.420+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:07.419+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:39:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:14:07.519+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.240 seconds
+[2024-03-04T23:14:50.777+0530] {processor.py:161} INFO - Started process (PID=8031) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:14:50.782+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:14:50.784+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:50.783+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:14:51.870+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:14:54.102+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:54.102+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:14:54.259+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:54.259+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:14:54.475+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:14:54.784+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:54.783+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:14:54.804+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:54.803+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:39:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:14:54.838+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.066 seconds
+[2024-03-04T23:15:40.830+0530] {processor.py:161} INFO - Started process (PID=8128) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:15:40.868+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:15:40.870+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:40.869+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:15:42.141+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:15:44.014+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:44.014+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:15:44.161+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:44.161+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:15:44.404+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:15:44.435+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:44.434+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:15:44.492+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:44.492+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:45:00+00:00
+[2024-03-04T23:15:44.618+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.806 seconds
+[2024-03-04T23:16:30.163+0530] {processor.py:161} INFO - Started process (PID=8244) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:16:30.247+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:16:30.249+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:30.248+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:16:32.624+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:16:37.961+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:37.956+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:16:38.983+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:38.980+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:16:40.032+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:16:40.503+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:40.502+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:16:40.587+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:40.587+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:45:00+00:00
+[2024-03-04T23:16:40.801+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 10.699 seconds
+[2024-03-04T23:17:38.784+0530] {processor.py:161} INFO - Started process (PID=8368) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:17:38.861+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:17:38.862+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:38.861+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:17:39.773+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:17:41.620+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:41.619+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:17:41.779+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:41.779+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:17:41.934+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:17:41.949+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:41.948+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:17:42.099+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:42.098+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:45:00+00:00
+[2024-03-04T23:17:42.129+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.351 seconds
+[2024-03-04T23:18:27.697+0530] {processor.py:161} INFO - Started process (PID=8464) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:18:27.703+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:18:27.705+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:27.704+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:18:29.014+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:18:32.121+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:32.119+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:18:32.418+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:32.418+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:18:32.570+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:18:32.821+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:32.821+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:18:32.841+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:32.840+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:18:32.949+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.258 seconds
+[2024-03-04T23:19:14.179+0530] {processor.py:161} INFO - Started process (PID=8551) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:19:14.180+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:19:14.181+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:14.181+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:19:15.013+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:19:16.485+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:16.484+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:19:16.720+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:16.719+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:19:17.050+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:19:17.079+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:17.079+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:19:17.112+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:17.112+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:19:17.285+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.111 seconds
+[2024-03-04T23:20:00.387+0530] {processor.py:161} INFO - Started process (PID=8662) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:20:00.389+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:20:00.391+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:00.390+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:20:01.130+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:20:02.660+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:02.659+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:20:02.820+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:02.820+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:20:03.096+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:20:03.220+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:03.219+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:20:03.244+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:03.243+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:20:03.339+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.958 seconds
+[2024-03-04T23:20:49.149+0530] {processor.py:161} INFO - Started process (PID=8751) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:20:49.192+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:20:49.206+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:49.205+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:20:50.442+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:20:52.495+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:52.495+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:20:52.761+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:52.760+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:20:53.205+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:20:53.222+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:53.222+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:20:53.289+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:53.289+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:20:53.364+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.222 seconds
+[2024-03-04T23:21:34.567+0530] {processor.py:161} INFO - Started process (PID=8849) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:21:34.643+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:21:34.647+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:34.644+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:21:35.822+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:21:41.255+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:41.253+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:21:41.787+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:41.786+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:21:42.495+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:21:42.802+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:42.801+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:21:42.827+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:42.826+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:51:00+00:00
+[2024-03-04T23:21:42.862+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 8.299 seconds
+[2024-03-04T23:22:28.139+0530] {processor.py:161} INFO - Started process (PID=8960) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:22:28.179+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:22:28.180+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:28.179+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:22:29.484+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:22:34.160+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:34.159+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:22:34.787+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:34.786+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:22:35.575+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:22:35.595+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:35.594+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:22:35.640+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:35.640+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:51:00+00:00
+[2024-03-04T23:22:35.744+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 7.609 seconds
+[2024-03-04T23:23:31.236+0530] {processor.py:161} INFO - Started process (PID=9176) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:23:31.248+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:23:31.254+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:31.253+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:23:33.167+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:23:36.790+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:36.789+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:23:37.231+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:37.228+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:23:37.934+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:23:38.140+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:38.140+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:23:38.188+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:38.187+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:51:00+00:00
+[2024-03-04T23:23:38.401+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 7.190 seconds
+[2024-03-04T23:24:37.820+0530] {processor.py:161} INFO - Started process (PID=9300) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:24:37.853+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:24:37.855+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:37.854+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:24:40.065+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:24:44.713+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:44.713+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:24:45.043+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:45.043+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:24:45.819+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:24:45.860+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:45.859+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:24:45.904+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:45.903+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:51:00+00:00, run_after=2024-03-04 17:54:00+00:00
+[2024-03-04T23:24:46.108+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 8.313 seconds
+[2024-03-04T23:26:01.132+0530] {processor.py:161} INFO - Started process (PID=9786) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:26:01.169+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:26:01.171+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:01.170+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:26:03.543+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:26:08.357+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:08.356+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:26:09.036+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:09.036+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:26:09.410+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:26:09.673+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:09.673+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:26:09.712+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:09.712+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:51:00+00:00, run_after=2024-03-04 17:54:00+00:00
+[2024-03-04T23:26:09.899+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 8.778 seconds
+[2024-03-04T23:27:16.329+0530] {processor.py:161} INFO - Started process (PID=10251) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:27:16.405+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:27:16.407+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:16.406+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:27:17.415+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:27:19.981+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:19.981+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:27:20.252+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:20.252+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:27:20.701+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:27:20.724+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:20.723+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:27:20.825+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:20.824+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:27:20.869+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 4.546 seconds
+[2024-03-04T23:28:11.381+0530] {processor.py:161} INFO - Started process (PID=10322) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:28:11.399+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:28:11.403+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:11.402+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:28:12.598+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:28:14.319+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:14.319+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:28:14.461+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:14.461+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:28:14.787+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:28:14.891+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:14.890+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:28:14.912+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:14.912+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:28:14.979+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.623 seconds
+[2024-03-04T23:28:58.542+0530] {processor.py:161} INFO - Started process (PID=10412) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:28:58.560+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:28:58.562+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:58.561+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:28:59.348+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:29:01.176+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:01.175+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:29:01.473+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:01.473+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:29:01.621+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:29:01.633+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:01.633+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:29:01.650+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:01.650+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:29:01.681+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.150 seconds
+[2024-03-04T23:29:41.959+0530] {processor.py:161} INFO - Started process (PID=10503) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:29:42.049+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:29:42.050+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:42.050+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:29:43.598+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:29:46.147+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:46.146+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:29:46.554+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:46.554+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:29:46.793+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:29:47.290+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:47.289+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:29:47.337+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:47.337+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:29:47.505+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.549 seconds
+[2024-03-04T23:30:39.619+0530] {processor.py:161} INFO - Started process (PID=10697) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:30:39.716+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:30:39.728+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:39.726+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:30:41.727+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:30:45.371+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:45.370+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:30:46.091+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:46.091+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:30:46.447+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:30:46.479+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:46.479+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:30:46.513+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:46.513+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:57:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:30:46.664+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 7.055 seconds
+[2024-03-04T23:31:39.470+0530] {processor.py:161} INFO - Started process (PID=10819) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:31:39.513+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:31:39.514+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:39.514+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:31:40.282+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:31:42.013+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:42.013+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:31:42.346+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:42.345+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:31:42.508+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:31:42.638+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:42.638+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:31:42.666+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:42.666+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:57:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:31:42.705+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.239 seconds
+[2024-03-04T23:32:37.476+0530] {processor.py:161} INFO - Started process (PID=10926) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:32:37.479+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:32:37.481+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:37.481+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:32:38.583+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:32:40.285+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:40.285+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:32:40.626+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:40.626+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:32:40.897+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:32:40.917+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:40.917+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:32:40.952+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:40.952+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:57:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:32:41.034+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.564 seconds
+[2024-03-04T23:33:26.837+0530] {processor.py:161} INFO - Started process (PID=11023) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:33:26.841+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:33:26.844+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:26.843+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:33:28.140+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:33:31.197+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:31.197+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:33:31.621+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:31.621+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:33:31.801+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:33:31.906+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:31.906+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:33:31.928+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:31.927+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:03:00+00:00
+[2024-03-04T23:33:31.968+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 5.138 seconds
+[2024-03-04T23:34:16.138+0530] {processor.py:161} INFO - Started process (PID=11117) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:34:16.139+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:34:16.141+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:16.140+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:34:16.892+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:34:18.400+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:18.400+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:34:18.725+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:18.725+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:34:18.854+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:34:18.864+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:18.864+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:34:18.880+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:18.880+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:03:00+00:00
+[2024-03-04T23:34:18.907+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.773 seconds
+[2024-03-04T23:35:04.343+0530] {processor.py:161} INFO - Started process (PID=11205) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:35:04.386+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:35:04.388+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:04.387+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:35:05.179+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:35:06.652+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:06.652+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:35:06.926+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:06.926+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:35:07.072+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:35:07.253+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:07.253+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:35:07.277+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:07.277+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:03:00+00:00
+[2024-03-04T23:35:07.318+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 2.980 seconds
+[2024-03-04T23:35:52.975+0530] {processor.py:161} INFO - Started process (PID=11288) to work on /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:35:52.978+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/Analytics_data.py for tasks to queue
+[2024-03-04T23:35:52.979+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:52.978+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:35:53.860+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:35:55.472+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:55.471+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:35:55.745+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:55.744+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:35:55.924+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/Analytics_data.py
+[2024-03-04T23:35:55.941+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:55.941+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:35:55.967+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:55.967+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:03:00+00:00
+[2024-03-04T23:35:55.999+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/Analytics_data.py took 3.029 seconds

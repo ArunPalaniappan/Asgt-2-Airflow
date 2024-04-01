@@ -1,0 +1,13 @@
+[2024-03-01T16:42:34.169+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datapipeline_Take4.fetch_csvs_from_urls scheduled__2024-03-01T11:10:00+00:00 [queued]>
+[2024-03-01T16:42:34.179+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datapipeline_Take4.fetch_csvs_from_urls scheduled__2024-03-01T11:10:00+00:00 [queued]>
+[2024-03-01T16:42:34.180+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-01T16:42:34.212+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_csvs_from_urls> on 2024-03-01 11:10:00+00:00
+[2024-03-01T16:42:34.220+0530] {standard_task_runner.py:60} INFO - Started process 23752 to run task
+[2024-03-01T16:42:34.225+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'datapipeline_Take4', 'fetch_csvs_from_urls', 'scheduled__2024-03-01T11:10:00+00:00', '--job-id', '147', '--raw', '--subdir', 'DAGS_FOLDER/datapipeline_best(2).py', '--cfg-path', '/tmp/tmp_tfgl0g5']
+[2024-03-01T16:42:34.230+0530] {standard_task_runner.py:88} INFO - Job 147: Subtask fetch_csvs_from_urls
+[2024-03-01T16:42:34.403+0530] {task_command.py:423} INFO - Running <TaskInstance: datapipeline_Take4.fetch_csvs_from_urls scheduled__2024-03-01T11:10:00+00:00 [running]> on host arun-VM
+[2024-03-01T16:42:34.519+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='datapipeline_Take4' AIRFLOW_CTX_TASK_ID='fetch_csvs_from_urls' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T11:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-01T11:10:00+00:00'
+[2024-03-01T16:42:35.024+0530] {python.py:201} INFO - Done. Returned value was: None
+[2024-03-01T16:42:35.031+0530] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=datapipeline_Take4, task_id=fetch_csvs_from_urls, execution_date=20240301T111000, start_date=20240301T111234, end_date=20240301T111235
+[2024-03-01T16:42:35.110+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-01T16:42:35.133+0530] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

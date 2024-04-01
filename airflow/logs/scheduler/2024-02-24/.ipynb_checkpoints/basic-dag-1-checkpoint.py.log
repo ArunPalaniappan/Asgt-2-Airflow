@@ -1,0 +1,168 @@
+[2024-02-24T23:41:25.072+0530] {processor.py:161} INFO - Started process (PID=41798) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:41:25.075+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:41:25.080+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:41:25.077+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:41:25.115+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:41:25.103+0530] {dagbag.py:348} ERROR - Failed to import: /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py", line 27, in <module>
+    start_date=datetime(2024, 2, 24, 24),
+ValueError: hour must be in 0..23
+[2024-02-24T23:41:25.119+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:41:25.181+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.138 seconds
+[2024-02-24T23:41:56.565+0530] {processor.py:161} INFO - Started process (PID=41829) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:41:56.569+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:41:56.572+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:41:56.570+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:41:56.579+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:41:56.577+0530] {dagbag.py:348} ERROR - Failed to import: /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py", line 27, in <module>
+    start_date=datetime(2024, 2, 24, 24),
+ValueError: hour must be in 0..23
+[2024-02-24T23:41:56.580+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:41:56.632+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.074 seconds
+[2024-02-24T23:42:31.932+0530] {processor.py:161} INFO - Started process (PID=41859) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:42:31.936+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:42:31.938+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:42:31.937+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:42:31.945+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:42:31.943+0530] {dagbag.py:348} ERROR - Failed to import: /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py", line 27, in <module>
+    start_date=datetime(2024, 2, 24, 24),
+ValueError: hour must be in 0..23
+[2024-02-24T23:42:31.946+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:42:32.027+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.106 seconds
+[2024-02-24T23:43:08.595+0530] {processor.py:161} INFO - Started process (PID=41895) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:43:08.606+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:43:08.608+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:43:08.607+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:43:08.613+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:43:08.611+0530] {dagbag.py:348} ERROR - Failed to import: /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py", line 27, in <module>
+    start_date=datetime(2024, 2, 24, 24),
+ValueError: hour must be in 0..23
+[2024-02-24T23:43:08.613+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:43:08.685+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.094 seconds
+[2024-02-24T23:43:43.391+0530] {processor.py:161} INFO - Started process (PID=41978) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:43:43.517+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:43:43.518+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:43:43.518+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:43:43.531+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:43:43.526+0530] {dagbag.py:348} ERROR - Failed to import: /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py", line 27, in <module>
+    start_date=datetime(2024, 2, 24, 24),
+ValueError: hour must be in 0..23
+[2024-02-24T23:43:43.535+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:43:43.616+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.237 seconds
+[2024-02-24T23:44:23.378+0530] {processor.py:161} INFO - Started process (PID=42037) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:44:23.412+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:44:23.413+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:44:23.412+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:44:23.417+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:44:23.416+0530] {dagbag.py:348} ERROR - Failed to import: /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py", line 27, in <module>
+    start_date=datetime(2024, 2, 24, 24),
+ValueError: hour must be in 0..23
+[2024-02-24T23:44:23.417+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:44:23.456+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.082 seconds
+[2024-02-24T23:44:58.753+0530] {processor.py:161} INFO - Started process (PID=42110) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:44:58.756+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:44:58.757+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:44:58.757+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:44:58.769+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:44:58.780+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:44:58.780+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:44:58.821+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:44:58.821+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:44:59.018+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.270 seconds
+[2024-02-24T23:46:05.946+0530] {processor.py:161} INFO - Started process (PID=42210) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:46:05.948+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:46:05.950+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:46:05.949+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:46:05.968+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:46:05.982+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:46:05.982+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:46:06.020+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:46:06.019+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:46:06.074+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.133 seconds
+[2024-02-24T23:47:23.164+0530] {processor.py:161} INFO - Started process (PID=42283) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:47:23.167+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:47:23.169+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:47:23.168+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:47:23.188+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:47:23.203+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:47:23.202+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:47:23.245+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:47:23.245+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:47:23.296+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.137 seconds
+[2024-02-24T23:48:38.108+0530] {processor.py:161} INFO - Started process (PID=42407) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:48:38.170+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:48:38.182+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:48:38.179+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:48:38.200+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:48:38.218+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:48:38.218+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:48:38.272+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:48:38.272+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:48:38.416+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.318 seconds
+[2024-02-24T23:49:41.398+0530] {processor.py:161} INFO - Started process (PID=42490) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:49:41.444+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:49:41.445+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:49:41.444+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:49:41.456+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:49:41.910+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:49:41.909+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:49:41.929+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:49:41.928+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:49:41.967+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.576 seconds
+[2024-02-24T23:50:33.221+0530] {processor.py:161} INFO - Started process (PID=42552) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:50:33.259+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:50:33.261+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:50:33.260+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:50:33.272+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:50:33.282+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:50:33.282+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:50:33.313+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:50:33.312+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:50:33.358+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.142 seconds
+[2024-02-24T23:51:07.842+0530] {processor.py:161} INFO - Started process (PID=42661) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:51:07.844+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:51:07.845+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:51:07.845+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:51:07.869+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:51:08.477+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:51:08.476+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:51:08.535+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:51:08.535+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:51:08.761+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.925 seconds
+[2024-02-24T23:51:40.360+0530] {processor.py:161} INFO - Started process (PID=42745) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:51:40.402+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:51:40.403+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:51:40.403+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:51:40.418+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:51:40.432+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:51:40.431+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:51:40.465+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:51:40.465+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:51:40.505+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.148 seconds
+[2024-02-24T23:52:35.658+0530] {processor.py:161} INFO - Started process (PID=42862) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:52:35.699+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:52:35.701+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:52:35.700+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:52:35.714+0530] {processor.py:840} INFO - DAG(s) 'our_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:52:35.858+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:52:35.858+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:52:35.915+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:52:35.914+0530] {dag.py:3823} INFO - Setting next_dagrun for our_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:52:35.951+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.297 seconds
+[2024-02-24T23:53:40.582+0530] {processor.py:161} INFO - Started process (PID=42993) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:53:40.627+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:53:40.628+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:53:40.628+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:53:40.651+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:53:40.675+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:53:40.675+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:53:40.722+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:53:40.722+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:53:40.852+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.276 seconds
+[2024-02-24T23:54:17.364+0530] {processor.py:161} INFO - Started process (PID=43044) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:54:17.366+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:54:17.368+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:54:17.368+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:54:17.410+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:54:17.858+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:54:17.857+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:54:17.931+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:54:17.930+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:54:18.178+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.832 seconds
+[2024-02-24T23:54:49.824+0530] {processor.py:161} INFO - Started process (PID=43076) to work on /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:54:49.826+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py for tasks to queue
+[2024-02-24T23:54:49.827+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:54:49.827+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:54:49.838+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py
+[2024-02-24T23:54:49.847+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:54:49.847+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T23:54:49.872+0530] {logging_mixin.py:188} INFO - [2024-02-24T23:54:49.872+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-24T23:54:49.922+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/basic-dag-1-checkpoint.py took 0.103 seconds

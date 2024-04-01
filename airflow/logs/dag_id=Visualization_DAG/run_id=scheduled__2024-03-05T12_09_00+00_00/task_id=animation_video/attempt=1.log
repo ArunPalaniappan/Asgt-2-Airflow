@@ -1,0 +1,45 @@
+[2024-03-05T18:05:07.803+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Visualization_DAG.animation_video scheduled__2024-03-05T12:09:00+00:00 [queued]>
+[2024-03-05T18:05:07.821+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Visualization_DAG.animation_video scheduled__2024-03-05T12:09:00+00:00 [queued]>
+[2024-03-05T18:05:07.821+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-05T18:05:07.881+0530] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): animation_video> on 2024-03-05 12:09:00+00:00
+[2024-03-05T18:05:07.915+0530] {standard_task_runner.py:60} INFO - Started process 13743 to run task
+[2024-03-05T18:05:07.924+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Visualization_DAG', 'animation_video', 'scheduled__2024-03-05T12:09:00+00:00', '--job-id', '319', '--raw', '--subdir', 'DAGS_FOLDER/Analytics_data.py', '--cfg-path', '/tmp/tmpazu81u6t']
+[2024-03-05T18:05:07.925+0530] {standard_task_runner.py:88} INFO - Job 319: Subtask animation_video
+[2024-03-05T18:05:08.030+0530] {task_command.py:423} INFO - Running <TaskInstance: Visualization_DAG.animation_video scheduled__2024-03-05T12:09:00+00:00 [running]> on host arun-VM
+[2024-03-05T18:05:08.179+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='Visualization_DAG' AIRFLOW_CTX_TASK_ID='animation_video' AIRFLOW_CTX_EXECUTION_DATE='2024-03-05T12:09:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-05T12:09:00+00:00'
+[2024-03-05T18:05:08.181+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-05T18:05:08.182+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'ffmpeg -framerate 1 -i /home/arun/airflow/dags/images_folder/Average_Dry_Bulb_Temperature-month-%d.png -c:v libx264 -preset slow -crf 20 /home/arun/airflow/dags/videos_folder/Animation_Dry_Bulb_Temperature.mp4 ; ffmpeg -framerate 1 -i /home/arun/airflow/dags/images_folder/Average_Wind_Speed-month-%d.png -c:v libx264 -preset slow -crf 20 /home/arun/airflow/dags/videos_folder/Average_Wind_Speed.mp4']
+[2024-03-05T18:05:08.203+0530] {subprocess.py:86} INFO - Output:
+[2024-03-05T18:05:08.636+0530] {subprocess.py:93} INFO - ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+[2024-03-05T18:05:08.636+0530] {subprocess.py:93} INFO -   built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+[2024-03-05T18:05:08.636+0530] {subprocess.py:93} INFO -   configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+[2024-03-05T18:05:08.637+0530] {subprocess.py:93} INFO -   libavutil      56. 70.100 / 56. 70.100
+[2024-03-05T18:05:08.637+0530] {subprocess.py:93} INFO -   libavcodec     58.134.100 / 58.134.100
+[2024-03-05T18:05:08.637+0530] {subprocess.py:93} INFO -   libavformat    58. 76.100 / 58. 76.100
+[2024-03-05T18:05:08.637+0530] {subprocess.py:93} INFO -   libavdevice    58. 13.100 / 58. 13.100
+[2024-03-05T18:05:08.638+0530] {subprocess.py:93} INFO -   libavfilter     7.110.100 /  7.110.100
+[2024-03-05T18:05:08.638+0530] {subprocess.py:93} INFO -   libswscale      5.  9.100 /  5.  9.100
+[2024-03-05T18:05:08.639+0530] {subprocess.py:93} INFO -   libswresample   3.  9.100 /  3.  9.100
+[2024-03-05T18:05:08.639+0530] {subprocess.py:93} INFO -   libpostproc    55.  9.100 / 55.  9.100
+[2024-03-05T18:05:08.719+0530] {subprocess.py:93} INFO - Input #0, image2, from '/home/arun/airflow/dags/images_folder/Average_Dry_Bulb_Temperature-month-%d.png':
+[2024-03-05T18:05:08.720+0530] {subprocess.py:93} INFO -   Duration: 00:00:12.00, start: 0.000000, bitrate: N/A
+[2024-03-05T18:05:08.720+0530] {subprocess.py:93} INFO -   Stream #0:0: Video: png, rgba(pc), 2000x2000 [SAR 3937:3937 DAR 1:1], 1 fps, 1 tbr, 1 tbn, 1 tbc
+[2024-03-05T18:47:31.655+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 13743. PIDs of all processes in the group: [13744, 13745, 13743]
+[2024-03-05T18:47:31.732+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 13743
+[2024-03-05T18:47:31.739+0530] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-03-05T18:47:31.747+0530] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2024-03-05T18:47:31.959+0530] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 203, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-03-05T18:47:32.210+0530] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=Visualization_DAG, task_id=animation_video, execution_date=20240305T120900, start_date=20240305T123507, end_date=20240305T131732
+[2024-03-05T18:47:32.405+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 319 for task animation_video (Task received SIGTERM signal; 13743)
+[2024-03-05T18:47:32.529+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13744, status='terminated', started='18:05:07') (13744) terminated with exit code None
+[2024-03-05T18:47:32.899+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13743, status='terminated', exitcode=1, started='18:05:07') (13743) terminated with exit code 1

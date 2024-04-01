@@ -1,0 +1,1302 @@
+[2024-02-25T09:46:17.952+0530] {processor.py:161} INFO - Started process (PID=44149) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:46:17.979+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:46:17.993+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:46:17.988+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:46:18.061+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:46:18.050+0530] {dagbag.py:348} ERROR - Failed to import: /home/arun/airflow/dags/first-dag-1.py
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/arun/airflow/dags/first-dag-1.py", line 27
+    start_date=datetime(2024, 2, 25, 10),s
+                                         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-02-25T09:46:18.065+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:46:18.759+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.912 seconds
+[2024-02-25T09:47:06.674+0530] {processor.py:161} INFO - Started process (PID=44505) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:47:06.757+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:47:06.770+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:47:06.764+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:47:06.943+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:47:07.092+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:47:07.091+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:47:07.343+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:47:07.342+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:47:07.567+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.974 seconds
+[2024-02-25T09:50:19.297+0530] {processor.py:161} INFO - Started process (PID=45054) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:50:19.371+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:50:19.372+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:50:19.372+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:50:19.473+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:50:20.135+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:50:20.135+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:50:20.211+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:50:20.211+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:50:20.783+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.556 seconds
+[2024-02-25T09:51:56.485+0530] {processor.py:161} INFO - Started process (PID=45118) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:51:56.559+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:51:56.563+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:51:56.561+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:51:56.662+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:51:57.014+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:51:57.014+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:51:57.491+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:51:57.491+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:51:57.764+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.356 seconds
+[2024-02-25T09:53:17.950+0530] {processor.py:161} INFO - Started process (PID=45187) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:53:18.009+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:53:18.012+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:53:18.011+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:53:18.079+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:53:18.429+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:53:18.428+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:53:18.478+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:53:18.477+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:53:18.707+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.774 seconds
+[2024-02-25T09:54:30.836+0530] {processor.py:161} INFO - Started process (PID=45248) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:54:30.856+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:54:30.857+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:54:30.857+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:54:30.886+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:54:30.945+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:54:30.942+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:54:31.085+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:54:31.085+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:54:31.461+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.632 seconds
+[2024-02-25T09:55:37.074+0530] {processor.py:161} INFO - Started process (PID=45285) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:55:38.494+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:55:38.496+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:55:38.495+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:55:38.522+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:55:38.797+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:55:38.797+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:55:38.859+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:55:38.859+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:55:39.150+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 2.081 seconds
+[2024-02-25T09:56:44.945+0530] {processor.py:161} INFO - Started process (PID=45338) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:56:44.947+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:56:44.949+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:56:44.948+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:56:44.962+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:56:45.069+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:56:45.068+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:56:45.460+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:56:45.457+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:56:45.767+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.829 seconds
+[2024-02-25T09:57:49.200+0530] {processor.py:161} INFO - Started process (PID=45382) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:57:49.249+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:57:49.251+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:57:49.250+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:57:49.289+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:57:49.513+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:57:49.513+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:57:49.554+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:57:49.554+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:57:50.155+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.968 seconds
+[2024-02-25T09:58:48.553+0530] {processor.py:161} INFO - Started process (PID=45429) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:58:48.578+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:58:48.580+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:58:48.579+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:58:48.601+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:58:48.643+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:58:48.642+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:58:48.688+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:58:48.688+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:58:48.951+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.424 seconds
+[2024-02-25T09:59:39.523+0530] {processor.py:161} INFO - Started process (PID=46440) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:59:39.598+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T09:59:39.612+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:59:39.611+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:59:39.686+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T09:59:40.137+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:59:40.136+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T09:59:40.218+0530] {logging_mixin.py:188} INFO - [2024-02-25T09:59:40.217+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T09:59:40.497+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.989 seconds
+[2024-02-25T10:00:29.802+0530] {processor.py:161} INFO - Started process (PID=48599) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:00:29.868+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:00:29.895+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:00:29.872+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:00:30.013+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:00:30.260+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:00:30.220+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:00:30.571+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:00:30.571+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:00:30.844+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.081 seconds
+[2024-02-25T10:01:47.468+0530] {processor.py:161} INFO - Started process (PID=50327) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:01:47.512+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:01:47.533+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:01:47.514+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:01:47.631+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:01:48.878+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:01:48.878+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:01:49.082+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:01:49.082+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:01:49.774+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 2.328 seconds
+[2024-02-25T10:03:14.285+0530] {processor.py:161} INFO - Started process (PID=51836) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:03:14.342+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:03:14.353+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:03:14.342+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:03:14.373+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:03:14.548+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:03:14.548+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:03:14.691+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:03:14.691+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:03:15.006+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.734 seconds
+[2024-02-25T10:04:17.557+0530] {processor.py:161} INFO - Started process (PID=53050) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:04:17.636+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:04:17.638+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:04:17.637+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:04:17.675+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:04:18.385+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:04:18.381+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:04:18.446+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:04:18.446+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:04:18.686+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.143 seconds
+[2024-02-25T10:05:08.079+0530] {processor.py:161} INFO - Started process (PID=53366) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:05:08.160+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:05:08.162+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:05:08.162+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:05:08.232+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:05:08.291+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:05:08.290+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:05:08.379+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:05:08.378+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:05:08.515+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.458 seconds
+[2024-02-25T10:05:59.997+0530] {processor.py:161} INFO - Started process (PID=53627) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:06:00.061+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:06:00.068+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:06:00.067+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:06:00.125+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:06:01.214+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:06:01.213+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:06:01.519+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:06:01.518+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:06:01.800+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.832 seconds
+[2024-02-25T10:06:55.676+0530] {processor.py:161} INFO - Started process (PID=54019) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:06:55.706+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:06:55.709+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:06:55.708+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:06:55.730+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:06:55.795+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:06:55.795+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:06:55.897+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:06:55.894+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:06:56.080+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.449 seconds
+[2024-02-25T10:07:54.678+0530] {processor.py:161} INFO - Started process (PID=54441) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:07:54.700+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:07:54.704+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:07:54.703+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:07:54.734+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:07:55.062+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:07:55.061+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:07:55.108+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:07:55.108+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:07:55.276+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.627 seconds
+[2024-02-25T10:08:42.837+0530] {processor.py:161} INFO - Started process (PID=55426) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:08:42.887+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:08:42.892+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:08:42.888+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:08:42.917+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:08:42.963+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:08:42.963+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:08:43.035+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:08:43.034+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:08:43.322+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.497 seconds
+[2024-02-25T10:09:28.292+0530] {processor.py:161} INFO - Started process (PID=55623) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:09:28.383+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:09:28.403+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:09:28.401+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:09:28.477+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:09:29.208+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:09:29.207+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:09:29.303+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:09:29.303+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:09:29.620+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.348 seconds
+[2024-02-25T10:10:15.916+0530] {processor.py:161} INFO - Started process (PID=55819) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:10:15.931+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:10:15.934+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:10:15.933+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:10:15.954+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:10:15.995+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:10:15.995+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:10:16.073+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:10:16.072+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:10:16.268+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.358 seconds
+[2024-02-25T10:10:59.310+0530] {processor.py:161} INFO - Started process (PID=56105) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:10:59.329+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:10:59.331+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:10:59.331+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:10:59.358+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:10:59.648+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:10:59.648+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:10:59.684+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:10:59.683+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:10:59.796+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.533 seconds
+[2024-02-25T10:11:42.633+0530] {processor.py:161} INFO - Started process (PID=56140) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:11:42.636+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:11:42.639+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:11:42.638+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:11:42.658+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:11:42.723+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:11:42.723+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:11:42.791+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:11:42.790+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:11:42.909+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.300 seconds
+[2024-02-25T10:12:24.262+0530] {processor.py:161} INFO - Started process (PID=56175) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:12:24.264+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:12:24.266+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:12:24.266+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:12:24.281+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:12:24.439+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:12:24.438+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:12:24.466+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:12:24.466+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:12:24.571+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.315 seconds
+[2024-02-25T10:13:05.422+0530] {processor.py:161} INFO - Started process (PID=56210) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:13:05.424+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:13:05.433+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:13:05.432+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:13:05.447+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:13:05.505+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:13:05.504+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:13:05.566+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:13:05.566+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:13:05.696+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.292 seconds
+[2024-02-25T10:13:55.509+0530] {processor.py:161} INFO - Started process (PID=56271) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:13:55.524+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:13:55.528+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:13:55.526+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:13:55.598+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:13:55.897+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:13:55.897+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:13:55.955+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:13:55.954+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:13:56.083+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.597 seconds
+[2024-02-25T10:14:46.585+0530] {processor.py:161} INFO - Started process (PID=56373) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:14:46.639+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:14:46.642+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:14:46.640+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:14:46.668+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:14:46.944+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:14:46.940+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:14:47.042+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:14:47.041+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:14:47.167+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.595 seconds
+[2024-02-25T10:15:32.621+0530] {processor.py:161} INFO - Started process (PID=56409) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:15:32.625+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:15:32.627+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:15:32.626+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:15:32.645+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:15:32.943+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:15:32.943+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:15:32.996+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:15:32.995+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:15:33.247+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.631 seconds
+[2024-02-25T10:16:20.745+0530] {processor.py:161} INFO - Started process (PID=56445) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:16:20.772+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:16:20.778+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:16:20.777+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:16:20.848+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:16:20.937+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:16:20.937+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:16:21.004+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:16:21.003+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:16:21.123+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.391 seconds
+[2024-02-25T10:17:07.953+0530] {processor.py:161} INFO - Started process (PID=56484) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:17:07.981+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:17:07.988+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:17:07.988+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:17:08.005+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:17:08.349+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:17:08.348+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:17:08.480+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:17:08.480+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:17:08.693+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.760 seconds
+[2024-02-25T10:17:52.006+0530] {processor.py:161} INFO - Started process (PID=56518) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:17:52.035+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:17:52.037+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:17:52.036+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:17:52.072+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:17:52.141+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:17:52.141+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:17:52.204+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:17:52.203+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:17:52.355+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.381 seconds
+[2024-02-25T10:18:33.531+0530] {processor.py:161} INFO - Started process (PID=56551) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:18:33.570+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:18:33.572+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:18:33.571+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:18:33.613+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:18:33.929+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:18:33.929+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:18:34.001+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:18:34.000+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:18:34.164+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.640 seconds
+[2024-02-25T10:19:15.818+0530] {processor.py:161} INFO - Started process (PID=56584) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:19:15.834+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:19:15.836+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:19:15.835+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:19:15.855+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:19:15.916+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:19:15.916+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:19:15.989+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:19:15.989+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:19:16.131+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.332 seconds
+[2024-02-25T10:19:55.177+0530] {processor.py:161} INFO - Started process (PID=56617) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:19:55.210+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:19:55.212+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:19:55.212+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:19:55.241+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:19:55.500+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:19:55.499+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:19:55.526+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:19:55.526+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:19:55.684+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.521 seconds
+[2024-02-25T10:20:33.925+0530] {processor.py:161} INFO - Started process (PID=56650) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:20:33.967+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:20:33.968+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:20:33.968+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:20:33.988+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:20:34.132+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:20:34.132+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:20:34.172+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:20:34.171+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:20:34.356+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.441 seconds
+[2024-02-25T10:21:13.836+0530] {processor.py:161} INFO - Started process (PID=56681) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:21:13.845+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:21:13.848+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:21:13.847+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:21:13.884+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:21:14.199+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:21:14.198+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:21:14.249+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:21:14.248+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:21:14.392+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.562 seconds
+[2024-02-25T10:21:58.829+0530] {processor.py:161} INFO - Started process (PID=56715) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:21:58.856+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:21:58.858+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:21:58.857+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:21:58.870+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:21:58.922+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:21:58.921+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:21:58.990+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:21:58.990+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:21:59.189+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.380 seconds
+[2024-02-25T10:22:48.025+0530] {processor.py:161} INFO - Started process (PID=56752) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:22:48.056+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:22:48.058+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:22:48.057+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:22:48.081+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:22:48.441+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:22:48.440+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:22:48.538+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:22:48.538+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:22:48.658+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.665 seconds
+[2024-02-25T10:23:35.231+0530] {processor.py:161} INFO - Started process (PID=56789) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:23:35.235+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:23:35.237+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:23:35.236+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:23:35.257+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:23:35.296+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:23:35.296+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:23:35.347+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:23:35.346+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:23:35.583+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.359 seconds
+[2024-02-25T10:24:20.108+0530] {processor.py:161} INFO - Started process (PID=56823) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:24:20.205+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:24:20.210+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:24:20.208+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:24:20.293+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:24:20.844+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:24:20.842+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:24:20.987+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:24:20.986+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:24:21.189+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.109 seconds
+[2024-02-25T10:25:07.638+0530] {processor.py:161} INFO - Started process (PID=56857) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:25:07.642+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:25:07.643+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:25:07.643+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:25:07.675+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:25:07.739+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:25:07.738+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:25:07.803+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:25:07.802+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:25:07.914+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.284 seconds
+[2024-02-25T10:25:49.565+0530] {processor.py:161} INFO - Started process (PID=56888) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:25:49.569+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:25:49.570+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:25:49.569+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:25:49.607+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:25:49.950+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:25:49.949+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:25:50.020+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:25:50.020+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:25:50.229+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.682 seconds
+[2024-02-25T10:26:29.952+0530] {processor.py:161} INFO - Started process (PID=56925) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:26:29.958+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:26:29.960+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:26:29.959+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:26:29.987+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:26:30.044+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:26:30.043+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:26:30.124+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:26:30.123+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:26:30.229+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.285 seconds
+[2024-02-25T10:27:10.259+0530] {processor.py:161} INFO - Started process (PID=56957) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:27:10.263+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:27:10.268+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:27:10.264+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:27:10.306+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:27:10.577+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:27:10.577+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:27:10.633+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:27:10.633+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:27:10.729+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.479 seconds
+[2024-02-25T10:27:48.510+0530] {processor.py:161} INFO - Started process (PID=56988) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:27:48.531+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:27:48.535+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:27:48.532+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:27:48.576+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:27:48.612+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:27:48.612+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:27:48.723+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:27:48.723+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:27:48.873+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.385 seconds
+[2024-02-25T10:28:26.580+0530] {processor.py:161} INFO - Started process (PID=57021) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:28:26.615+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:28:26.616+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:28:26.616+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:28:26.635+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:28:26.991+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:28:26.990+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:28:27.059+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:28:27.059+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:28:27.144+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.573 seconds
+[2024-02-25T10:29:07.927+0530] {processor.py:161} INFO - Started process (PID=57057) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:29:07.952+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:29:07.954+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:29:07.953+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:29:08.003+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:29:08.045+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:29:08.044+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:29:08.095+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:29:08.094+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:29:08.256+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.350 seconds
+[2024-02-25T10:29:50.509+0530] {processor.py:161} INFO - Started process (PID=57094) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:29:50.514+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:29:50.517+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:29:50.515+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:29:50.583+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:29:50.865+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:29:50.865+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:29:50.938+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:29:50.938+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:29:51.149+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.649 seconds
+[2024-02-25T10:30:31.145+0530] {processor.py:161} INFO - Started process (PID=57131) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:30:31.165+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:30:31.170+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:30:31.169+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:30:31.201+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:30:31.242+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:30:31.241+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:30:31.317+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:30:31.316+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:30:31.426+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.288 seconds
+[2024-02-25T10:31:09.917+0530] {processor.py:161} INFO - Started process (PID=57164) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:31:09.937+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:31:09.939+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:31:09.938+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:31:09.955+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:31:10.138+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:31:10.137+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:31:10.178+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:31:10.178+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:31:10.317+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.416 seconds
+[2024-02-25T10:31:48.774+0530] {processor.py:161} INFO - Started process (PID=57194) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:31:48.806+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:31:48.807+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:31:48.807+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:31:48.832+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:31:48.882+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:31:48.882+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:31:48.926+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:31:48.925+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:31:49.048+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.295 seconds
+[2024-02-25T10:32:28.782+0530] {processor.py:161} INFO - Started process (PID=57227) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:32:28.835+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:32:28.837+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:32:28.836+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:32:28.861+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:32:29.175+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:32:29.174+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:32:29.203+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:32:29.203+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:32:29.333+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.579 seconds
+[2024-02-25T10:33:06.077+0530] {processor.py:161} INFO - Started process (PID=57265) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:33:06.087+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:33:06.089+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:33:06.088+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:33:06.116+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:33:06.165+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:33:06.165+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:33:06.254+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:33:06.253+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:33:06.408+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.341 seconds
+[2024-02-25T10:33:45.536+0530] {processor.py:161} INFO - Started process (PID=57294) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:33:45.586+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:33:45.588+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:33:45.588+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:33:45.600+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:33:45.894+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:33:45.893+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:33:45.945+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:33:45.945+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:33:46.087+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.565 seconds
+[2024-02-25T10:34:29.082+0530] {processor.py:161} INFO - Started process (PID=57336) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:34:29.084+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:34:29.086+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:34:29.085+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:34:29.103+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:34:29.152+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:34:29.151+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:34:29.214+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:34:29.214+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:34:29.350+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.273 seconds
+[2024-02-25T10:35:09.000+0530] {processor.py:161} INFO - Started process (PID=57367) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:35:09.039+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:35:09.040+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:35:09.040+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:35:09.072+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:35:09.405+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:35:09.405+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:35:09.459+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:35:09.459+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:35:09.590+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.621 seconds
+[2024-02-25T10:35:49.283+0530] {processor.py:161} INFO - Started process (PID=57397) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:35:49.307+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:35:49.308+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:35:49.308+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:35:49.322+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:35:49.368+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:35:49.367+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:35:49.437+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:35:49.437+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:35:49.575+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.298 seconds
+[2024-02-25T10:36:30.885+0530] {processor.py:161} INFO - Started process (PID=57432) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:36:30.932+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:36:30.933+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:36:30.933+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:36:30.954+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:36:31.299+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:36:31.299+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:36:31.351+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:36:31.351+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:36:31.445+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.566 seconds
+[2024-02-25T10:37:11.467+0530] {processor.py:161} INFO - Started process (PID=57468) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:37:11.470+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:37:11.473+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:37:11.471+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:37:11.498+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:37:11.540+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:37:11.539+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:37:11.635+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:37:11.634+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:37:11.750+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.294 seconds
+[2024-02-25T10:37:59.935+0530] {processor.py:161} INFO - Started process (PID=57500) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:38:00.010+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:38:00.016+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:38:00.015+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:38:00.046+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:38:00.320+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:38:00.320+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:38:00.386+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:38:00.386+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:38:00.530+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.602 seconds
+[2024-02-25T10:38:47.783+0530] {processor.py:161} INFO - Started process (PID=57536) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:38:47.825+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:38:47.838+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:38:47.826+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:38:47.856+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:38:47.887+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:38:47.885+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:38:47.923+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:38:47.922+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:38:48.112+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.357 seconds
+[2024-02-25T10:39:42.911+0530] {processor.py:161} INFO - Started process (PID=57577) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:39:42.912+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:39:42.914+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:39:42.913+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:39:42.928+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:39:43.158+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:39:43.158+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:39:43.192+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:39:43.192+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:39:43.287+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.381 seconds
+[2024-02-25T10:40:30.552+0530] {processor.py:161} INFO - Started process (PID=57614) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:40:30.677+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:40:30.683+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:40:30.683+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:40:30.713+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:40:30.940+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:40:30.935+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:40:31.040+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:40:31.039+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:40:31.120+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.577 seconds
+[2024-02-25T10:41:15.740+0530] {processor.py:161} INFO - Started process (PID=57649) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:41:15.742+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:41:15.744+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:41:15.743+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:41:15.760+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:41:16.067+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:41:16.063+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:41:16.135+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:41:16.130+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:41:16.254+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.523 seconds
+[2024-02-25T10:41:58.350+0530] {processor.py:161} INFO - Started process (PID=57682) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:41:58.363+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:41:58.364+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:41:58.364+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:41:58.379+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:41:58.441+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:41:58.440+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:41:58.490+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:41:58.490+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:41:58.568+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.240 seconds
+[2024-02-25T10:42:37.368+0530] {processor.py:161} INFO - Started process (PID=57718) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:42:37.414+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:42:37.416+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:42:37.415+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:42:37.442+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:42:37.729+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:42:37.729+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:42:37.773+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:42:37.773+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:42:37.840+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.495 seconds
+[2024-02-25T10:43:16.423+0530] {processor.py:161} INFO - Started process (PID=57749) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:43:16.426+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:43:16.428+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:43:16.427+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:43:16.466+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:43:16.514+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:43:16.513+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:43:16.565+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:43:16.565+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:43:16.650+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.245 seconds
+[2024-02-25T10:43:56.064+0530] {processor.py:161} INFO - Started process (PID=57796) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:43:56.068+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:43:56.070+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:43:56.069+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:43:56.088+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:43:56.378+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:43:56.377+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:43:56.408+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:43:56.408+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:43:56.558+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.500 seconds
+[2024-02-25T10:44:34.969+0530] {processor.py:161} INFO - Started process (PID=57827) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:44:34.971+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:44:34.972+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:44:34.972+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:44:34.985+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:44:35.009+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:44:35.008+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:44:35.044+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:44:35.044+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:44:35.219+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.255 seconds
+[2024-02-25T10:45:12.862+0530] {processor.py:161} INFO - Started process (PID=57858) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:45:12.887+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:45:12.889+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:45:12.888+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:45:12.917+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:45:13.209+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:45:13.209+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:45:13.278+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:45:13.278+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:45:13.420+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.564 seconds
+[2024-02-25T10:45:49.662+0530] {processor.py:161} INFO - Started process (PID=57889) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:45:49.682+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:45:49.683+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:45:49.683+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:45:49.698+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:45:49.768+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:45:49.768+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:45:49.862+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:45:49.861+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:45:50.001+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.348 seconds
+[2024-02-25T10:46:29.937+0530] {processor.py:161} INFO - Started process (PID=57921) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:46:29.939+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:46:29.941+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:46:29.940+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:46:29.968+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:46:30.235+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:46:30.234+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:46:30.310+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:46:30.309+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:46:30.417+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.486 seconds
+[2024-02-25T10:47:08.508+0530] {processor.py:161} INFO - Started process (PID=57954) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:47:08.514+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:47:08.516+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:47:08.516+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:47:08.535+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:47:08.588+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:47:08.587+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:47:08.672+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:47:08.672+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:47:08.828+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.351 seconds
+[2024-02-25T10:47:46.863+0530] {processor.py:161} INFO - Started process (PID=57988) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:47:46.865+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:47:46.866+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:47:46.866+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:47:46.887+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:47:47.157+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:47:47.157+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:47:47.213+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:47:47.213+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:47:47.377+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.522 seconds
+[2024-02-25T10:48:26.219+0530] {processor.py:161} INFO - Started process (PID=58019) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:48:26.263+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:48:26.266+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:48:26.265+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:48:26.298+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:48:26.344+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:48:26.341+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:48:26.417+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:48:26.417+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:48:26.497+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.289 seconds
+[2024-02-25T10:49:06.106+0530] {processor.py:161} INFO - Started process (PID=58051) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:49:06.122+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:49:06.123+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:49:06.123+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:49:06.136+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:49:06.334+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:49:06.333+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:49:06.381+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:49:06.380+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:49:06.482+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.388 seconds
+[2024-02-25T10:49:48.130+0530] {processor.py:161} INFO - Started process (PID=58085) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:49:48.132+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:49:48.134+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:49:48.133+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:49:48.169+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:49:48.219+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:49:48.219+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:49:48.297+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:49:48.297+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:49:48.487+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.362 seconds
+[2024-02-25T10:50:31.862+0530] {processor.py:161} INFO - Started process (PID=58119) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:50:31.884+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:50:31.885+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:50:31.884+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:50:31.901+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:50:32.134+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:50:32.133+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:50:32.205+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:50:32.205+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:50:32.310+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.475 seconds
+[2024-02-25T10:51:16.985+0530] {processor.py:161} INFO - Started process (PID=58152) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:51:16.987+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:51:16.990+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:51:16.988+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:51:17.009+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:51:17.050+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:51:17.050+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:51:17.135+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:51:17.135+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:51:17.232+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.253 seconds
+[2024-02-25T10:51:57.426+0530] {processor.py:161} INFO - Started process (PID=58184) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:51:57.475+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:51:57.476+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:51:57.476+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:51:57.490+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:51:57.636+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:51:57.636+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:51:57.665+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:51:57.664+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:51:57.809+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.407 seconds
+[2024-02-25T10:52:40.397+0530] {processor.py:161} INFO - Started process (PID=58218) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:52:40.408+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:52:40.410+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:52:40.409+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:52:40.438+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:52:40.536+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:52:40.531+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:52:40.607+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:52:40.607+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:52:40.695+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.308 seconds
+[2024-02-25T10:53:22.670+0530] {processor.py:161} INFO - Started process (PID=58252) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:53:22.672+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:53:22.673+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:53:22.672+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:53:22.686+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:53:22.879+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:53:22.879+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:53:22.915+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:53:22.915+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:53:23.014+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.352 seconds
+[2024-02-25T10:54:00.248+0530] {processor.py:161} INFO - Started process (PID=58291) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:54:00.251+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:54:00.253+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:54:00.252+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:54:00.295+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:54:00.329+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:54:00.329+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:54:00.376+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:54:00.375+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:54:00.532+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.340 seconds
+[2024-02-25T10:54:39.468+0530] {processor.py:161} INFO - Started process (PID=58326) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:54:39.471+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:54:39.473+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:54:39.472+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:54:39.487+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:54:39.648+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:54:39.647+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:54:39.693+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:54:39.693+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:54:39.961+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.498 seconds
+[2024-02-25T10:55:19.236+0530] {processor.py:161} INFO - Started process (PID=58367) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:55:19.250+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:55:19.255+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:55:19.254+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:55:19.274+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:55:19.330+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:55:19.330+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:55:19.840+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:55:19.839+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:55:20.144+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.920 seconds
+[2024-02-25T10:55:57.025+0530] {processor.py:161} INFO - Started process (PID=58400) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:55:57.086+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:55:57.088+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:55:57.087+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:55:57.100+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:55:57.409+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:55:57.409+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:55:57.465+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:55:57.465+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:55:57.544+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.526 seconds
+[2024-02-25T10:56:38.555+0530] {processor.py:161} INFO - Started process (PID=58437) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:56:38.559+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:56:38.561+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:56:38.560+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:56:38.591+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:56:38.711+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:56:38.710+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:56:38.783+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:56:38.783+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:56:38.983+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.516 seconds
+[2024-02-25T10:57:21.150+0530] {processor.py:161} INFO - Started process (PID=58469) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:57:21.158+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:57:21.159+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:57:21.159+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:57:21.174+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:57:21.431+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:57:21.431+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:57:21.485+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:57:21.485+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:57:21.602+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.469 seconds
+[2024-02-25T10:58:04.916+0530] {processor.py:161} INFO - Started process (PID=58505) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:58:04.942+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:58:04.949+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:58:04.947+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:58:04.969+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:58:05.050+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:58:05.045+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:58:05.144+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:58:05.144+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:58:05.228+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.346 seconds
+[2024-02-25T10:58:52.001+0530] {processor.py:161} INFO - Started process (PID=58546) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:58:52.043+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:58:52.045+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:58:52.044+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:58:52.066+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:58:52.310+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:58:52.309+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:58:52.357+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:58:52.339+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:58:52.449+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.464 seconds
+[2024-02-25T10:59:34.548+0530] {processor.py:161} INFO - Started process (PID=58582) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:59:34.554+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T10:59:34.555+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:59:34.555+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:59:34.577+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T10:59:34.619+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:59:34.618+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T10:59:34.697+0530] {logging_mixin.py:188} INFO - [2024-02-25T10:59:34.697+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T10:59:34.839+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.307 seconds
+[2024-02-25T11:00:15.995+0530] {processor.py:161} INFO - Started process (PID=58613) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:00:16.001+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:00:16.004+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:00:16.003+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:00:16.026+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:00:16.417+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:00:16.417+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:00:16.475+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:00:16.475+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:00:16.591+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.606 seconds
+[2024-02-25T11:01:04.786+0530] {processor.py:161} INFO - Started process (PID=58650) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:01:04.789+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:01:04.792+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:01:04.791+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:01:04.877+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:01:04.938+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:01:04.937+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:01:05.017+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:01:05.013+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:01:05.133+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.356 seconds
+[2024-02-25T11:01:46.407+0530] {processor.py:161} INFO - Started process (PID=58685) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:01:46.418+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:01:46.419+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:01:46.419+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:01:46.474+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:01:46.638+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:01:46.638+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:01:46.671+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:01:46.671+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:01:46.994+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.592 seconds
+[2024-02-25T11:02:30.781+0530] {processor.py:161} INFO - Started process (PID=58723) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:02:30.840+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:02:30.842+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:02:30.842+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:02:30.860+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:02:31.031+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:02:31.030+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:02:32.926+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:02:32.925+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:02:33.186+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 2.416 seconds
+[2024-02-25T11:03:13.103+0530] {processor.py:161} INFO - Started process (PID=58759) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:03:13.105+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:03:13.106+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:03:13.106+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:03:13.117+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:03:13.237+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:03:13.236+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:03:13.262+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:03:13.262+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:03:13.349+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.251 seconds
+[2024-02-25T11:03:47.810+0530] {processor.py:161} INFO - Started process (PID=58794) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:03:47.813+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:03:47.818+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:03:47.815+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:03:47.880+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:03:48.690+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:03:48.690+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:03:49.139+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:03:49.138+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:03:49.452+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.649 seconds
+[2024-02-25T11:04:35.286+0530] {processor.py:161} INFO - Started process (PID=58830) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:04:35.383+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:04:35.385+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:04:35.384+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:04:35.419+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:04:35.664+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:04:35.664+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:04:35.713+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:04:35.712+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:04:35.824+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.549 seconds
+[2024-02-25T11:05:21.450+0530] {processor.py:161} INFO - Started process (PID=58865) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:05:21.518+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:05:21.521+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:05:21.520+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:05:21.543+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:05:21.660+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:05:21.660+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:05:21.715+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:05:21.710+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:05:21.804+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.361 seconds
+[2024-02-25T11:05:57.570+0530] {processor.py:161} INFO - Started process (PID=58895) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:05:57.626+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:05:57.628+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:05:57.627+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:05:57.644+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:05:57.915+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:05:57.915+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:05:57.962+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:05:57.962+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:05:58.089+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.537 seconds
+[2024-02-25T11:06:32.246+0530] {processor.py:161} INFO - Started process (PID=58924) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:06:32.248+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:06:32.249+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:06:32.249+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:06:32.279+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:06:32.315+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:06:32.315+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:06:32.391+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:06:32.390+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:06:32.451+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.226 seconds
+[2024-02-25T11:07:07.474+0530] {processor.py:161} INFO - Started process (PID=58954) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:07:07.546+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:07:07.547+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:07:07.547+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:07:07.565+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:07:07.831+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:07:07.831+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:07:07.878+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:07:07.877+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:07:07.958+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.495 seconds
+[2024-02-25T11:07:46.732+0530] {processor.py:161} INFO - Started process (PID=58986) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:07:46.777+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:07:46.778+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:07:46.778+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:07:46.796+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:07:46.844+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:07:46.844+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:07:46.904+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:07:46.904+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:07:46.995+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.277 seconds
+[2024-02-25T11:08:26.390+0530] {processor.py:161} INFO - Started process (PID=59027) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:08:26.414+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:08:26.416+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:08:26.415+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:08:26.450+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:08:26.687+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:08:26.687+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:08:26.720+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:08:26.720+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:08:26.790+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.417 seconds
+[2024-02-25T11:09:03.094+0530] {processor.py:161} INFO - Started process (PID=59057) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:09:03.105+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:09:03.112+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:09:03.111+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:09:03.130+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:09:03.189+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:09:03.186+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:09:03.238+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:09:03.237+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:09:03.389+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.302 seconds
+[2024-02-25T11:09:39.726+0530] {processor.py:161} INFO - Started process (PID=59089) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:09:39.766+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:09:39.767+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:09:39.767+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:09:39.796+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:09:40.061+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:09:40.060+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:09:40.122+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:09:40.122+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:09:40.253+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.543 seconds
+[2024-02-25T11:10:17.243+0530] {processor.py:161} INFO - Started process (PID=59118) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:10:17.280+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:10:17.283+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:10:17.282+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:10:17.303+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:10:17.386+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:10:17.378+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:10:17.510+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:10:17.508+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:10:17.672+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.464 seconds
+[2024-02-25T11:10:59.435+0530] {processor.py:161} INFO - Started process (PID=59149) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:10:59.439+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:10:59.442+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:10:59.441+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:10:59.489+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:10:59.956+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:10:59.956+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:11:00.067+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:11:00.066+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:11:00.239+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.846 seconds
+[2024-02-25T11:11:43.110+0530] {processor.py:161} INFO - Started process (PID=59182) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:11:43.112+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:11:43.113+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:11:43.113+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:11:43.134+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:11:43.183+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:11:43.183+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:11:43.261+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:11:43.260+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:11:43.386+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.283 seconds
+[2024-02-25T11:12:22.124+0530] {processor.py:161} INFO - Started process (PID=59214) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:12:22.141+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:12:22.143+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:12:22.142+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:12:22.192+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:12:22.509+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:12:22.508+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:12:22.539+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:12:22.538+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:12:22.630+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.514 seconds
+[2024-02-25T11:12:59.756+0530] {processor.py:161} INFO - Started process (PID=59246) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:12:59.762+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:12:59.763+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:12:59.762+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:12:59.793+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:12:59.836+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:12:59.833+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:12:59.893+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:12:59.893+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:12:59.973+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.221 seconds
+[2024-02-25T11:13:35.796+0530] {processor.py:161} INFO - Started process (PID=59278) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:13:35.825+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:13:35.830+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:13:35.829+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:13:35.867+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:13:36.174+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:13:36.173+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:13:36.226+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:13:36.226+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:13:36.323+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.537 seconds
+[2024-02-25T11:14:10.669+0530] {processor.py:161} INFO - Started process (PID=59310) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:14:10.708+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:14:10.710+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:14:10.709+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:14:10.739+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:14:10.774+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:14:10.774+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:14:10.840+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:14:10.839+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:14:10.972+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.317 seconds
+[2024-02-25T11:14:44.657+0530] {processor.py:161} INFO - Started process (PID=59340) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:14:44.663+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:14:44.664+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:14:44.664+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:14:44.678+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:14:44.969+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:14:44.969+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:14:45.045+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:14:45.044+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:14:45.196+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.565 seconds
+[2024-02-25T11:15:18.250+0530] {processor.py:161} INFO - Started process (PID=59368) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:15:18.252+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:15:18.255+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:15:18.254+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:15:18.280+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:15:18.321+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:15:18.320+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:15:18.416+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:15:18.416+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:15:18.508+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.265 seconds
+[2024-02-25T11:15:51.393+0530] {processor.py:161} INFO - Started process (PID=59398) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:15:51.405+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:15:51.407+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:15:51.406+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:15:51.419+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:15:51.653+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:15:51.650+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:15:51.710+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:15:51.709+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:15:51.793+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.413 seconds
+[2024-02-25T11:16:24.506+0530] {processor.py:161} INFO - Started process (PID=59427) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:16:24.508+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:16:24.510+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:16:24.509+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:16:24.542+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:16:24.588+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:16:24.588+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:16:24.649+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:16:24.648+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:16:24.774+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.283 seconds
+[2024-02-25T11:16:58.402+0530] {processor.py:161} INFO - Started process (PID=59456) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:16:58.418+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:16:58.420+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:16:58.419+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:16:58.436+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:16:58.722+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:16:58.722+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:16:58.776+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:16:58.776+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:16:58.881+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.492 seconds
+[2024-02-25T11:17:34.922+0530] {processor.py:161} INFO - Started process (PID=59489) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:17:34.938+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:17:34.939+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:17:34.939+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:17:34.952+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:17:35.018+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:17:35.017+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:17:35.077+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:17:35.076+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:17:35.154+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.242 seconds
+[2024-02-25T11:18:12.816+0530] {processor.py:161} INFO - Started process (PID=59518) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:18:12.827+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:18:12.828+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:18:12.827+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:18:12.848+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:18:13.115+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:18:13.115+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:18:13.160+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:18:13.160+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:18:13.317+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.527 seconds
+[2024-02-25T11:18:50.504+0530] {processor.py:161} INFO - Started process (PID=59554) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:18:50.523+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:18:50.526+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:18:50.524+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:18:50.558+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:18:50.604+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:18:50.604+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:18:50.653+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:18:50.653+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:18:50.745+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.265 seconds
+[2024-02-25T11:19:30.825+0530] {processor.py:161} INFO - Started process (PID=59595) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:19:30.865+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:19:30.867+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:19:30.866+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:19:30.882+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:19:31.148+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:19:31.148+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:19:31.234+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:19:31.233+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:19:31.344+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.532 seconds
+[2024-02-25T11:20:17.432+0530] {processor.py:161} INFO - Started process (PID=59628) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:20:17.458+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:20:17.461+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:20:17.460+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:20:17.478+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:20:17.554+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:20:17.553+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:20:17.582+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:20:17.582+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:20:17.753+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.327 seconds
+[2024-02-25T11:20:57.761+0530] {processor.py:161} INFO - Started process (PID=59668) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:20:57.763+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:20:57.765+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:20:57.764+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:20:57.785+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:20:58.000+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:20:57.999+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:20:58.053+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:20:58.053+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:20:58.110+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.355 seconds
+[2024-02-25T11:21:36.291+0530] {processor.py:161} INFO - Started process (PID=59704) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:21:36.319+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:21:36.325+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:21:36.324+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:21:36.341+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:21:36.398+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:21:36.398+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:21:36.498+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:21:36.498+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:21:36.609+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.341 seconds
+[2024-02-25T11:22:20.756+0530] {processor.py:161} INFO - Started process (PID=59738) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:22:20.791+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:22:20.792+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:22:20.792+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:22:20.825+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:22:21.046+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:22:21.046+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:22:21.087+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:22:21.087+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:22:21.226+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.487 seconds
+[2024-02-25T11:23:02.371+0530] {processor.py:161} INFO - Started process (PID=59776) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:23:02.428+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:23:02.445+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:23:02.431+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:23:02.599+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:23:02.674+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:23:02.669+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:23:02.753+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:23:02.749+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:23:02.864+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.501 seconds
+[2024-02-25T11:23:42.838+0530] {processor.py:161} INFO - Started process (PID=59827) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:23:42.994+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:23:42.998+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:23:42.997+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:23:43.027+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:23:43.412+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:23:43.408+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:23:43.467+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:23:43.467+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:23:43.672+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.844 seconds
+[2024-02-25T11:24:23.593+0530] {processor.py:161} INFO - Started process (PID=59924) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:24:23.609+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:24:23.612+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:24:23.611+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:24:23.628+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:24:23.688+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:24:23.687+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:24:23.736+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:24:23.736+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:24:23.809+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.225 seconds
+[2024-02-25T11:25:00.185+0530] {processor.py:161} INFO - Started process (PID=59968) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:25:00.188+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:25:00.190+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:25:00.190+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:25:00.202+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:25:00.369+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:25:00.368+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:25:00.408+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:25:00.407+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:25:00.706+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.528 seconds
+[2024-02-25T11:25:32.478+0530] {processor.py:161} INFO - Started process (PID=60017) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:25:32.482+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:25:32.483+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:25:32.483+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:25:32.494+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:25:32.516+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:25:32.516+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:25:32.544+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:25:32.543+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:25:32.604+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.131 seconds
+[2024-02-25T11:26:30.307+0530] {processor.py:161} INFO - Started process (PID=60111) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:26:30.309+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:26:30.310+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:26:30.310+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:26:30.320+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:26:30.460+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:26:30.459+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:26:30.483+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:26:30.482+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:26:30.516+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.214 seconds
+[2024-02-25T11:27:28.062+0530] {processor.py:161} INFO - Started process (PID=60202) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:27:28.100+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:27:28.102+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:27:28.101+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:27:28.114+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:27:28.135+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:27:28.135+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:27:28.161+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:27:28.161+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:27:28.194+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.137 seconds
+[2024-02-25T11:28:16.449+0530] {processor.py:161} INFO - Started process (PID=60282) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:28:16.451+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:28:16.453+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:28:16.452+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:28:16.466+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:28:16.666+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:28:16.665+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:28:16.708+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:28:16.708+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:28:16.776+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.333 seconds
+[2024-02-25T11:29:13.367+0530] {processor.py:161} INFO - Started process (PID=60360) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:29:13.407+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:29:13.418+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:29:13.417+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:29:13.445+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:29:13.499+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:29:13.498+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:29:13.569+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:29:13.569+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:29:13.707+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.351 seconds
+[2024-02-25T11:29:53.027+0530] {processor.py:161} INFO - Started process (PID=60391) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:29:53.060+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:29:53.062+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:29:53.061+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:29:53.089+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:29:53.355+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:29:53.355+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:29:53.394+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:29:53.393+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:29:53.512+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.495 seconds
+[2024-02-25T11:30:31.084+0530] {processor.py:161} INFO - Started process (PID=60426) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:30:31.134+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:30:31.136+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:30:31.135+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:30:31.155+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:30:31.184+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:30:31.183+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:30:31.254+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:30:31.246+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:30:31.408+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.354 seconds
+[2024-02-25T11:31:07.443+0530] {processor.py:161} INFO - Started process (PID=60462) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:31:07.446+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:31:07.448+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:31:07.447+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:31:07.469+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:31:07.749+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:31:07.748+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:31:07.811+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:31:07.811+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:31:07.897+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.459 seconds
+[2024-02-25T11:31:45.442+0530] {processor.py:161} INFO - Started process (PID=60496) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:31:45.460+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:31:45.462+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:31:45.461+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:31:45.479+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:31:45.543+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:31:45.543+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:31:45.631+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:31:45.626+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:31:45.716+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.283 seconds
+[2024-02-25T11:32:22.395+0530] {processor.py:161} INFO - Started process (PID=60528) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:32:22.426+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:32:22.428+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:32:22.427+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:32:22.441+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:32:22.614+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:32:22.614+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:32:22.648+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:32:22.647+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:32:22.734+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.347 seconds
+[2024-02-25T11:32:59.173+0530] {processor.py:161} INFO - Started process (PID=60560) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:32:59.186+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:32:59.187+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:32:59.187+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:32:59.199+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:32:59.246+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:32:59.245+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:32:59.305+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:32:59.305+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:32:59.376+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.222 seconds
+[2024-02-25T11:33:35.430+0530] {processor.py:161} INFO - Started process (PID=60592) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:33:35.451+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:33:35.453+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:33:35.452+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:33:35.466+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:33:35.624+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:33:35.623+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:33:35.651+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:33:35.651+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:33:35.756+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.331 seconds
+[2024-02-25T11:34:10.115+0530] {processor.py:161} INFO - Started process (PID=60669) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:34:10.117+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:34:10.128+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:34:10.121+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:34:10.186+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:34:10.253+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:34:10.249+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:34:10.327+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:34:10.327+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:34:10.446+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.336 seconds
+[2024-02-25T11:34:48.762+0530] {processor.py:161} INFO - Started process (PID=60708) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:34:48.820+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:34:48.825+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:34:48.824+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:34:48.855+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:34:49.091+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:34:49.091+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:34:49.147+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:34:49.147+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:34:49.233+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.477 seconds
+[2024-02-25T11:35:36.877+0530] {processor.py:161} INFO - Started process (PID=60748) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:35:36.899+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:35:36.907+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:35:36.900+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:35:36.935+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:35:37.018+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:35:37.018+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:35:37.159+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:35:37.159+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:35:37.255+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.388 seconds
+[2024-02-25T11:36:22.576+0530] {processor.py:161} INFO - Started process (PID=60789) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:36:22.587+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:36:22.589+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:36:22.588+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:36:22.654+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:36:22.909+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:36:22.909+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:36:22.952+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:36:22.951+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:36:23.037+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.467 seconds
+[2024-02-25T11:37:08.609+0530] {processor.py:161} INFO - Started process (PID=60827) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:37:08.612+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:37:08.614+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:37:08.613+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:37:08.638+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:37:08.728+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:37:08.728+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:37:08.829+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:37:08.829+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:37:08.978+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.374 seconds
+[2024-02-25T11:37:52.050+0530] {processor.py:161} INFO - Started process (PID=60865) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:37:52.054+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:37:52.056+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:37:52.055+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:37:52.071+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:37:52.304+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:37:52.303+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:37:52.363+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:37:52.360+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:37:52.472+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.437 seconds
+[2024-02-25T11:38:26.286+0530] {processor.py:161} INFO - Started process (PID=60911) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:38:26.328+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:38:26.329+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:38:26.329+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:38:26.340+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:38:26.360+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:38:26.359+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:38:26.385+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:38:26.385+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:38:26.413+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.131 seconds
+[2024-02-25T11:39:23.525+0530] {processor.py:161} INFO - Started process (PID=61010) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:39:23.527+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:39:23.528+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:39:23.528+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:39:23.541+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:39:23.739+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:39:23.738+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:39:23.781+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:39:23.781+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:39:23.878+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.357 seconds
+[2024-02-25T11:39:59.032+0530] {processor.py:161} INFO - Started process (PID=61046) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:39:59.034+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:39:59.036+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:39:59.035+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:39:59.068+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:39:59.107+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:39:59.107+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:39:59.174+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:39:59.173+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:39:59.317+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.291 seconds
+[2024-02-25T11:40:36.546+0530] {processor.py:161} INFO - Started process (PID=61098) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:40:36.592+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:40:36.595+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:40:36.594+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:40:36.631+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:40:36.868+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:40:36.867+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:40:36.913+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:40:36.913+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:40:36.957+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.449 seconds
+[2024-02-25T11:41:17.055+0530] {processor.py:161} INFO - Started process (PID=61138) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:41:17.069+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:41:17.071+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:41:17.070+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:41:17.086+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:41:17.161+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:41:17.161+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:41:17.203+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:41:17.203+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:41:17.306+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.258 seconds
+[2024-02-25T11:42:00.762+0530] {processor.py:161} INFO - Started process (PID=61170) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:42:00.766+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:42:00.768+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:42:00.767+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:42:00.784+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:42:01.005+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:42:01.005+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:42:01.063+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:42:01.062+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:42:01.210+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.457 seconds
+[2024-02-25T11:42:41.500+0530] {processor.py:161} INFO - Started process (PID=61203) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:42:41.519+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:42:41.520+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:42:41.520+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:42:41.535+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:42:41.614+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:42:41.614+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:42:41.673+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:42:41.673+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:42:41.745+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.264 seconds
+[2024-02-25T11:43:19.534+0530] {processor.py:161} INFO - Started process (PID=61236) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:43:19.577+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:43:19.589+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:43:19.578+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:43:19.606+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:43:19.860+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:43:19.860+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:43:19.920+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:43:19.919+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:43:20.025+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.504 seconds
+[2024-02-25T11:44:01.145+0530] {processor.py:161} INFO - Started process (PID=61286) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:44:01.181+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:44:01.183+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:44:01.183+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:44:01.221+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:44:01.260+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:44:01.260+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:44:01.349+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:44:01.349+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:44:01.462+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.331 seconds
+[2024-02-25T11:44:43.956+0530] {processor.py:161} INFO - Started process (PID=61359) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:44:43.958+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:44:43.960+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:44:43.959+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:44:43.973+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:44:44.121+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:44:44.120+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:44:44.148+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:44:44.148+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:44:44.199+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.249 seconds
+[2024-02-25T11:45:25.871+0530] {processor.py:161} INFO - Started process (PID=61392) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:45:25.878+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:45:25.880+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:45:25.879+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:45:26.018+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:45:26.336+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:45:26.335+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:45:26.566+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:45:26.564+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:45:26.815+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.005 seconds
+[2024-02-25T11:46:07.107+0530] {processor.py:161} INFO - Started process (PID=61426) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:46:07.110+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:46:07.112+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:46:07.111+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:46:07.153+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:46:07.410+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:46:07.409+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:46:07.506+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:46:07.506+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:46:07.669+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.569 seconds
+[2024-02-25T11:46:45.167+0530] {processor.py:161} INFO - Started process (PID=61462) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:46:45.170+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:46:45.171+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:46:45.171+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:46:45.185+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:46:45.238+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:46:45.237+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:46:45.296+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:46:45.296+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:46:45.371+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.210 seconds
+[2024-02-25T11:47:21.127+0530] {processor.py:161} INFO - Started process (PID=61523) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:47:21.155+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:47:21.157+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:47:21.156+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:47:21.176+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:47:21.396+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:47:21.396+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:47:21.427+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:47:21.426+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:47:21.742+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.630 seconds
+[2024-02-25T11:47:56.578+0530] {processor.py:161} INFO - Started process (PID=61587) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:47:56.581+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:47:56.583+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:47:56.582+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:47:56.606+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:47:56.661+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:47:56.661+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:47:56.722+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:47:56.721+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:47:56.846+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.274 seconds
+[2024-02-25T11:48:35.424+0530] {processor.py:161} INFO - Started process (PID=61659) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:48:35.427+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:48:35.429+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:48:35.428+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:48:35.466+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:48:35.747+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:48:35.744+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:48:35.841+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:48:35.840+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:48:35.924+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.509 seconds
+[2024-02-25T11:49:14.023+0530] {processor.py:161} INFO - Started process (PID=61745) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:49:14.025+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:49:14.026+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:49:14.026+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:49:14.044+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:49:14.111+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:49:14.108+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:49:14.174+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:49:14.173+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:49:14.276+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.274 seconds
+[2024-02-25T11:49:50.757+0530] {processor.py:161} INFO - Started process (PID=61812) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:49:50.760+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:49:50.761+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:49:50.761+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:49:50.826+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:49:51.031+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:49:51.031+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:49:51.065+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:49:51.065+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:49:51.144+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.393 seconds
+[2024-02-25T11:50:36.362+0530] {processor.py:161} INFO - Started process (PID=61846) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:50:36.395+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:50:36.401+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:50:36.399+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:50:36.438+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:50:36.522+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:50:36.521+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:50:36.660+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:50:36.659+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:50:36.818+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.563 seconds
+[2024-02-25T11:51:29.560+0530] {processor.py:161} INFO - Started process (PID=61885) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:51:29.612+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:51:29.615+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:51:29.614+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:51:29.635+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:51:30.047+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:51:30.043+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:51:30.392+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:51:30.391+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:51:30.539+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.003 seconds
+[2024-02-25T11:52:19.928+0530] {processor.py:161} INFO - Started process (PID=61920) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:52:19.974+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:52:19.975+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:52:19.975+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:52:19.995+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:52:20.053+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:52:20.052+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:52:20.137+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:52:20.136+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:52:20.269+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.356 seconds
+[2024-02-25T11:53:02.875+0530] {processor.py:161} INFO - Started process (PID=61968) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:53:02.877+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:53:02.879+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:53:02.878+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:53:02.893+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:53:03.058+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:53:03.057+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:53:03.225+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:53:03.225+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:53:03.300+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.429 seconds
+[2024-02-25T11:54:00.468+0530] {processor.py:161} INFO - Started process (PID=62041) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:54:00.471+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:54:00.473+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:00.472+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:54:00.485+0530] {processor.py:840} INFO - DAG(s) 'THE_first_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:54:00.508+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:00.508+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:54:00.539+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:00.538+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_first_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:54:00.572+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.110 seconds
+[2024-02-25T11:54:29.068+0530] {processor.py:161} INFO - Started process (PID=62133) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:54:29.070+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:54:29.072+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:29.071+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:54:29.102+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:54:29.278+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:29.277+0530] {override.py:1769} INFO - Created Permission View: can delete on DAG:THE_second_dag
+[2024-02-25T11:54:29.311+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:29.310+0530] {override.py:1769} INFO - Created Permission View: can read on DAG:THE_second_dag
+[2024-02-25T11:54:29.349+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:29.348+0530] {override.py:1769} INFO - Created Permission View: can edit on DAG:THE_second_dag
+[2024-02-25T11:54:29.350+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:29.350+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:54:30.542+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:30.541+0530] {dag.py:3058} INFO - Creating ORM DAG for THE_second_dag
+[2024-02-25T11:54:30.595+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:54:30.594+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:54:30.697+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 1.634 seconds
+[2024-02-25T11:56:38.194+0530] {processor.py:161} INFO - Started process (PID=62237) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:56:38.198+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:56:38.199+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:56:38.199+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:56:38.266+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:56:38.290+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:56:38.290+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:56:38.331+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:56:38.330+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:56:38.380+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.192 seconds
+[2024-02-25T11:58:12.317+0530] {processor.py:161} INFO - Started process (PID=62324) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:58:12.327+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:58:12.329+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:58:12.328+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:58:12.395+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:58:12.746+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:58:12.746+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:58:12.776+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:58:12.776+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:58:12.961+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.650 seconds
+[2024-02-25T11:59:22.459+0530] {processor.py:161} INFO - Started process (PID=62385) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:59:22.484+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T11:59:22.485+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:59:22.484+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:59:22.524+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T11:59:22.585+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:59:22.585+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T11:59:22.893+0530] {logging_mixin.py:188} INFO - [2024-02-25T11:59:22.892+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T11:59:23.036+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.583 seconds
+[2024-02-25T12:00:22.223+0530] {processor.py:161} INFO - Started process (PID=62427) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:00:22.271+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:00:22.273+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:00:22.272+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:00:22.296+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:00:22.570+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:00:22.570+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:00:22.600+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:00:22.599+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:00:22.838+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.620 seconds
+[2024-02-25T12:01:08.219+0530] {processor.py:161} INFO - Started process (PID=62477) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:01:08.261+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:01:08.263+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:01:08.262+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:01:08.276+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:01:08.300+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:01:08.300+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:01:08.326+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:01:08.326+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:01:08.362+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.148 seconds
+[2024-02-25T12:01:45.375+0530] {processor.py:161} INFO - Started process (PID=62527) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:01:45.380+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:01:45.383+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:01:45.382+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:01:45.406+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:01:45.613+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:01:45.613+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:01:45.648+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:01:45.647+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:01:45.737+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.370 seconds
+[2024-02-25T12:02:18.968+0530] {processor.py:161} INFO - Started process (PID=62585) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:02:18.970+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:02:18.971+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:02:18.971+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:02:18.983+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:02:19.005+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:02:19.005+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:02:19.035+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:02:19.035+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:02:19.069+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.106 seconds
+[2024-02-25T12:03:11.529+0530] {processor.py:161} INFO - Started process (PID=62637) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:03:11.547+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:03:11.549+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:03:11.548+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:03:11.560+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:03:11.681+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:03:11.681+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:03:11.704+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:03:11.704+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:03:11.790+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.265 seconds
+[2024-02-25T12:03:57.051+0530] {processor.py:161} INFO - Started process (PID=62686) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:03:57.054+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:03:57.055+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:03:57.054+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:03:57.067+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:03:57.091+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:03:57.090+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:03:57.119+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:03:57.119+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:03:57.152+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.105 seconds
+[2024-02-25T12:04:43.154+0530] {processor.py:161} INFO - Started process (PID=62733) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:04:43.156+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:04:43.157+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:04:43.156+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:04:43.169+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:04:43.290+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:04:43.290+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:04:43.315+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:04:43.314+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:04:43.349+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.200 seconds
+[2024-02-25T12:05:29.969+0530] {processor.py:161} INFO - Started process (PID=62780) to work on /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:05:29.971+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/first-dag-1.py for tasks to queue
+[2024-02-25T12:05:29.973+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:05:29.972+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:05:29.984+0530] {processor.py:840} INFO - DAG(s) 'THE_second_dag' retrieved from /home/arun/airflow/dags/first-dag-1.py
+[2024-02-25T12:05:30.007+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:05:30.006+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-25T12:05:30.034+0530] {logging_mixin.py:188} INFO - [2024-02-25T12:05:30.034+0530] {dag.py:3823} INFO - Setting next_dagrun for THE_second_dag to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-25T12:05:30.068+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/first-dag-1.py took 0.103 seconds

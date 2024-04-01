@@ -1,0 +1,114 @@
+[2024-03-05T18:02:04.022+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Visualization_DAG.animation_video scheduled__2024-03-05T12:06:00+00:00 [queued]>
+[2024-03-05T18:02:04.040+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Visualization_DAG.animation_video scheduled__2024-03-05T12:06:00+00:00 [queued]>
+[2024-03-05T18:02:04.040+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-05T18:02:04.124+0530] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): animation_video> on 2024-03-05 12:06:00+00:00
+[2024-03-05T18:02:04.213+0530] {standard_task_runner.py:60} INFO - Started process 13333 to run task
+[2024-03-05T18:02:04.238+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Visualization_DAG', 'animation_video', 'scheduled__2024-03-05T12:06:00+00:00', '--job-id', '314', '--raw', '--subdir', 'DAGS_FOLDER/Analytics_data.py', '--cfg-path', '/tmp/tmpmktjhtv6']
+[2024-03-05T18:02:04.241+0530] {standard_task_runner.py:88} INFO - Job 314: Subtask animation_video
+[2024-03-05T18:02:04.517+0530] {task_command.py:423} INFO - Running <TaskInstance: Visualization_DAG.animation_video scheduled__2024-03-05T12:06:00+00:00 [running]> on host arun-VM
+[2024-03-05T18:02:05.155+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='Visualization_DAG' AIRFLOW_CTX_TASK_ID='animation_video' AIRFLOW_CTX_EXECUTION_DATE='2024-03-05T12:06:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-05T12:06:00+00:00'
+[2024-03-05T18:02:05.158+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-05T18:02:05.159+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'ffmpeg -framerate 1 -i /home/arun/airflow/dags/images_folder/Average_Dry_Bulb_Temperature-month-%d.png -c:v libx264 -preset slow -crf 20 /home/arun/airflow/dags/videos_folder/Animation_Dry_Bulb_Temperature.mp4 ; ffmpeg -framerate 1 -i /home/arun/airflow/dags/images_folder/Average_Wind_Speed-month-%d.png -c:v libx264 -preset slow -crf 20 /home/arun/airflow/dags/videos_folder/Average_Wind_Speed.mp4']
+[2024-03-05T18:02:05.234+0530] {subprocess.py:86} INFO - Output:
+[2024-03-05T18:02:05.824+0530] {subprocess.py:93} INFO - ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+[2024-03-05T18:02:05.825+0530] {subprocess.py:93} INFO -   built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+[2024-03-05T18:02:05.825+0530] {subprocess.py:93} INFO -   configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+[2024-03-05T18:02:05.826+0530] {subprocess.py:93} INFO -   libavutil      56. 70.100 / 56. 70.100
+[2024-03-05T18:02:05.826+0530] {subprocess.py:93} INFO -   libavcodec     58.134.100 / 58.134.100
+[2024-03-05T18:02:05.826+0530] {subprocess.py:93} INFO -   libavformat    58. 76.100 / 58. 76.100
+[2024-03-05T18:02:05.826+0530] {subprocess.py:93} INFO -   libavdevice    58. 13.100 / 58. 13.100
+[2024-03-05T18:02:05.826+0530] {subprocess.py:93} INFO -   libavfilter     7.110.100 /  7.110.100
+[2024-03-05T18:02:05.827+0530] {subprocess.py:93} INFO -   libswscale      5.  9.100 /  5.  9.100
+[2024-03-05T18:02:05.827+0530] {subprocess.py:93} INFO -   libswresample   3.  9.100 /  3.  9.100
+[2024-03-05T18:02:05.827+0530] {subprocess.py:93} INFO -   libpostproc    55.  9.100 / 55.  9.100
+[2024-03-05T18:02:05.955+0530] {subprocess.py:93} INFO - Input #0, image2, from '/home/arun/airflow/dags/images_folder/Average_Dry_Bulb_Temperature-month-%d.png':
+[2024-03-05T18:02:05.955+0530] {subprocess.py:93} INFO -   Duration: 00:00:12.00, start: 0.000000, bitrate: N/A
+[2024-03-05T18:02:05.956+0530] {subprocess.py:93} INFO -   Stream #0:0: Video: png, rgba(pc), 2000x2000 [SAR 3937:3937 DAR 1:1], 1 fps, 1 tbr, 1 tbn, 1 tbc
+[2024-03-05T18:02:05.972+0530] {subprocess.py:93} INFO - Stream mapping:
+[2024-03-05T18:02:05.973+0530] {subprocess.py:93} INFO -   Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+[2024-03-05T18:02:05.973+0530] {subprocess.py:93} INFO - Press [q] to stop, [?] for help
+[2024-03-05T18:02:06.508+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] using SAR=1/1
+[2024-03-05T18:02:06.521+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2
+[2024-03-05T18:02:06.566+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] profile High 4:4:4 Predictive, level 5.0, 4:4:4, 8-bit
+[2024-03-05T18:02:06.566+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=5 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=8 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=7 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=1 scenecut=40 intra_refresh=0 rc_lookahead=50 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[2024-03-05T18:02:06.566+0530] {subprocess.py:93} INFO - Output #0, mp4, to '/home/arun/airflow/dags/videos_folder/Animation_Dry_Bulb_Temperature.mp4':
+[2024-03-05T18:02:06.567+0530] {subprocess.py:93} INFO -   Metadata:
+[2024-03-05T18:02:06.567+0530] {subprocess.py:93} INFO -     encoder         : Lavf58.76.100
+[2024-03-05T18:02:06.567+0530] {subprocess.py:93} INFO -   Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv444p(tv, progressive), 2000x2000 [SAR 1:1 DAR 1:1], q=2-31, 1 fps, 16384 tbn
+[2024-03-05T18:02:06.567+0530] {subprocess.py:93} INFO -     Metadata:
+[2024-03-05T18:02:06.567+0530] {subprocess.py:93} INFO -       encoder         : Lavc58.134.100 libx264
+[2024-03-05T18:02:06.567+0530] {subprocess.py:93} INFO -     Side data:
+[2024-03-05T18:02:06.567+0530] {subprocess.py:93} INFO -       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[2024-03-05T18:02:10.683+0530] {subprocess.py:93} INFO - frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=    3 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   12 fps=2.6 q=-1.0 Lsize=     127kB time=00:00:09.00 bitrate= 115.4kbits/s speed=1.91x
+[2024-03-05T18:02:10.683+0530] {subprocess.py:93} INFO - video:126kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.793577%
+[2024-03-05T18:02:10.774+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] frame I:1     Avg QP: 7.75  size:115082
+[2024-03-05T18:02:10.774+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] frame P:4     Avg QP:10.27  size:  1798
+[2024-03-05T18:02:10.774+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] frame B:7     Avg QP:12.22  size:   832
+[2024-03-05T18:02:10.774+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] consecutive B-frames: 16.7% 16.7%  0.0% 66.7%
+[2024-03-05T18:02:10.774+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] mb I  I16..4: 40.4% 51.0%  8.6%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] mb P  I16..4:  0.0%  0.0%  0.1%  P16..4:  0.4%  0.0%  0.0%  0.0%  0.0%    skip:99.5%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.2%  0.0%  0.0%  direct: 0.1%  skip:99.7%  L0:63.3% L1:34.4% BI: 2.3%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] 8x8 transform intra:50.8% inter:57.5%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] direct mvs  spatial:42.9% temporal:57.1%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] coded y,u,v intra: 5.9% 0.4% 0.4% inter: 0.1% 0.1% 0.1%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] i16 v,h,dc,p: 94%  4%  2%  0%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 73% 10% 17%  0%  0%  0%  0%  0%  0%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 33% 28% 14%  3%  4%  4%  5%  3%  5%
+[2024-03-05T18:02:10.775+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] Weighted P-Frames: Y:0.0% UV:0.0%
+[2024-03-05T18:02:10.776+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] ref P L0: 74.8%  5.1%  3.8%  6.2%  0.1% 10.0%
+[2024-03-05T18:02:10.776+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] ref B L0: 85.9% 12.8%  1.2%
+[2024-03-05T18:02:10.776+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] ref B L1: 95.2%  4.8%
+[2024-03-05T18:02:10.776+0530] {subprocess.py:93} INFO - [libx264 @ 0x560a7914c4c0] kb/s:85.40
+[2024-03-05T18:02:11.578+0530] {subprocess.py:93} INFO - ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+[2024-03-05T18:02:11.578+0530] {subprocess.py:93} INFO -   built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+[2024-03-05T18:02:11.579+0530] {subprocess.py:93} INFO -   configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+[2024-03-05T18:02:11.579+0530] {subprocess.py:93} INFO -   libavutil      56. 70.100 / 56. 70.100
+[2024-03-05T18:02:11.579+0530] {subprocess.py:93} INFO -   libavcodec     58.134.100 / 58.134.100
+[2024-03-05T18:02:11.579+0530] {subprocess.py:93} INFO -   libavformat    58. 76.100 / 58. 76.100
+[2024-03-05T18:02:11.584+0530] {subprocess.py:93} INFO -   libavdevice    58. 13.100 / 58. 13.100
+[2024-03-05T18:02:11.585+0530] {subprocess.py:93} INFO -   libavfilter     7.110.100 /  7.110.100
+[2024-03-05T18:02:11.585+0530] {subprocess.py:93} INFO -   libswscale      5.  9.100 /  5.  9.100
+[2024-03-05T18:02:11.585+0530] {subprocess.py:93} INFO -   libswresample   3.  9.100 /  3.  9.100
+[2024-03-05T18:02:11.585+0530] {subprocess.py:93} INFO -   libpostproc    55.  9.100 / 55.  9.100
+[2024-03-05T18:02:12.671+0530] {subprocess.py:93} INFO - Input #0, image2, from '/home/arun/airflow/dags/images_folder/Average_Wind_Speed-month-%d.png':
+[2024-03-05T18:02:12.671+0530] {subprocess.py:93} INFO -   Duration: 00:00:12.00, start: 0.000000, bitrate: N/A
+[2024-03-05T18:02:12.671+0530] {subprocess.py:93} INFO -   Stream #0:0: Video: png, rgba(pc), 2000x2000 [SAR 3937:3937 DAR 1:1], 1 fps, 1 tbr, 1 tbn, 1 tbc
+[2024-03-05T18:02:12.712+0530] {subprocess.py:93} INFO - Stream mapping:
+[2024-03-05T18:02:12.713+0530] {subprocess.py:93} INFO -   Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+[2024-03-05T18:02:12.713+0530] {subprocess.py:93} INFO - Press [q] to stop, [?] for help
+[2024-03-05T18:02:12.945+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] using SAR=1/1
+[2024-03-05T18:02:12.967+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2
+[2024-03-05T18:02:13.018+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] profile High 4:4:4 Predictive, level 5.0, 4:4:4, 8-bit
+[2024-03-05T18:02:13.021+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=5 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=8 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=7 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=1 scenecut=40 intra_refresh=0 rc_lookahead=50 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[2024-03-05T18:02:13.021+0530] {subprocess.py:93} INFO - Output #0, mp4, to '/home/arun/airflow/dags/videos_folder/Average_Wind_Speed.mp4':
+[2024-03-05T18:02:13.022+0530] {subprocess.py:93} INFO -   Metadata:
+[2024-03-05T18:02:13.022+0530] {subprocess.py:93} INFO -     encoder         : Lavf58.76.100
+[2024-03-05T18:02:13.022+0530] {subprocess.py:93} INFO -   Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv444p(tv, progressive), 2000x2000 [SAR 1:1 DAR 1:1], q=2-31, 1 fps, 16384 tbn
+[2024-03-05T18:02:13.022+0530] {subprocess.py:93} INFO -     Metadata:
+[2024-03-05T18:02:13.022+0530] {subprocess.py:93} INFO -       encoder         : Lavc58.134.100 libx264
+[2024-03-05T18:02:13.023+0530] {subprocess.py:93} INFO -     Side data:
+[2024-03-05T18:02:13.023+0530] {subprocess.py:93} INFO -       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[2024-03-05T18:02:16.805+0530] {subprocess.py:93} INFO - frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=    5 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   12 fps=9.9 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   12 fps=2.9 q=-1.0 Lsize=     123kB time=00:00:09.00 bitrate= 112.2kbits/s speed= 2.2x
+[2024-03-05T18:02:16.806+0530] {subprocess.py:93} INFO - video:122kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.809613%
+[2024-03-05T18:02:16.927+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] frame I:1     Avg QP: 8.19  size:110246
+[2024-03-05T18:02:16.928+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] frame P:3     Avg QP:10.89  size:  2077
+[2024-03-05T18:02:16.928+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] frame B:8     Avg QP:12.82  size:  1010
+[2024-03-05T18:02:16.928+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] consecutive B-frames:  8.3%  0.0% 25.0% 66.7%
+[2024-03-05T18:02:16.928+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] mb I  I16..4: 39.8% 52.1%  8.1%
+[2024-03-05T18:02:16.928+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] mb P  I16..4:  0.0%  0.0%  0.1%  P16..4:  0.3%  0.0%  0.0%  0.0%  0.0%    skip:99.6%
+[2024-03-05T18:02:16.928+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.2%  0.0%  0.0%  direct: 0.0%  skip:99.7%  L0:43.5% L1:39.6% BI:16.9%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] 8x8 transform intra:51.9% inter:52.5%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] direct mvs  spatial:50.0% temporal:50.0%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] coded y,u,v intra: 5.5% 0.4% 0.5% inter: 0.1% 0.1% 0.1%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] i16 v,h,dc,p: 94%  4%  2%  0%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 75%  8% 17%  0%  0%  0%  0%  0%  0%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 33% 27% 15%  3%  4%  3%  5%  3%  6%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] Weighted P-Frames: Y:0.0% UV:0.0%
+[2024-03-05T18:02:16.929+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] ref P L0: 58.2%  2.7%  6.8% 18.9% 13.4%
+[2024-03-05T18:02:16.930+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] ref B L0: 57.5% 28.4% 14.2%
+[2024-03-05T18:02:16.930+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] ref B L1: 86.5% 13.5%
+[2024-03-05T18:02:16.930+0530] {subprocess.py:93} INFO - [libx264 @ 0x55ee8b904440] kb/s:83.04
+[2024-03-05T18:02:17.914+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-05T18:02:19.149+0530] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Visualization_DAG, task_id=animation_video, execution_date=20240305T120600, start_date=20240305T123204, end_date=20240305T123219
+[2024-03-05T18:02:19.615+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-05T18:02:19.634+0530] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

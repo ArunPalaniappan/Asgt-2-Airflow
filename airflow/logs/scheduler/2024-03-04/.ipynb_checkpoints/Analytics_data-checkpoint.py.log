@@ -1,0 +1,994 @@
+[2024-03-04T18:28:19.494+0530] {processor.py:161} INFO - Started process (PID=11858) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:28:19.495+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:28:19.496+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:19.496+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:28:20.424+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:20.423+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:28:20.669+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:20.669+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:28:21.217+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:28:21.229+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:21.229+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:28:21.266+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:28:21.266+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 12:54:00+00:00, run_after=2024-03-04 12:57:00+00:00
+[2024-03-04T18:28:21.337+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.846 seconds
+[2024-03-04T18:30:35.355+0530] {processor.py:161} INFO - Started process (PID=12018) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:30:35.357+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:30:35.358+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:35.358+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:30:36.166+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:36.166+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:30:36.278+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:36.277+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:30:36.653+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:30:36.659+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:36.658+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:30:36.685+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:30:36.684+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:03:00+00:00
+[2024-03-04T18:30:36.712+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.361 seconds
+[2024-03-04T18:31:42.837+0530] {processor.py:161} INFO - Started process (PID=12099) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:31:42.944+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:31:42.946+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:42.945+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:31:44.505+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:44.504+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:31:44.813+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:44.812+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:31:45.398+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:31:45.606+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:45.606+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:31:45.626+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:31:45.625+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:03:00+00:00
+[2024-03-04T18:31:45.660+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.826 seconds
+[2024-03-04T18:32:31.709+0530] {processor.py:161} INFO - Started process (PID=12149) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:32:31.825+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:32:31.838+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:31.827+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:32:33.610+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:33.609+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:32:33.729+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:33.729+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:32:34.100+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:32:34.107+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:34.107+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:32:34.138+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:32:34.138+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:00:00+00:00, run_after=2024-03-04 13:03:00+00:00
+[2024-03-04T18:32:34.175+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.474 seconds
+[2024-03-04T18:33:39.702+0530] {processor.py:161} INFO - Started process (PID=12219) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:33:39.706+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:33:39.707+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:39.707+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:33:40.661+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:40.661+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:33:40.806+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:40.805+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:33:41.188+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:33:41.415+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:41.414+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:33:41.443+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:33:41.443+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:03:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:33:41.492+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.793 seconds
+[2024-03-04T18:34:48.608+0530] {processor.py:161} INFO - Started process (PID=12308) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:34:48.624+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:34:48.626+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:48.625+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:34:49.398+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:49.397+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:34:49.606+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:49.606+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:34:50.372+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:34:50.392+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:50.392+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:34:50.448+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:34:50.448+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:03:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:34:50.815+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.213 seconds
+[2024-03-04T18:35:47.390+0530] {processor.py:161} INFO - Started process (PID=12378) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:35:47.431+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:35:47.433+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:47.433+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:35:48.241+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:48.240+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:35:48.376+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:48.375+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:35:48.713+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:35:48.902+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:48.902+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:35:48.922+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:35:48.922+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:03:00+00:00, run_after=2024-03-04 13:06:00+00:00
+[2024-03-04T18:35:48.954+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.570 seconds
+[2024-03-04T18:37:06.815+0530] {processor.py:161} INFO - Started process (PID=12464) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:37:06.868+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:37:06.877+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:06.877+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:37:08.528+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:08.527+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:37:08.685+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:08.684+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:37:09.115+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:37:09.121+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:09.121+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:37:09.149+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:37:09.148+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:06:00+00:00, run_after=2024-03-04 13:09:00+00:00
+[2024-03-04T18:37:09.332+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.529 seconds
+[2024-03-04T18:38:01.501+0530] {processor.py:161} INFO - Started process (PID=12518) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:38:01.551+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:38:01.554+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:01.553+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:38:03.106+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:03.105+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:38:03.283+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:03.282+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:38:03.705+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:38:03.952+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:03.952+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:38:03.979+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:38:03.979+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:06:00+00:00, run_after=2024-03-04 13:09:00+00:00
+[2024-03-04T18:38:04.014+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.549 seconds
+[2024-03-04T18:39:51.607+0530] {processor.py:161} INFO - Started process (PID=12629) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:39:51.658+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:39:51.676+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:51.672+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:39:53.602+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:53.601+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:39:53.979+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:53.979+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:39:54.953+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:39:54.960+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:54.959+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:39:55.021+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:39:55.021+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:09:00+00:00, run_after=2024-03-04 13:12:00+00:00
+[2024-03-04T18:39:55.440+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.844 seconds
+[2024-03-04T18:41:13.023+0530] {processor.py:161} INFO - Started process (PID=12754) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:41:13.076+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:41:13.077+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:13.077+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:41:14.646+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:14.646+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:41:14.976+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:14.975+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:41:15.566+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:41:15.802+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:15.802+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:41:15.828+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:41:15.828+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:09:00+00:00, run_after=2024-03-04 13:12:00+00:00
+[2024-03-04T18:41:16.037+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.022 seconds
+[2024-03-04T18:42:29.412+0530] {processor.py:161} INFO - Started process (PID=12896) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:42:29.420+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:42:29.422+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:29.422+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:42:30.331+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:30.330+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:42:30.554+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:30.554+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:42:30.958+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:42:31.217+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:31.217+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:42:31.247+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:42:31.247+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:12:00+00:00, run_after=2024-03-04 13:15:00+00:00
+[2024-03-04T18:42:31.278+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.872 seconds
+[2024-03-04T18:43:58.927+0530] {processor.py:161} INFO - Started process (PID=13519) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:43:58.964+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:43:58.968+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:43:58.964+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:44:01.117+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:44:01.117+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:44:01.238+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:44:01.238+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:44:01.540+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:44:01.695+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:44:01.695+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:44:01.712+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:44:01.712+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:12:00+00:00, run_after=2024-03-04 13:15:00+00:00
+[2024-03-04T18:44:01.820+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.930 seconds
+[2024-03-04T18:46:27.752+0530] {processor.py:161} INFO - Started process (PID=13957) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:46:27.823+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:46:27.824+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:27.823+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:46:29.960+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:29.957+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:46:30.388+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:30.384+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:46:31.317+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:46:31.342+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:31.341+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:46:31.662+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:46:31.662+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:15:00+00:00, run_after=2024-03-04 13:18:00+00:00
+[2024-03-04T18:46:31.839+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 4.093 seconds
+[2024-03-04T18:53:24.763+0530] {processor.py:161} INFO - Started process (PID=5392) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:53:24.811+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:53:24.813+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:24.812+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:53:25.725+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:25.725+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:53:26.384+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:26.384+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:53:26.955+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:53:27.046+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:27.046+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:53:27.069+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:53:27.069+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:21:00+00:00, run_after=2024-03-04 13:24:00+00:00
+[2024-03-04T18:53:27.098+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.348 seconds
+[2024-03-04T18:56:08.797+0530] {processor.py:161} INFO - Started process (PID=5894) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:56:08.849+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:56:08.854+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:08.854+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:56:10.724+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:10.722+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:56:11.152+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:11.151+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:56:11.639+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:56:11.646+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:11.646+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:56:11.680+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:56:11.680+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:56:11.911+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.122 seconds
+[2024-03-04T18:57:21.412+0530] {processor.py:161} INFO - Started process (PID=5984) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:57:21.455+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:57:21.458+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:21.457+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:57:24.237+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:24.236+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:57:24.758+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:24.758+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:57:25.843+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:57:26.363+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:26.358+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:57:26.427+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:57:26.426+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:57:26.656+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.263 seconds
+[2024-03-04T18:58:25.881+0530] {processor.py:161} INFO - Started process (PID=6070) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:58:25.883+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:58:25.884+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:25.883+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:58:26.861+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:26.860+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:58:27.159+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:27.158+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:58:28.422+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:58:28.430+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:28.430+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:58:28.472+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:58:28.471+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:58:28.511+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.634 seconds
+[2024-03-04T18:59:32.097+0530] {processor.py:161} INFO - Started process (PID=6364) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:59:32.143+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T18:59:32.144+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:32.144+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:59:34.337+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:34.336+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T18:59:34.766+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:34.766+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T18:59:36.228+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T18:59:36.790+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:36.787+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T18:59:36.937+0530] {logging_mixin.py:188} INFO - [2024-03-04T18:59:36.937+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:24:00+00:00, run_after=2024-03-04 13:27:00+00:00
+[2024-03-04T18:59:37.060+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 4.971 seconds
+[2024-03-04T19:00:33.387+0530] {processor.py:161} INFO - Started process (PID=6464) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:00:33.429+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:00:33.430+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:33.429+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:00:34.726+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:34.725+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:00:35.001+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:35.000+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:00:35.659+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:00:35.670+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:35.670+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:00:35.730+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:00:35.730+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:27:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:00:35.884+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.501 seconds
+[2024-03-04T19:01:25.577+0530] {processor.py:161} INFO - Started process (PID=6578) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:01:25.604+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:01:25.606+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:25.605+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:01:27.762+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:27.762+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:01:28.304+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:28.304+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:01:29.352+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:01:30.033+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:30.033+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:01:30.133+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:01:30.133+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:27:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:01:30.336+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 4.768 seconds
+[2024-03-04T19:02:25.598+0530] {processor.py:161} INFO - Started process (PID=6674) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:02:25.670+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:02:25.697+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:25.696+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:02:28.051+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:28.051+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:02:28.216+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:28.216+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:02:28.632+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:02:28.639+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:28.639+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:02:28.834+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:02:28.834+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:27:00+00:00, run_after=2024-03-04 13:30:00+00:00
+[2024-03-04T19:02:29.118+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.551 seconds
+[2024-03-04T19:05:17.741+0530] {processor.py:161} INFO - Started process (PID=6883) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:05:17.749+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:05:17.751+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:17.750+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:05:20.105+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:20.104+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:05:20.498+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:20.497+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:05:21.969+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:05:22.590+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:22.589+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:05:22.644+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:05:22.644+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:05:22.846+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.110 seconds
+[2024-03-04T19:06:18.258+0530] {processor.py:161} INFO - Started process (PID=7029) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:06:18.300+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:06:18.302+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:18.301+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:06:19.404+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:19.403+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:06:19.621+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:19.621+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:06:20.085+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:06:20.091+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:20.090+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:06:20.122+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:06:20.122+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:06:20.169+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.934 seconds
+[2024-03-04T19:07:12.254+0530] {processor.py:161} INFO - Started process (PID=7143) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:07:12.294+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:07:12.295+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:12.294+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:07:13.986+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:13.985+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:07:14.128+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:14.128+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:07:15.006+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:07:15.293+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:15.292+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:07:15.320+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:15.320+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:07:15.350+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.105 seconds
+[2024-03-04T19:07:56.652+0530] {processor.py:161} INFO - Started process (PID=7217) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:07:56.698+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:07:56.702+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:56.701+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:07:57.755+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:57.754+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:07:57.935+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:57.934+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:07:58.390+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:07:58.517+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:58.517+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:07:58.557+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:07:58.557+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:07:58.600+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.952 seconds
+[2024-03-04T19:08:35.252+0530] {processor.py:161} INFO - Started process (PID=7301) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:08:35.254+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:08:35.255+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:35.255+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:08:36.132+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:36.132+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:08:36.263+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:36.263+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:08:36.597+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:08:36.772+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:36.772+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:08:36.794+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:08:36.793+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:33:00+00:00, run_after=2024-03-04 13:36:00+00:00
+[2024-03-04T19:08:36.896+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.647 seconds
+[2024-03-04T19:09:12.633+0530] {processor.py:161} INFO - Started process (PID=7369) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:09:12.635+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:09:12.637+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:12.636+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:09:13.577+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:13.576+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:09:13.720+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:13.719+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:09:14.079+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:09:14.089+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:14.089+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:09:14.129+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:14.129+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:09:14.269+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.642 seconds
+[2024-03-04T19:09:54.530+0530] {processor.py:161} INFO - Started process (PID=7450) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:09:54.571+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:09:54.573+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:54.572+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:09:56.128+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:56.128+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:09:56.358+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:56.358+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:09:56.996+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:09:57.189+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:57.188+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:09:57.230+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:09:57.229+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:09:57.303+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.777 seconds
+[2024-03-04T19:10:37.599+0530] {processor.py:161} INFO - Started process (PID=7541) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:10:37.604+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:10:37.606+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:37.605+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:10:38.832+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:38.827+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:10:39.043+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:39.043+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:10:39.589+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:10:39.754+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:39.753+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:10:39.795+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:10:39.795+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:10:39.833+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.245 seconds
+[2024-03-04T19:11:18.931+0530] {processor.py:161} INFO - Started process (PID=7617) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:11:18.933+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:11:18.933+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:18.933+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:11:19.994+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:19.993+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:11:20.126+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:20.126+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:11:20.606+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:11:21.023+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:21.023+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:11:21.061+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:11:21.061+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:36:00+00:00, run_after=2024-03-04 13:39:00+00:00
+[2024-03-04T19:11:21.159+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.232 seconds
+[2024-03-04T19:12:03.388+0530] {processor.py:161} INFO - Started process (PID=7698) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:12:03.426+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:12:03.428+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:03.427+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:12:04.316+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:04.316+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:12:04.456+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:04.456+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:12:04.893+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:12:04.898+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:04.898+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:12:04.927+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:04.927+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:12:04.979+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.595 seconds
+[2024-03-04T19:12:47.665+0530] {processor.py:161} INFO - Started process (PID=7778) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:12:47.712+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:12:47.714+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:47.713+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:12:48.821+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:48.820+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:12:49.155+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:49.155+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:12:49.954+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:12:50.055+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:50.055+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:12:50.082+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:12:50.082+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:12:50.163+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.503 seconds
+[2024-03-04T19:13:30.761+0530] {processor.py:161} INFO - Started process (PID=7851) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:13:30.763+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:13:30.764+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:30.764+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:13:31.740+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:31.739+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:13:31.883+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:31.883+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:13:32.679+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:13:32.698+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:32.698+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:13:32.756+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:13:32.755+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:13:32.829+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.073 seconds
+[2024-03-04T19:14:12.206+0530] {processor.py:161} INFO - Started process (PID=7935) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:14:12.208+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:14:12.209+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:12.209+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:14:12.988+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:12.987+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:14:13.211+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:13.210+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:14:13.716+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:14:13.837+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:13.836+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:14:13.860+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:13.860+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:14:13.889+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.688 seconds
+[2024-03-04T19:14:57.460+0530] {processor.py:161} INFO - Started process (PID=8010) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:14:57.558+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:14:57.560+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:57.559+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:14:58.662+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:58.661+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:14:58.805+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:58.805+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:14:59.261+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:14:59.267+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:59.266+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:14:59.292+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:14:59.291+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:39:00+00:00, run_after=2024-03-04 13:42:00+00:00
+[2024-03-04T19:14:59.327+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.874 seconds
+[2024-03-04T19:15:40.061+0530] {processor.py:161} INFO - Started process (PID=8156) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:15:40.063+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:15:40.064+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:40.063+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:15:40.892+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:40.892+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:15:41.138+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:41.138+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:15:41.847+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:15:42.009+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:42.008+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:15:42.033+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:15:42.032+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:15:42.131+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.073 seconds
+[2024-03-04T19:16:21.834+0530] {processor.py:161} INFO - Started process (PID=8245) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:16:21.872+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:16:21.873+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:21.873+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:16:22.782+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:22.781+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:16:22.973+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:22.973+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:16:23.427+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:16:23.433+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:23.433+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:16:23.460+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:16:23.460+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:16:23.513+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.683 seconds
+[2024-03-04T19:17:04.537+0530] {processor.py:161} INFO - Started process (PID=8325) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:17:04.543+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:17:04.545+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:04.544+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:17:06.217+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:06.217+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:17:06.398+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:06.398+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:17:07.359+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:17:07.576+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:07.576+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:17:07.612+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:07.612+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:17:07.687+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.158 seconds
+[2024-03-04T19:17:48.954+0530] {processor.py:161} INFO - Started process (PID=8407) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:17:48.956+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:17:48.958+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:48.957+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:17:49.924+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:49.924+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:17:50.100+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:50.100+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:17:50.587+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:17:50.593+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:50.593+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:17:50.623+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:17:50.622+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:42:00+00:00, run_after=2024-03-04 13:45:00+00:00
+[2024-03-04T19:17:50.706+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.757 seconds
+[2024-03-04T19:18:30.003+0530] {processor.py:161} INFO - Started process (PID=8501) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:18:30.050+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:18:30.052+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:30.051+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:18:31.620+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:31.620+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:18:31.874+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:31.874+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:18:32.801+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:18:32.968+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:32.967+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:18:33.006+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:18:33.006+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:18:33.098+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.113 seconds
+[2024-03-04T19:19:13.036+0530] {processor.py:161} INFO - Started process (PID=8581) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:19:13.039+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:19:13.041+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:13.040+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:19:14.674+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:14.673+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:19:14.859+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:14.858+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:19:15.512+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:19:15.518+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:15.518+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:19:15.554+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:15.553+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:19:15.692+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.662 seconds
+[2024-03-04T19:19:57.336+0530] {processor.py:161} INFO - Started process (PID=8658) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:19:57.337+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:19:57.339+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:57.338+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:19:58.853+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:58.850+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:19:59.203+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:19:59.203+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:19:59.956+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:20:00.165+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:00.165+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:20:00.216+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:00.216+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:20:00.256+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.925 seconds
+[2024-03-04T19:20:39.733+0530] {processor.py:161} INFO - Started process (PID=8746) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:20:39.735+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:20:39.736+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:39.735+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:20:40.747+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:40.746+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:20:40.950+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:40.949+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:20:41.535+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:20:41.543+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:41.543+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:20:41.580+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:20:41.580+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:45:00+00:00, run_after=2024-03-04 13:48:00+00:00
+[2024-03-04T19:20:41.622+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.892 seconds
+[2024-03-04T19:21:21.578+0530] {processor.py:161} INFO - Started process (PID=8855) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:21:21.580+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:21:21.581+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:21.580+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:21:22.872+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:22.871+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:21:23.092+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:23.091+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:21:23.810+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:21:23.915+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:23.914+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:21:23.942+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:21:23.942+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:21:23.974+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.399 seconds
+[2024-03-04T19:22:09.342+0530] {processor.py:161} INFO - Started process (PID=8953) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:22:09.383+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:22:09.385+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:09.384+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:22:10.392+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:10.392+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:22:10.552+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:10.551+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:22:11.076+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:22:11.082+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:11.082+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:22:11.108+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:11.108+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:22:11.135+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.798 seconds
+[2024-03-04T19:22:50.737+0530] {processor.py:161} INFO - Started process (PID=9025) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:22:50.780+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:22:50.782+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:50.781+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:22:52.172+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:52.171+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:22:52.375+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:52.374+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:22:53.043+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:22:53.181+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:53.181+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:22:53.216+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:22:53.215+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:22:53.340+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.609 seconds
+[2024-03-04T19:23:33.981+0530] {processor.py:161} INFO - Started process (PID=9096) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:23:33.983+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:23:33.984+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:33.983+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:23:35.153+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:35.152+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:23:35.261+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:35.261+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:23:35.849+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:23:35.854+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:35.854+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:23:35.875+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:23:35.874+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:48:00+00:00, run_after=2024-03-04 13:51:00+00:00
+[2024-03-04T19:23:35.901+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.924 seconds
+[2024-03-04T19:24:14.923+0530] {processor.py:161} INFO - Started process (PID=9198) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:24:14.955+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:24:14.956+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:14.955+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:24:15.747+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:15.746+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:24:15.861+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:15.861+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:24:16.270+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:24:16.358+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:16.358+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:24:16.377+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:16.377+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:24:16.458+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.539 seconds
+[2024-03-04T19:24:52.843+0530] {processor.py:161} INFO - Started process (PID=9265) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:24:52.883+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:24:52.884+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:52.884+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:24:53.651+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:53.650+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:24:53.778+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:53.778+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:24:54.187+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:24:54.192+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:54.192+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:24:54.214+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:24:54.213+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:24:54.298+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.460 seconds
+[2024-03-04T19:25:31.873+0530] {processor.py:161} INFO - Started process (PID=9337) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:25:31.905+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:25:31.906+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:31.906+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:25:32.764+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:32.763+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:25:32.902+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:32.901+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:25:33.368+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:25:33.479+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:33.479+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:25:33.505+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:25:33.504+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:25:33.541+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.671 seconds
+[2024-03-04T19:26:10.999+0530] {processor.py:161} INFO - Started process (PID=9434) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:26:11.001+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:26:11.002+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:11.001+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:26:11.813+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:11.813+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:26:11.939+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:11.938+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:26:12.301+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:26:12.307+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:12.307+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:26:12.333+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:12.332+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:26:12.400+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.405 seconds
+[2024-03-04T19:26:48.872+0530] {processor.py:161} INFO - Started process (PID=9508) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:26:48.914+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:26:48.916+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:48.915+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:26:49.993+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:49.993+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:26:50.154+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:50.154+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:26:50.639+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:26:50.755+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:50.754+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:26:50.782+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:26:50.781+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:51:00+00:00, run_after=2024-03-04 13:54:00+00:00
+[2024-03-04T19:26:50.814+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.947 seconds
+[2024-03-04T19:27:29.331+0530] {processor.py:161} INFO - Started process (PID=9574) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:27:29.333+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:27:29.334+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:29.334+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:27:30.262+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:30.261+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:27:30.463+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:30.463+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:27:30.939+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:27:30.945+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:30.945+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:27:30.969+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:27:30.969+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:57:00+00:00
+[2024-03-04T19:27:31.000+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 1.672 seconds
+[2024-03-04T19:28:11.683+0530] {processor.py:161} INFO - Started process (PID=9691) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:28:11.689+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:28:11.697+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:11.695+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:28:12.956+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:12.956+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:28:13.089+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:13.089+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:28:13.545+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:28:13.640+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:13.640+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:28:13.662+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:28:13.662+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:57:00+00:00
+[2024-03-04T19:28:13.689+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.011 seconds
+[2024-03-04T19:29:00.268+0530] {processor.py:161} INFO - Started process (PID=9785) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:29:00.323+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T19:29:00.328+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:29:00.327+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:29:01.975+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:29:01.974+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T19:29:02.260+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:29:02.259+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T19:29:03.350+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T19:29:03.368+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:29:03.367+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T19:29:03.418+0530] {logging_mixin.py:188} INFO - [2024-03-04T19:29:03.417+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 13:54:00+00:00, run_after=2024-03-04 13:57:00+00:00
+[2024-03-04T19:29:03.510+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.256 seconds
+[2024-03-04T22:41:15.276+0530] {processor.py:161} INFO - Started process (PID=17382) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:41:15.315+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T22:41:15.316+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:15.316+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:41:16.257+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:41:18.258+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:18.257+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:41:18.506+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:18.506+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:41:18.705+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:41:18.720+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:18.719+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:41:18.767+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:41:18.767+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:06:00+00:00, run_after=2024-03-04 17:09:00+00:00
+[2024-03-04T22:41:18.827+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.555 seconds
+[2024-03-04T22:51:51.508+0530] {processor.py:161} INFO - Started process (PID=5164) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:51:51.530+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T22:51:51.531+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:51.531+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:51:52.228+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:51:53.723+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:53.722+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:51:53.855+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:53.855+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:51:53.975+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:51:54.072+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:54.072+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:51:54.095+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:51:54.094+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:21:00+00:00, run_after=2024-03-04 17:24:00+00:00
+[2024-03-04T22:51:54.306+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.805 seconds
+[2024-03-04T22:54:56.571+0530] {processor.py:161} INFO - Started process (PID=5598) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:54:56.611+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T22:54:56.613+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:54:56.613+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:54:57.924+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:55:01.375+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:55:01.374+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:55:01.734+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:55:01.733+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:55:01.994+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:55:02.218+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:55:02.218+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:55:02.268+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:55:02.257+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:21:00+00:00, run_after=2024-03-04 17:24:00+00:00
+[2024-03-04T22:55:02.369+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.811 seconds
+[2024-03-04T22:56:39.362+0530] {processor.py:161} INFO - Started process (PID=5689) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:56:39.408+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T22:56:39.412+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:39.411+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:56:40.843+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:56:44.433+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:44.432+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:56:44.821+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:44.821+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:56:45.073+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:56:45.093+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:45.092+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:56:45.136+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:56:45.136+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:21:00+00:00, run_after=2024-03-04 17:24:00+00:00
+[2024-03-04T22:56:45.240+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.886 seconds
+[2024-03-04T22:57:47.185+0530] {processor.py:161} INFO - Started process (PID=5763) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:57:47.227+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T22:57:47.230+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:47.229+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:57:48.698+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:57:52.251+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:52.250+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:57:52.593+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:52.592+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:57:52.880+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:57:53.048+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:53.047+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:57:53.082+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:57:53.081+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:24:00+00:00, run_after=2024-03-04 17:27:00+00:00
+[2024-03-04T22:57:53.184+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 6.017 seconds
+[2024-03-04T22:58:47.831+0530] {processor.py:161} INFO - Started process (PID=5829) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:58:47.834+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T22:58:47.836+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:47.835+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:58:48.999+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:58:52.723+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:52.722+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:58:53.028+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:53.027+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:58:53.302+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:58:53.310+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:53.309+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:58:53.368+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:58:53.368+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:24:00+00:00, run_after=2024-03-04 17:27:00+00:00
+[2024-03-04T22:58:53.458+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.633 seconds
+[2024-03-04T22:59:47.877+0530] {processor.py:161} INFO - Started process (PID=5919) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:59:47.905+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T22:59:47.907+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:47.906+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:59:49.022+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T22:59:50.819+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:50.819+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T22:59:50.977+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:50.977+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T22:59:51.127+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T22:59:51.219+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:51.219+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T22:59:51.239+0530] {logging_mixin.py:188} INFO - [2024-03-04T22:59:51.238+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:24:00+00:00, run_after=2024-03-04 17:27:00+00:00
+[2024-03-04T22:59:51.300+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.441 seconds
+[2024-03-04T23:00:35.420+0530] {processor.py:161} INFO - Started process (PID=5985) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:00:35.423+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:00:35.424+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:35.423+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:00:36.528+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:00:38.584+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:38.583+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:00:38.745+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:38.745+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:00:38.899+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:00:38.906+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:38.905+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:00:38.929+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:00:38.928+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:00:38.957+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.543 seconds
+[2024-03-04T23:01:18.968+0530] {processor.py:161} INFO - Started process (PID=6046) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:01:19.010+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:01:19.011+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:19.010+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:01:19.648+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:01:21.370+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:21.370+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:01:21.507+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:21.507+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:01:21.662+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:01:21.766+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:21.766+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:01:21.786+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:21.786+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:01:21.824+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.861 seconds
+[2024-03-04T23:01:59.462+0530] {processor.py:161} INFO - Started process (PID=6104) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:01:59.465+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:01:59.466+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:01:59.465+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:02:00.048+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:02:01.620+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:01.620+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:02:01.756+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:01.755+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:02:01.857+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:02:01.861+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:01.861+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:02:01.878+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:01.878+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:02:01.914+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.455 seconds
+[2024-03-04T23:02:44.061+0530] {processor.py:161} INFO - Started process (PID=6187) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:02:44.104+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:02:44.106+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:44.105+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:02:44.748+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:02:46.297+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:46.296+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:02:46.425+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:46.425+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:02:46.555+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:02:46.640+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:46.639+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:02:46.656+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:02:46.656+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:27:00+00:00, run_after=2024-03-04 17:30:00+00:00
+[2024-03-04T23:02:46.698+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.644 seconds
+[2024-03-04T23:03:36.097+0530] {processor.py:161} INFO - Started process (PID=6655) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:03:36.101+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:03:36.104+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:36.103+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:03:36.900+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:03:40.235+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:40.234+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:03:40.857+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:40.856+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:03:41.260+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:03:41.270+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:41.270+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:03:41.310+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:03:41.309+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:33:00+00:00
+[2024-03-04T23:03:41.378+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.314 seconds
+[2024-03-04T23:04:32.790+0530] {processor.py:161} INFO - Started process (PID=6742) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:04:32.825+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:04:32.837+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:32.833+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:04:34.604+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:04:39.106+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:39.104+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:04:39.424+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:39.424+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:04:39.712+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:04:39.792+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:39.791+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:04:39.810+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:04:39.810+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:33:00+00:00
+[2024-03-04T23:04:39.885+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 7.107 seconds
+[2024-03-04T23:05:31.664+0530] {processor.py:161} INFO - Started process (PID=6858) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:05:31.708+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:05:31.711+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:31.711+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:05:33.105+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:05:36.955+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:36.954+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:05:37.165+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:37.165+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:05:37.469+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:05:37.476+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:37.475+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:05:37.529+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:05:37.528+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:30:00+00:00, run_after=2024-03-04 17:33:00+00:00
+[2024-03-04T23:05:37.643+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.995 seconds
+[2024-03-04T23:06:22.663+0530] {processor.py:161} INFO - Started process (PID=6944) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:06:22.665+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:06:22.666+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:22.666+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:06:23.473+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:06:25.077+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:25.077+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:06:25.262+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:25.262+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:06:25.418+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:06:25.517+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:25.517+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:06:25.539+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:06:25.539+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:06:25.662+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.003 seconds
+[2024-03-04T23:07:09.936+0530] {processor.py:161} INFO - Started process (PID=7047) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:07:09.973+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:07:09.974+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:09.974+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:07:10.971+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:07:13.234+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:13.234+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:07:13.386+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:13.385+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:07:13.544+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:07:13.550+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:13.550+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:07:13.583+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:13.582+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:07:13.622+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.692 seconds
+[2024-03-04T23:07:54.226+0530] {processor.py:161} INFO - Started process (PID=7149) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:07:54.229+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:07:54.230+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:54.230+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:07:54.972+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:07:56.644+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:56.644+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:07:56.790+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:56.790+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:07:56.923+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:07:57.008+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:57.007+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:07:57.025+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:07:57.025+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:07:57.101+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.878 seconds
+[2024-03-04T23:08:38.490+0530] {processor.py:161} INFO - Started process (PID=7232) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:08:38.493+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:08:38.494+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:38.494+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:08:39.526+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:08:41.705+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:41.704+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:08:41.852+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:41.851+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:08:41.991+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:08:41.997+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:41.997+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:08:42.031+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:08:42.030+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:33:00+00:00, run_after=2024-03-04 17:36:00+00:00
+[2024-03-04T23:08:42.063+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.588 seconds
+[2024-03-04T23:09:23.820+0530] {processor.py:161} INFO - Started process (PID=7315) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:09:23.857+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:09:23.858+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:23.858+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:09:24.751+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:09:26.696+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:26.695+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:09:26.905+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:26.904+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:09:27.073+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:09:27.207+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:27.207+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:09:27.232+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:09:27.232+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:09:27.268+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.481 seconds
+[2024-03-04T23:10:08.815+0530] {processor.py:161} INFO - Started process (PID=7411) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:10:08.817+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:10:08.818+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:08.818+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:10:09.605+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:10:11.205+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:11.204+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:10:11.348+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:11.347+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:10:11.506+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:10:11.514+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:11.513+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:10:11.538+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:11.538+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:10:11.570+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.760 seconds
+[2024-03-04T23:10:53.412+0530] {processor.py:161} INFO - Started process (PID=7492) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:10:53.450+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:10:53.451+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:53.451+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:10:54.134+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:10:55.751+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:55.750+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:10:55.919+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:55.919+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:10:56.065+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:10:56.167+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:56.166+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:10:56.188+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:10:56.188+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:10:56.220+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.811 seconds
+[2024-03-04T23:11:36.067+0530] {processor.py:161} INFO - Started process (PID=7588) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:11:36.102+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:11:36.103+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:36.103+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:11:38.023+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:11:40.613+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:40.611+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:11:40.896+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:40.896+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:11:41.070+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:11:41.076+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:41.076+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:11:41.099+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:11:41.099+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:36:00+00:00, run_after=2024-03-04 17:39:00+00:00
+[2024-03-04T23:11:41.154+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.094 seconds
+[2024-03-04T23:12:27.923+0530] {processor.py:161} INFO - Started process (PID=7716) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:12:27.924+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:12:27.925+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:27.925+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:12:28.984+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:12:31.090+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:31.090+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:12:31.478+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:31.477+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:12:31.808+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:12:31.989+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:31.988+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:12:32.021+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:12:32.020+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:39:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:12:32.618+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 4.699 seconds
+[2024-03-04T23:13:21.969+0530] {processor.py:161} INFO - Started process (PID=7849) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:13:22.009+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:13:22.010+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:22.010+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:13:22.760+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:13:24.292+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:24.291+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:13:24.437+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:24.437+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:13:24.572+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:13:24.577+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:24.577+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:13:24.597+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:13:24.597+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:39:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:13:24.622+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.659 seconds
+[2024-03-04T23:14:08.696+0530] {processor.py:161} INFO - Started process (PID=7949) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:14:08.737+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:14:08.739+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:08.738+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:14:10.215+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:14:12.826+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:12.825+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:14:12.987+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:12.987+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:14:13.192+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:14:13.577+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:13.577+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:14:13.599+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:13.599+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:39:00+00:00, run_after=2024-03-04 17:42:00+00:00
+[2024-03-04T23:14:13.702+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.013 seconds
+[2024-03-04T23:14:55.349+0530] {processor.py:161} INFO - Started process (PID=8046) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:14:55.353+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:14:55.354+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:55.353+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:14:56.423+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:14:59.481+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:59.481+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:14:59.941+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:14:59.940+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:15:00.250+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:15:00.278+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:00.278+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:15:00.547+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:00.547+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:45:00+00:00
+[2024-03-04T23:15:00.611+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.269 seconds
+[2024-03-04T23:15:45.924+0530] {processor.py:161} INFO - Started process (PID=8141) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:15:45.957+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:15:45.959+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:45.958+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:15:47.213+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:15:49.655+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:49.655+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:15:49.868+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:49.868+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:15:49.991+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:15:50.268+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:50.267+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:15:50.304+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:15:50.300+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:45:00+00:00
+[2024-03-04T23:15:50.365+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 4.448 seconds
+[2024-03-04T23:16:42.360+0530] {processor.py:161} INFO - Started process (PID=8262) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:16:42.413+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:16:42.418+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:42.414+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:16:44.584+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:16:48.874+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:48.871+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:16:49.497+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:49.496+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:16:50.516+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:16:50.644+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:50.644+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:16:50.762+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:16:50.762+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:45:00+00:00
+[2024-03-04T23:16:50.932+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 8.588 seconds
+[2024-03-04T23:17:42.831+0530] {processor.py:161} INFO - Started process (PID=8386) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:17:42.851+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:17:42.854+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:42.853+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:17:43.805+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:17:46.135+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:46.135+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:17:46.300+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:46.299+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:17:46.602+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:17:46.707+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:46.707+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:17:46.748+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:17:46.748+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:42:00+00:00, run_after=2024-03-04 17:45:00+00:00
+[2024-03-04T23:17:46.794+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.969 seconds
+[2024-03-04T23:18:34.069+0530] {processor.py:161} INFO - Started process (PID=8482) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:18:34.071+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:18:34.072+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:34.072+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:18:35.105+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:18:36.624+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:36.624+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:18:36.770+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:36.769+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:18:36.990+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:18:36.994+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:36.994+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:18:37.011+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:18:37.011+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:18:37.074+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.009 seconds
+[2024-03-04T23:19:18.557+0530] {processor.py:161} INFO - Started process (PID=8578) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:19:18.560+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:19:18.561+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:18.561+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:19:19.511+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:19:21.287+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:21.287+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:19:21.545+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:21.545+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:19:21.941+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:19:22.074+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:22.074+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:19:22.102+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:19:22.101+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:19:22.234+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.682 seconds
+[2024-03-04T23:20:04.477+0530] {processor.py:161} INFO - Started process (PID=8677) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:20:04.479+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:20:04.481+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:04.481+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:20:05.370+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:20:06.871+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:06.870+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:20:07.001+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:07.001+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:20:07.253+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:20:07.259+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:07.258+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:20:07.279+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:07.279+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:20:07.365+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 2.895 seconds
+[2024-03-04T23:20:54.471+0530] {processor.py:161} INFO - Started process (PID=8764) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:20:54.473+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:20:54.475+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:54.474+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:20:55.281+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:20:57.034+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:57.033+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:20:57.196+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:57.196+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:20:57.574+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:20:57.685+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:57.684+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:20:57.708+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:20:57.707+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:45:00+00:00, run_after=2024-03-04 17:48:00+00:00
+[2024-03-04T23:20:57.807+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.344 seconds
+[2024-03-04T23:21:43.870+0530] {processor.py:161} INFO - Started process (PID=8868) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:21:43.885+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:21:43.886+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:43.886+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:21:45.202+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:21:47.992+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:47.991+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:21:48.202+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:48.201+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:21:48.619+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:21:48.629+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:48.628+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:21:48.662+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:21:48.661+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:51:00+00:00
+[2024-03-04T23:21:48.779+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 4.913 seconds
+[2024-03-04T23:22:36.871+0530] {processor.py:161} INFO - Started process (PID=9003) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:22:36.905+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:22:36.906+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:36.906+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:22:38.369+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:22:42.279+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:42.278+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:22:42.739+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:42.738+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:22:43.289+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:22:43.432+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:43.431+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:22:43.479+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:22:43.479+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:51:00+00:00
+[2024-03-04T23:22:43.695+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 6.829 seconds
+[2024-03-04T23:23:40.017+0530] {processor.py:161} INFO - Started process (PID=9247) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:23:40.143+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:23:40.147+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:40.146+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:23:42.297+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:23:44.871+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:44.870+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:23:45.047+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:45.047+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:23:45.318+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:23:45.324+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:45.324+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:23:45.345+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:23:45.344+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:48:00+00:00, run_after=2024-03-04 17:51:00+00:00
+[2024-03-04T23:23:45.688+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 5.677 seconds
+[2024-03-04T23:24:48.299+0530] {processor.py:161} INFO - Started process (PID=9311) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:24:48.379+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:24:48.383+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:48.380+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:24:50.217+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:24:53.613+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:53.612+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:24:54.427+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:54.427+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:24:54.780+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:24:55.040+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:55.040+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:24:55.064+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:24:55.064+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:51:00+00:00, run_after=2024-03-04 17:54:00+00:00
+[2024-03-04T23:24:55.343+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 7.049 seconds
+[2024-03-04T23:26:11.649+0530] {processor.py:161} INFO - Started process (PID=9914) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:26:11.714+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:26:11.715+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:11.715+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:26:13.833+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:26:17.257+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:17.257+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:26:18.113+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:18.113+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:26:18.480+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:26:18.500+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:18.499+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:26:18.596+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:26:18.595+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:51:00+00:00, run_after=2024-03-04 17:54:00+00:00
+[2024-03-04T23:26:18.730+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 7.095 seconds
+[2024-03-04T23:27:22.097+0530] {processor.py:161} INFO - Started process (PID=10261) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:27:22.159+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:27:22.163+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:22.163+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:27:23.375+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:27:25.860+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:25.859+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:27:26.109+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:26.109+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:27:26.538+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:27:26.714+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:26.713+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:27:26.738+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:27:26.737+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:27:26.850+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 4.793 seconds
+[2024-03-04T23:28:16.006+0530] {processor.py:161} INFO - Started process (PID=10335) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:28:16.098+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:28:16.099+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:16.099+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:28:17.066+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:28:18.672+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:18.672+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:28:18.810+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:18.810+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:28:19.069+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:28:19.074+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:19.074+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:28:19.094+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:28:19.094+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:28:19.123+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.121 seconds
+[2024-03-04T23:29:02.776+0530] {processor.py:161} INFO - Started process (PID=10424) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:29:02.778+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:29:02.779+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:02.779+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:29:03.719+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:29:05.537+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:05.536+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:29:05.921+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:05.921+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:29:06.123+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:29:06.264+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:06.264+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:29:06.293+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:06.292+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:29:06.384+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.615 seconds
+[2024-03-04T23:29:47.966+0530] {processor.py:161} INFO - Started process (PID=10516) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:29:48.040+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:29:48.042+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:48.041+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:29:49.498+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:29:54.312+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:54.310+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:29:54.832+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:54.832+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:29:55.174+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:29:55.182+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:55.181+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:29:55.231+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:29:55.230+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:54:00+00:00, run_after=2024-03-04 17:57:00+00:00
+[2024-03-04T23:29:55.320+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 7.364 seconds
+[2024-03-04T23:30:47.967+0530] {processor.py:161} INFO - Started process (PID=10726) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:30:48.017+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:30:48.018+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:48.018+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:30:50.250+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:30:53.454+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:53.454+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:30:53.947+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:53.947+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:30:54.126+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:30:54.305+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:54.305+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:30:54.347+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:30:54.346+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:57:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:30:54.421+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 6.460 seconds
+[2024-03-04T23:31:43.971+0530] {processor.py:161} INFO - Started process (PID=10838) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:31:44.014+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:31:44.016+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:44.015+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:31:45.393+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:31:49.586+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:49.586+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:31:50.255+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:50.254+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:31:50.622+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:31:50.632+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:50.631+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:31:50.676+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:31:50.676+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:57:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:31:50.734+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 6.772 seconds
+[2024-03-04T23:32:42.127+0530] {processor.py:161} INFO - Started process (PID=10940) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:32:42.129+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:32:42.130+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:42.130+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:32:42.982+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:32:44.647+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:44.646+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:32:44.960+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:44.959+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:32:45.155+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:32:45.230+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:45.230+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:32:45.246+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:32:45.246+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 17:57:00+00:00, run_after=2024-03-04 18:00:00+00:00
+[2024-03-04T23:32:45.342+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.220 seconds
+[2024-03-04T23:33:33.116+0530] {processor.py:161} INFO - Started process (PID=11036) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:33:33.151+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:33:33.153+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:33.152+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:33:34.214+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:33:36.037+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:36.037+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:33:36.342+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:36.342+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:33:36.532+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:33:36.538+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:36.538+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:33:36.564+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:33:36.564+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:03:00+00:00
+[2024-03-04T23:33:36.618+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.505 seconds
+[2024-03-04T23:34:19.759+0530] {processor.py:161} INFO - Started process (PID=11128) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:34:19.761+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:34:19.762+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:19.761+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:34:20.577+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:34:22.119+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:22.119+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:34:22.363+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:22.363+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:34:22.513+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:34:22.648+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:22.647+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:34:22.666+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:34:22.666+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:03:00+00:00
+[2024-03-04T23:34:22.756+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.001 seconds
+[2024-03-04T23:35:08.501+0530] {processor.py:161} INFO - Started process (PID=11218) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:35:08.541+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:35:08.543+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:08.542+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:35:09.650+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:35:11.732+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:11.731+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:35:12.148+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:12.148+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:35:12.372+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:35:12.382+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:12.381+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:35:12.415+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:12.415+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:00:00+00:00, run_after=2024-03-04 18:03:00+00:00
+[2024-03-04T23:35:12.461+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.966 seconds
+[2024-03-04T23:35:57.283+0530] {processor.py:161} INFO - Started process (PID=11300) to work on /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:35:57.303+0530] {processor.py:830} INFO - Processing file /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py for tasks to queue
+[2024-03-04T23:35:57.305+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:35:57.304+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:35:58.225+0530] {logging_mixin.py:188} WARNING - /usr/lib/python3/dist-packages/paramiko/transport.py:237 CryptographyDeprecationWarning: Blowfish has been deprecated
+[2024-03-04T23:36:00.109+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:36:00.108+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-04T23:36:00.456+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:36:00.456+0530] {bigquery.py:440} INFO - No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+[2024-03-04T23:36:00.643+0530] {processor.py:840} INFO - DAG(s) 'Visualization_DAG' retrieved from /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py
+[2024-03-04T23:36:00.799+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:36:00.798+0530] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-04T23:36:00.859+0530] {logging_mixin.py:188} INFO - [2024-03-04T23:36:00.856+0530] {dag.py:3823} INFO - Setting next_dagrun for Visualization_DAG to 2024-03-04 18:03:00+00:00, run_after=2024-03-04 18:06:00+00:00
+[2024-03-04T23:36:01.090+0530] {processor.py:183} INFO - Processing /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py took 3.813 seconds

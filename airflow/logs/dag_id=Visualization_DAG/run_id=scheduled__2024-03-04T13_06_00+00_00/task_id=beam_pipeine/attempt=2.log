@@ -1,0 +1,305 @@
+[2024-03-04T18:44:41.716+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Visualization_DAG.beam_pipeine scheduled__2024-03-04T13:06:00+00:00 [queued]>
+[2024-03-04T18:44:41.829+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Visualization_DAG.beam_pipeine scheduled__2024-03-04T13:06:00+00:00 [queued]>
+[2024-03-04T18:44:41.830+0530] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2024-03-04T18:44:41.935+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): beam_pipeine> on 2024-03-04 13:06:00+00:00
+[2024-03-04T18:44:41.943+0530] {standard_task_runner.py:60} INFO - Started process 13556 to run task
+[2024-03-04T18:44:41.949+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Visualization_DAG', 'beam_pipeine', 'scheduled__2024-03-04T13:06:00+00:00', '--job-id', '225', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/Analytics_data-checkpoint.py', '--cfg-path', '/tmp/tmp2ku2q_4t']
+[2024-03-04T18:44:41.950+0530] {standard_task_runner.py:88} INFO - Job 225: Subtask beam_pipeine
+[2024-03-04T18:44:42.050+0530] {task_command.py:423} INFO - Running <TaskInstance: Visualization_DAG.beam_pipeine scheduled__2024-03-04T13:06:00+00:00 [running]> on host arun-VM
+[2024-03-04T18:44:42.214+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='Visualization_DAG' AIRFLOW_CTX_TASK_ID='beam_pipeine' AIRFLOW_CTX_EXECUTION_DATE='2024-03-04T13:06:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-04T13:06:00+00:00'
+[2024-03-04T18:44:43.627+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'Visualization_DAG', 'beam_pipeine', 'scheduled__2024-03-04T13:06:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/Analytics_data-checkpoint.py']
+[2024-03-04T18:44:43.990+0530] {translations.py:712} INFO - ==================== <function annotate_downstream_side_inputs at 0x7f89b703eef0> ====================
+[2024-03-04T18:44:43.991+0530] {translations.py:712} INFO - ==================== <function fix_side_input_pcoll_coders at 0x7f89b703f010> ====================
+[2024-03-04T18:44:43.992+0530] {translations.py:712} INFO - ==================== <function pack_combiners at 0x7f89b703f520> ====================
+[2024-03-04T18:44:43.992+0530] {translations.py:712} INFO - ==================== <function lift_combiners at 0x7f89b703f5b0> ====================
+[2024-03-04T18:44:43.993+0530] {translations.py:712} INFO - ==================== <function expand_sdf at 0x7f89b703f760> ====================
+[2024-03-04T18:44:43.993+0530] {translations.py:712} INFO - ==================== <function expand_gbk at 0x7f89b703f7f0> ====================
+[2024-03-04T18:44:43.994+0530] {translations.py:712} INFO - ==================== <function sink_flattens at 0x7f89b703f910> ====================
+[2024-03-04T18:44:43.995+0530] {translations.py:712} INFO - ==================== <function greedily_fuse at 0x7f89b703f9a0> ====================
+[2024-03-04T18:44:43.997+0530] {translations.py:712} INFO - ==================== <function read_to_impulse at 0x7f89b703fa30> ====================
+[2024-03-04T18:44:43.997+0530] {translations.py:712} INFO - ==================== <function impulse_to_input at 0x7f89b703fac0> ====================
+[2024-03-04T18:44:43.997+0530] {translations.py:712} INFO - ==================== <function sort_stages at 0x7f89b703fd00> ====================
+[2024-03-04T18:44:43.998+0530] {translations.py:712} INFO - ==================== <function add_impulse_to_dangling_transforms at 0x7f89b703fe20> ====================
+[2024-03-04T18:44:43.998+0530] {translations.py:712} INFO - ==================== <function setup_timer_mapping at 0x7f89b703fc70> ====================
+[2024-03-04T18:44:43.999+0530] {translations.py:712} INFO - ==================== <function populate_data_channel_coders at 0x7f89b703fd90> ====================
+[2024-03-04T18:44:44.619+0530] {worker_handlers.py:516} INFO - starting control server on port 45819
+[2024-03-04T18:44:44.619+0530] {worker_handlers.py:517} INFO - starting data server on port 36183
+[2024-03-04T18:44:44.619+0530] {worker_handlers.py:518} INFO - starting state server on port 36131
+[2024-03-04T18:44:44.619+0530] {worker_handlers.py:519} INFO - starting logging server on port 46395
+[2024-03-04T18:44:45.206+0530] {worker_handlers.py:922} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.SubprocessSdkWorkerHandler object at 0x7f89b6e25600> for environment ref_Environment_default_environment_1 (beam:env:harness_subprocess_python:v1, b'/usr/bin/python3 -m apache_beam.runners.worker.sdk_worker_main')
+[2024-03-04T18:44:45.211+0530] {worker_handlers.py:922} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.SubprocessSdkWorkerHandler object at 0x7f89b6e25ed0> for environment ref_Environment_default_environment_1 (beam:env:harness_subprocess_python:v1, b'/usr/bin/python3 -m apache_beam.runners.worker.sdk_worker_main')
+[2024-03-04T18:44:48.786+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 739379405 } message: "semi_persistent_directory: None" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:110" thread: "MainThread" 
+[2024-03-04T18:44:48.787+0530] {local_job_service.py:372} WARNING - Worker: severity: WARN timestamp {   seconds: 1709558088   nanos: 770353555 } message: "No semi_persistent_directory found: Functions defined in __main__ (interactive session) may fail." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:361" thread: "MainThread" 
+[2024-03-04T18:44:48.853+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 734609365 } message: "semi_persistent_directory: None" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:110" thread: "MainThread" 
+[2024-03-04T18:44:48.854+0530] {local_job_service.py:372} WARNING - Worker: severity: WARN timestamp {   seconds: 1709558088   nanos: 735128641 } message: "No semi_persistent_directory found: Functions defined in __main__ (interactive session) may fail." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:361" thread: "MainThread" 
+[2024-03-04T18:44:48.854+0530] {local_job_service.py:372} WARNING - Worker: severity: WARN timestamp {   seconds: 1709558088   nanos: 756050586 } message: "Discarding unparseable args: [\'--direct_runner_use_stacked_bundle\', \'--pipeline_type_check\']" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/options/pipeline_options.py:372" thread: "MainThread" 
+[2024-03-04T18:44:48.854+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 788284778 } message: "Pipeline_options: {\'runner\': \'DirectRunner\', \'direct_num_workers\': 2, \'direct_running_mode\': \'multi_processing\', \'project\': \'BDL-asgt-2\', \'temp_location\': \'/home/arun/airflow/dags/temp\', \'gcp_oauth_scopes\': [\'https://www.googleapis.com/auth/bigquery\', \'https://www.googleapis.com/auth/cloud-platform\', \'https://www.googleapis.com/auth/devstorage.full_control\', \'https://www.googleapis.com/auth/userinfo.email\', \'https://www.googleapis.com/auth/datastore\', \'https://www.googleapis.com/auth/spanner.admin\', \'https://www.googleapis.com/auth/spanner.data\', \'https://www.googleapis.com/auth/bigquery\', \'https://www.googleapis.com/auth/cloud-platform\', \'https://www.googleapis.com/auth/devstorage.full_control\', \'https://www.googleapis.com/auth/userinfo.email\', \'https://www.googleapis.com/auth/datastore\', \'https://www.googleapis.com/auth/spanner.admin\', \'https://www.googleapis.com/auth/spanner.data\'], \'sdk_worker_parallelism\': \'1\', \'environment_cache_millis\': \'0\'}" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:134" thread: "MainThread" 
+[2024-03-04T18:44:48.854+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 805013418 } message: "Creating state cache with size 104857600" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/statecache.py:234" thread: "MainThread" 
+[2024-03-04T18:44:48.855+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 805408000 } message: "Creating insecure control channel for localhost:45819." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:189" thread: "MainThread" 
+[2024-03-04T18:44:48.860+0530] {local_job_service.py:372} WARNING - Worker: severity: WARN timestamp {   seconds: 1709558088   nanos: 813513755 } message: "Discarding unparseable args: [\'--direct_runner_use_stacked_bundle\', \'--pipeline_type_check\']" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/options/pipeline_options.py:372" thread: "MainThread" 
+[2024-03-04T18:44:48.860+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 818733930 } message: "Pipeline_options: {\'runner\': \'DirectRunner\', \'direct_num_workers\': 2, \'direct_running_mode\': \'multi_processing\', \'project\': \'BDL-asgt-2\', \'temp_location\': \'/home/arun/airflow/dags/temp\', \'gcp_oauth_scopes\': [\'https://www.googleapis.com/auth/bigquery\', \'https://www.googleapis.com/auth/cloud-platform\', \'https://www.googleapis.com/auth/devstorage.full_control\', \'https://www.googleapis.com/auth/userinfo.email\', \'https://www.googleapis.com/auth/datastore\', \'https://www.googleapis.com/auth/spanner.admin\', \'https://www.googleapis.com/auth/spanner.data\', \'https://www.googleapis.com/auth/bigquery\', \'https://www.googleapis.com/auth/cloud-platform\', \'https://www.googleapis.com/auth/devstorage.full_control\', \'https://www.googleapis.com/auth/userinfo.email\', \'https://www.googleapis.com/auth/datastore\', \'https://www.googleapis.com/auth/spanner.admin\', \'https://www.googleapis.com/auth/spanner.data\'], \'sdk_worker_parallelism\': \'1\', \'environment_cache_millis\': \'0\'}" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:134" thread: "MainThread" 
+[2024-03-04T18:44:48.860+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 849919080 } message: "Creating state cache with size 104857600" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/statecache.py:234" thread: "MainThread" 
+[2024-03-04T18:44:48.861+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 850202798 } message: "Creating insecure control channel for localhost:45819." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:189" thread: "MainThread" 
+[2024-03-04T18:44:48.938+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 897553443 } message: "Control channel established." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:197" thread: "MainThread" 
+[2024-03-04T18:44:49.009+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 919357299 } message: "Control channel established." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:197" thread: "MainThread" 
+[2024-03-04T18:44:49.059+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 922440290 } message: "Initializing SDKHarness with unbounded number of workers." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:247" thread: "MainThread" 
+[2024-03-04T18:44:49.059+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558088   nanos: 940907955 } message: "Python sdk harness starting." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:211" thread: "MainThread" 
+[2024-03-04T18:44:49.079+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 58150768 } message: "Initializing SDKHarness with unbounded number of workers." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:247" thread: "MainThread" 
+[2024-03-04T18:44:49.081+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 62699794 } message: "Python sdk harness starting." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:211" thread: "MainThread" 
+[2024-03-04T18:44:49.113+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 99879026 } message: "Creating insecure state channel for localhost:36131." instruction_id: "bundle_1" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:910" thread: "Thread-13" 
+[2024-03-04T18:44:49.124+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 103130102 } message: "Creating insecure state channel for localhost:36131." instruction_id: "bundle_2" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:910" thread: "Thread-11" 
+[2024-03-04T18:44:49.124+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 113549232 } message: "State channel established." instruction_id: "bundle_2" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:917" thread: "Thread-11" 
+[2024-03-04T18:44:49.126+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 112182378 } message: "State channel established." instruction_id: "bundle_1" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:917" thread: "Thread-13" 
+[2024-03-04T18:44:49.299+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 277510643 } message: "Creating client data channel for localhost:36183" instruction_id: "bundle_2" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/data_plane.py:787" thread: "Thread-11" 
+[2024-03-04T18:44:49.444+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558089   nanos: 306602716 } message: "Creating client data channel for localhost:36183" instruction_id: "bundle_1" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/data_plane.py:787" thread: "Thread-13" 
+[2024-03-04T18:44:50.718+0530] {local_job_service.py:372} ERROR - Worker: severity: ERROR timestamp {   seconds: 1709558090   nanos: 715873956 } message: "Error processing instruction bundle_5. Original traceback is\nTraceback (most recent call last):\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py\", line 418, in loads\n    return dill.loads(s)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 275, in loads\n    return load(file, ignore, **kwds)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 270, in load\n    return Unpickler(file, ignore=ignore, **kwds).load()\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 472, in load\n    obj = StockUnpickler.load(self)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 462, in find_class\n    return StockUnpickler.find_class(self, module, name)\nModuleNotFoundError: No module named \'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint\'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 311, in _execute\n    response = task()\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 386, in <lambda>\n    lambda: self.create_worker().do_instruction(request), request)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 650, in do_instruction\n    return getattr(self, request_type)(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 681, in process_bundle\n    bundle_processor = self.bundle_processor_cache.get(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 510, in get\n    processor = bundle_processor.BundleProcessor(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 972, in __init__\n    self.ops = self.create_execution_tree(self.process_bundle_descriptor)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1034, in create_execution_tree\n    return collections.OrderedDict([(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1037, in <listcomp>\n    get_operation(transform_id))) for transform_id in sorted(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1021, in get_operation\n    return transform_factory.create_operation(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1328, in create_operation\n    return creator(self, transform_id, transform_proto, payload, consumers)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1675, in create_par_do\n    return _create_pardo_operation(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1721, in _create_pardo_operation\n    dofn_data = pickler.loads(serialized_fn)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/pickler.py\", line 51, in loads\n    return desired_pickle_lib.loads(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py\", line 422, in loads\n    return dill.loads(s)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 275, in loads\n    return load(file, ignore, **kwds)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 270, in load\n    return Unpickler(file, ignore=ignore, **kwds).load()\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 472, in load\n    obj = StockUnpickler.load(self)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 462, in find_class\n    return StockUnpickler.find_class(self, module, name)\nModuleNotFoundError: No module named \'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint\'\n\n" instruction_id: "bundle_5" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:315" thread: "Thread-13" 
+[2024-03-04T18:44:50.730+0530] {local_job_service.py:372} ERROR - Worker: severity: ERROR timestamp {   seconds: 1709558090   nanos: 715696811 } message: "Error processing instruction bundle_6. Original traceback is\nTraceback (most recent call last):\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py\", line 418, in loads\n    return dill.loads(s)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 275, in loads\n    return load(file, ignore, **kwds)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 270, in load\n    return Unpickler(file, ignore=ignore, **kwds).load()\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 472, in load\n    obj = StockUnpickler.load(self)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 462, in find_class\n    return StockUnpickler.find_class(self, module, name)\nModuleNotFoundError: No module named \'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint\'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 311, in _execute\n    response = task()\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 386, in <lambda>\n    lambda: self.create_worker().do_instruction(request), request)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 650, in do_instruction\n    return getattr(self, request_type)(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 681, in process_bundle\n    bundle_processor = self.bundle_processor_cache.get(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py\", line 510, in get\n    processor = bundle_processor.BundleProcessor(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 972, in __init__\n    self.ops = self.create_execution_tree(self.process_bundle_descriptor)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1034, in create_execution_tree\n    return collections.OrderedDict([(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1037, in <listcomp>\n    get_operation(transform_id))) for transform_id in sorted(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1010, in get_operation\n    transform_consumers = {\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <dictcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1011, in <listcomp>\n    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 875, in wrapper\n    result = cache[args] = func(*args)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1021, in get_operation\n    return transform_factory.create_operation(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1328, in create_operation\n    return creator(self, transform_id, transform_proto, payload, consumers)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1675, in create_par_do\n    return _create_pardo_operation(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py\", line 1721, in _create_pardo_operation\n    dofn_data = pickler.loads(serialized_fn)\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/pickler.py\", line 51, in loads\n    return desired_pickle_lib.loads(\n  File \"/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py\", line 422, in loads\n    return dill.loads(s)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 275, in loads\n    return load(file, ignore, **kwds)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 270, in load\n    return Unpickler(file, ignore=ignore, **kwds).load()\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 472, in load\n    obj = StockUnpickler.load(self)\n  File \"/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py\", line 462, in find_class\n    return StockUnpickler.find_class(self, module, name)\nModuleNotFoundError: No module named \'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint\'\n\n" instruction_id: "bundle_6" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:315" thread: "Thread-11" 
+[2024-03-04T18:44:51.303+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558091   nanos: 301315069 } message: "No more requests from control plane" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:288" thread: "MainThread" 
+[2024-03-04T18:44:51.305+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558091   nanos: 301428079 } message: "SDK Harness waiting for in-flight requests to complete" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:289" thread: "MainThread" 
+[2024-03-04T18:44:51.305+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558091   nanos: 302053689 } message: "Closing all cached grpc data channels." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/data_plane.py:820" thread: "MainThread" 
+[2024-03-04T18:44:51.305+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558091   nanos: 302205324 } message: "Closing all cached gRPC state handlers." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:929" thread: "MainThread" 
+[2024-03-04T18:44:51.371+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558091   nanos: 308071374 } message: "Done consuming work." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:301" thread: "MainThread" 
+[2024-03-04T18:44:51.371+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558091   nanos: 308197975 } message: "Python sdk harness exiting." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:213" thread: "MainThread" 
+[2024-03-04T18:44:52.274+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558092   nanos: 199810981 } message: "No more requests from control plane" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:288" thread: "MainThread" 
+[2024-03-04T18:44:52.274+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558092   nanos: 199939250 } message: "SDK Harness waiting for in-flight requests to complete" log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:289" thread: "MainThread" 
+[2024-03-04T18:44:52.275+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558092   nanos: 204550743 } message: "Closing all cached grpc data channels." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/data_plane.py:820" thread: "MainThread" 
+[2024-03-04T18:44:52.275+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558092   nanos: 208762168 } message: "Closing all cached gRPC state handlers." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:929" thread: "MainThread" 
+[2024-03-04T18:44:52.302+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558092   nanos: 298800230 } message: "Done consuming work." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py:301" thread: "MainThread" 
+[2024-03-04T18:44:52.303+0530] {local_job_service.py:372} INFO - Worker: severity: INFO timestamp {   seconds: 1709558092   nanos: 298942089 } message: "Python sdk harness exiting." log_location: "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker_main.py:213" thread: "MainThread" 
+[2024-03-04T18:44:52.873+0530] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/arun/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py", line 92, in beam_pipeline
+    with beam.Pipeline(options=beam_options) as pipeline:
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/pipeline.py", line 612, in __exit__
+    self.result = self.run()
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/pipeline.py", line 586, in run
+    return self.runner.run_pipeline(self, self._options)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/direct/direct_runner.py", line 128, in run_pipeline
+    return runner.run_pipeline(pipeline, options)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 202, in run_pipeline
+    self._latest_run_result = self.run_via_runner_api(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 224, in run_via_runner_api
+    return self.run_stages(stage_context, stages)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 466, in run_stages
+    bundle_results = self._execute_bundle(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 794, in _execute_bundle
+    self._run_bundle(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 1031, in _run_bundle
+    result, splits = bundle_manager.process_bundle(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 1473, in process_bundle
+    for result, split_result in executor.map(execute, zip(part_inputs,  # pylint: disable=bad-option-value
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/utils/thread_pool_executor.py", line 37, in run
+    self._future.set_result(self._fn(*self._fn_args, **self._fn_kwargs))
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 1465, in execute
+    return bundle_manager.process_bundle(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 1406, in process_bundle
+    raise RuntimeError(result.error)
+RuntimeError: Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py", line 418, in loads
+    return dill.loads(s)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 275, in loads
+    return load(file, ignore, **kwds)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 270, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 472, in load
+    obj = StockUnpickler.load(self)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 462, in find_class
+    return StockUnpickler.find_class(self, module, name)
+ModuleNotFoundError: No module named 'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 311, in _execute
+    response = task()
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 386, in <lambda>
+    lambda: self.create_worker().do_instruction(request), request)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 650, in do_instruction
+    return getattr(self, request_type)(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 681, in process_bundle
+    bundle_processor = self.bundle_processor_cache.get(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 510, in get
+    processor = bundle_processor.BundleProcessor(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 972, in __init__
+    self.ops = self.create_execution_tree(self.process_bundle_descriptor)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1034, in create_execution_tree
+    return collections.OrderedDict([(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1037, in <listcomp>
+    get_operation(transform_id))) for transform_id in sorted(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1021, in get_operation
+    return transform_factory.create_operation(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1328, in create_operation
+    return creator(self, transform_id, transform_proto, payload, consumers)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1675, in create_par_do
+    return _create_pardo_operation(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1721, in _create_pardo_operation
+    dofn_data = pickler.loads(serialized_fn)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/pickler.py", line 51, in loads
+    return desired_pickle_lib.loads(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py", line 422, in loads
+    return dill.loads(s)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 275, in loads
+    return load(file, ignore, **kwds)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 270, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 472, in load
+    obj = StockUnpickler.load(self)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 462, in find_class
+    return StockUnpickler.find_class(self, module, name)
+ModuleNotFoundError: No module named 'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint'
+
+[2024-03-04T18:44:53.056+0530] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=Visualization_DAG, task_id=beam_pipeine, execution_date=20240304T130600, start_date=20240304T131441, end_date=20240304T131453
+[2024-03-04T18:44:53.624+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 225 for task beam_pipeine (Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py", line 418, in loads
+    return dill.loads(s)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 275, in loads
+    return load(file, ignore, **kwds)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 270, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 472, in load
+    obj = StockUnpickler.load(self)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 462, in find_class
+    return StockUnpickler.find_class(self, module, name)
+ModuleNotFoundError: No module named 'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 311, in _execute
+    response = task()
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 386, in <lambda>
+    lambda: self.create_worker().do_instruction(request), request)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 650, in do_instruction
+    return getattr(self, request_type)(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 681, in process_bundle
+    bundle_processor = self.bundle_processor_cache.get(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/sdk_worker.py", line 510, in get
+    processor = bundle_processor.BundleProcessor(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 972, in __init__
+    self.ops = self.create_execution_tree(self.process_bundle_descriptor)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1034, in create_execution_tree
+    return collections.OrderedDict([(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1037, in <listcomp>
+    get_operation(transform_id))) for transform_id in sorted(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1010, in get_operation
+    transform_consumers = {
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <dictcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1011, in <listcomp>
+    tag: [get_operation(op) for op in pcoll_consumers[pcoll_id]]
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 875, in wrapper
+    result = cache[args] = func(*args)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1021, in get_operation
+    return transform_factory.create_operation(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1328, in create_operation
+    return creator(self, transform_id, transform_proto, payload, consumers)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1675, in create_par_do
+    return _create_pardo_operation(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1721, in _create_pardo_operation
+    dofn_data = pickler.loads(serialized_fn)
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/pickler.py", line 51, in loads
+    return desired_pickle_lib.loads(
+  File "/home/arun/.local/lib/python3.10/site-packages/apache_beam/internal/dill_pickler.py", line 422, in loads
+    return dill.loads(s)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 275, in loads
+    return load(file, ignore, **kwds)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 270, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 472, in load
+    obj = StockUnpickler.load(self)
+  File "/home/arun/.local/lib/python3.10/site-packages/dill/_dill.py", line 462, in find_class
+    return StockUnpickler.find_class(self, module, name)
+ModuleNotFoundError: No module named 'unusual_prefix_25d96a2d1c2acdc8777cf93293049e1b854b85bd_Analytics_data-checkpoint'
+; 13556)
+[2024-03-04T18:44:53.705+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-04T18:44:53.740+0530] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

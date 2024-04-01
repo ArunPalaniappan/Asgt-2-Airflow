@@ -1,0 +1,36 @@
+[2024-03-05T16:51:45.277+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Visualization_DAG.beam_pipeine scheduled__2024-03-05T11:18:00+00:00 [queued]>
+[2024-03-05T16:51:45.285+0530] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Visualization_DAG.beam_pipeine scheduled__2024-03-05T11:18:00+00:00 [queued]>
+[2024-03-05T16:51:45.285+0530] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-05T16:51:45.316+0530] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): beam_pipeine> on 2024-03-05 11:18:00+00:00
+[2024-03-05T16:51:45.328+0530] {standard_task_runner.py:60} INFO - Started process 13731 to run task
+[2024-03-05T16:51:45.334+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Visualization_DAG', 'beam_pipeine', 'scheduled__2024-03-05T11:18:00+00:00', '--job-id', '288', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/Analytics_data-checkpoint.py', '--cfg-path', '/tmp/tmpf2t7awst']
+[2024-03-05T16:51:45.335+0530] {standard_task_runner.py:88} INFO - Job 288: Subtask beam_pipeine
+[2024-03-05T16:51:45.395+0530] {task_command.py:423} INFO - Running <TaskInstance: Visualization_DAG.beam_pipeine scheduled__2024-03-05T11:18:00+00:00 [running]> on host arun-VM
+[2024-03-05T16:51:45.478+0530] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='Visualization_DAG' AIRFLOW_CTX_TASK_ID='beam_pipeine' AIRFLOW_CTX_EXECUTION_DATE='2024-03-05T11:18:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-05T11:18:00+00:00'
+[2024-03-05T16:51:45.870+0530] {translations.py:712} INFO - ==================== <function annotate_downstream_side_inputs at 0x7f7a0059f0a0> ====================
+[2024-03-05T16:51:45.870+0530] {translations.py:712} INFO - ==================== <function fix_side_input_pcoll_coders at 0x7f7a0059f1c0> ====================
+[2024-03-05T16:51:45.871+0530] {translations.py:712} INFO - ==================== <function pack_combiners at 0x7f7a0059f6d0> ====================
+[2024-03-05T16:51:45.871+0530] {translations.py:712} INFO - ==================== <function lift_combiners at 0x7f7a0059f760> ====================
+[2024-03-05T16:51:45.872+0530] {translations.py:712} INFO - ==================== <function expand_sdf at 0x7f7a0059f910> ====================
+[2024-03-05T16:51:45.872+0530] {translations.py:712} INFO - ==================== <function expand_gbk at 0x7f7a0059f9a0> ====================
+[2024-03-05T16:51:45.872+0530] {translations.py:712} INFO - ==================== <function sink_flattens at 0x7f7a0059fac0> ====================
+[2024-03-05T16:51:45.873+0530] {translations.py:712} INFO - ==================== <function greedily_fuse at 0x7f7a0059fb50> ====================
+[2024-03-05T16:51:45.874+0530] {translations.py:712} INFO - ==================== <function read_to_impulse at 0x7f7a0059fbe0> ====================
+[2024-03-05T16:51:45.875+0530] {translations.py:712} INFO - ==================== <function impulse_to_input at 0x7f7a0059fc70> ====================
+[2024-03-05T16:51:45.875+0530] {translations.py:712} INFO - ==================== <function sort_stages at 0x7f7a0059feb0> ====================
+[2024-03-05T16:51:45.875+0530] {translations.py:712} INFO - ==================== <function add_impulse_to_dangling_transforms at 0x7f7a005a8040> ====================
+[2024-03-05T16:51:45.875+0530] {translations.py:712} INFO - ==================== <function setup_timer_mapping at 0x7f7a0059fe20> ====================
+[2024-03-05T16:51:45.876+0530] {translations.py:712} INFO - ==================== <function populate_data_channel_coders at 0x7f7a0059ff40> ====================
+[2024-03-05T16:51:45.878+0530] {statecache.py:234} INFO - Creating state cache with size 104857600
+[2024-03-05T16:51:45.879+0530] {worker_handlers.py:922} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x7f7a003185e0> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+[2024-03-05T16:51:46.079+0530] {logging_mixin.py:188} WARNING - /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py:44 DtypeWarning: Columns (9,10,18,23) have mixed types. Specify dtype option on import or set low_memory=False.
+[2024-03-05T16:51:49.430+0530] {logging_mixin.py:188} WARNING - /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py:44 DtypeWarning: Columns (17,18,21) have mixed types. Specify dtype option on import or set low_memory=False.
+[2024-03-05T16:51:53.797+0530] {logging_mixin.py:188} WARNING - /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py:44 DtypeWarning: Columns (8,9,10,12,13,17,18,19,21,23) have mixed types. Specify dtype option on import or set low_memory=False.
+[2024-03-05T16:51:59.853+0530] {logging_mixin.py:188} WARNING - /home/arun/airflow/dags/.ipynb_checkpoints/Analytics_data-checkpoint.py:44 DtypeWarning: Columns (9,10,12) have mixed types. Specify dtype option on import or set low_memory=False.
+[2024-03-05T16:52:02.983+0530] {filebasedsink.py:230} WARNING - Deleting 1 existing files in target path matching: -*-of-%(num_shards)05d
+[2024-03-05T16:52:03.000+0530] {filebasedsink.py:310} INFO - Starting finalize_write threads with num_shards: 1 (skipped: 0), batches: 1, num_threads: 1
+[2024-03-05T16:52:03.008+0530] {filebasedsink.py:357} INFO - Renamed 1 shards in 0.01 seconds.
+[2024-03-05T16:52:03.010+0530] {python.py:201} INFO - Done. Returned value was: None
+[2024-03-05T16:52:03.015+0530] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Visualization_DAG, task_id=beam_pipeine, execution_date=20240305T111800, start_date=20240305T112145, end_date=20240305T112203
+[2024-03-05T16:52:03.067+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-05T16:52:03.077+0530] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
